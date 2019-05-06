@@ -1,0 +1,1691 @@
+\indexgroup +
+\indexentry {0}{\visiblespace}{T}{\ic \pp{3}\c 53}
+\indexentry {0}{\visiblespace}{C}{\ic 104\c 105\c 313}
+\indexentry {0}{\char `\!}{T}{\ic 13}
+\indexentry {0}{\char `\!}{C}{\ic \pp{214}\c 313}
+\indexentry {0}{\char `\"}{C}{\ic \pp{100}\c 313}
+\indexentry {0}{\char `\#}{T}{\ic 26\c \pp{45}\c \pp{75}\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {0}{\char `\#}{C}{\ic 15\c \pp{98}\c 314}
+\indexentry {0}{\char `\$}{T}{\ic 16\c 26\c 93\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {0}{\char `\$}{C}{\ic 15\c \pp{98}\c 314}
+\indexentry {0}{\$\$}{T}{\ic 16\c 61}
+\indexentry {0}{\char `\%}{T}{\ic 13\c 26\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {1}{to eliminate unwanted spaces}{N}{\ic 270}
+\indexentry {1}{writing out}{N}{\ic 292}
+\indexentry {0}{\char `\%}{C}{\ic 15\c \pp{98}\c 314}
+\indexentry {0}{\char `\&}{T}{\ic 26\c 44\c 45\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {0}{\char `\&}{C}{\ic 15\c \pp{98}\c 314}
+\indexentry {0}{\char `\'}{T}{\ic \pp{188}\c 314}
+\indexentry {0}{\char `\'}{C}{\ic \pp{100}\c 314}
+\indexentry {0}{\char `\)}{T}{\ic 59}
+\indexentry {0}{\char `\*}{C}{\ic \pp{190}\c 314}
+\indexentry {0}{\char `\+}{C}{\ic 44--45\c \pp{176}\c 314}
+\indexentry {0}{\char `\,}{C}{\ic \pp{214}\c 314}
+\indexentry {0}{\char `\-}{T}{\ic 14}
+\indexentry {1}{leads to {\tt\\hyphenpenalty}}{N}{\ic 125}
+\indexentry {0}{\char `\-}{C}{\ic 70\c \pp{126}\c 314}
+\indexentry {1}{in line breaking}{N}{\ic 74\c 268}
+\indexentry {0}{--}{T}{\ic 14}
+\indexentry {0}{---}{T}{\ic 14}
+\indexentry {0}{\char `\.}{T}{\ic 13}
+\indexentry {0}{\char `\.}{C}{\ic \pp{100}\c 314}
+\indexentry {0}{\char `\/}{T}{\ic 59}
+\indexentry {0}{\char `\/}{C}{\ic \pp{106}\c 314}
+\indexentry {0}{\char `\;}{C}{\ic \pp{214}\c 314}
+\indexentry {0}{\char `\=}{T}{\ic 191}
+\indexentry {0}{\char `\=}{C}{\ic \pp{100}\c 314}
+\indexentry {0}{\char `\>}{C}{\ic \pp{214}\c 314}
+\indexentry {0}{\char `\?}{T}{\ic 13}
+\indexentry {0}{\char `\[}{T}{\ic 59}
+\indexentry {0}{\char `\\}{T}{\ic 26\c 57\c 61\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {0}{\char `\]}{T}{\ic 59}
+\indexentry {0}{\char `\^}{T}{\ic 26\c \pp{197}\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {0}{\char `\^}{C}{\ic \pp{100}\c 314}
+\indexentry {0}{\twocarets ?}{T}{\ic 53}
+\indexentry {0}{\twocarets @}{T}{\ic 53}
+\indexentry {0}{\twocarets A}{T}{\ic 53\c 54}
+\indexentry {0}{\twocarets I}{T}{\ic 53\c 55}
+\indexentry {0}{\twocarets J}{T}{\ic 55}
+\indexentry {0}{\twocarets K}{T}{\ic 53\c 54}
+\indexentry {0}{\twocarets L}{T}{\ic 53\c 292\c 314}
+\indexentry {0}{\twocarets M}{T}{\ic 55\c \pp{105}\c 291\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {0}{\char `\_}{T}{\ic 26\c \pp{197}\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {0}{\char `\_}{C}{\ic 15\c \pp{98}\c 314}
+\indexentry {0}{\char `\`}{C}{\ic \pp{100}\c 314}
+\indexentry {0}{\char `\{}{T}{\ic 26\c \pp{227}\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {1}{starting a group}{N}{\ic 15\c 68}
+\indexentry {1}{with {\tt\\expandafter}}{N}{\ic 233}
+\indexentry {0}{\char `\{}{C}{\ic 59\c \pp{191}\c 314}
+\indexentry {0}{\char `\|}{T}{\ic 189}
+\indexentry {0}{\char `\|}{C}{\ic \pp{188}\c 314}
+\indexentry {0}{\char `\}}{T}{\ic 26\c \pp{227}\c 314}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{ending a group}{N}{\ic 15\c 68}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {0}{\char `\}}{C}{\ic 59\c \pp{191}\c 314}
+\indexentry {0}{\char `\~}{T}{\ic 13\c 26\c 53\c \pp{105}\c 268\c 314}
+\indexentry {1}{in line breaking}{N}{\ic 74}
+\indexentry {1}{in ordinary text}{N}{\ic 15}
+\indexentry {0}{\char `\~}{C}{\ic \pp{100}\c 314}
+\indexgroup A
+\secondprinting{\vskip\baselineskip}
+\indexentry {0}{aa}{C}{\ic \pp{97}\c 314}
+\indexentry {0}{AA}{C}{\ic \pp{97}\c 314}
+\indexentry {0}{above}{C}{\ic \pp{200}\c 314}
+\indexentry {0}{abovecolumnspenalty}{C}{\ic \pp{308}}
+\indexentry {0}{abovedisplayshortskip}{C}{\ic \pp{217}\c 271\c 314}
+\indexentry {0}{abovedisplayskip}{C}{\ic \pp{217}\c 271\c 315}
+\indexentry {0}{abovewithdelims}{T}{\ic 58}
+\indexentry {0}{abovewithdelims}{C}{\ic \pp{201}\c 315}
+\indexentry {0}{accent}{C}{\ic \pp{100}\c 315}
+\indexentry {0}{accents}{N}{\ic 26\c 100\c 199}
+\indexentry {1}{aligning}{N}{\ic 212--213}
+\indexentry {0}{active}{C}{\ic 43\c \pp{251}\c 315}
+\indexentry {0}{active characters}{N}{\ic \pp{43--44}\c 53\c 54}
+\indexentry {0}{acute}{C}{\ic \pp{199}\c 315}
+\indexentry {0}{acute accent}{N}{\ic 100\c 199}
+\indexentry {0}{adjdemerits}{C}{\ic \pp{125}\c 315}
+\indexentry {0}{advance}{C}{\ic \pp{245}\c 315}
+\indexentry {0}{advancepageno}{C}{\ic \pp{142}\c 315}
+\indexentry {0}{ae}{C}{\ic \pp{97}\c 315}
+\indexentry {0}{AE}{C}{\ic \pp{97}\c 315}
+\indexentry {0}{afterassignment}{C}{\ic \pp{229}\c 315}
+\indexentry {0}{aftergroup}{C}{\ic \pp{229}\c 307\c 315}
+\indexentry {0}{aleph}{C}{\ic \pp{188}\c 315}
+\indexentry {0}{alignments}{N}{\ic \pp{44--46}}
+\indexentry {1}{commands for}{N}{\ic 176--185}
+\indexentry {1}{outer control sequence in}{N}{\ic 279}
+\indexentry {1}{space between rows of}{N}{\ic 135}
+\indexentry {1}{tab character for}{N}{\ic 53}
+\indexentry {1}{using \b\tt\\offinterlineskip\e\ in}{N}{\ic 135}
+\indexentry {0}{allowbreak}{C}{\ic \pp{121}\c \pp{136}\c 315}
+\indexentry {0}{alpha}{C}{\ic \pp{187}\c 315}
+\indexentry {0}{amalg}{C}{\ic \pp{189}\c 315}
+\indexentry {0}{\AMSTeX}{N}{\ic \r8\c 18}
+\indexentry {0}{AMSTeX}{C}{\ic \pp{294}}
+\indexentry {0}{\anatomy}{N}{\ic 16\c \pp{46--47}}
+\indexentry {0}{angle}{C}{\ic \pp{188}\c 315}
+\indexentry {0}{approx}{C}{\ic \pp{190}\c 191\c 315}
+\indexentry {0}{arccos}{C}{\ic \pp{193}\c 315}
+\indexentry {0}{arcsin}{C}{\ic \pp{193}\c 315}
+\indexentry {0}{arctan}{C}{\ic \pp{193}\c 315}
+\indexentry {0}{arg}{C}{\ic \pp{193}\c 315}
+\indexentry {0}{\<argument>}{N}{\ic 4}
+\indexentry {0}{arguments}{N}{\ic 4\c 11\c \pp{48--49}}
+\indexentry {0}{arithmetic}{N}{\ic 245--246}
+\indexentry {0}{arrows}{N}{\ic 175\c 192--193\c 202}
+\indexentry {0}{arrowvert}{C}{\ic \pp{212}\c 315}
+\indexentry {0}{Arrowvert}{C}{\ic \pp{212}\c 315}
+\indexentry {0}{\ascii}{N}{\ic \pp{49} \c 53\c 55\c 64}
+\indexentry {0}{assignments}{N}{\ic \pp{49--50}\c 87}
+\indexentry {1}{of boxes}{N}{\ic 164}
+\indexentry {1}{of registers}{N}{\ic 242}
+\indexentry {0}{ast}{C}{\ic \pp{189}\c 315}
+\indexentry {0}{asymp}{C}{\ic \pp{190}\c 191\c 315}
+\indexentry {0}{atop}{C}{\ic \pp{200}\c 315}
+\indexentry {0}{atopwithdelims}{C}{\ic 58\c \pp{201}\c 315}
+\indexentry {0}{auxiliary files}{N}{\ic 226}
+\indexentry {0}{axis}{N}{\ic 213}
+\indexgroup B
+\indexentry {0}{\char `\b}{C}{\ic \pp{199}\c 315}
+\indexentry {0}{backslash}{N}{\ic 227}
+\indexentry {0}{backslash}{C}{\ic 59\c \pp{188}\c 315}
+\indexentry {0}{badness}{N}{\ic \pp{50}\c 60}
+\indexentry {0}{badness}{C}{\ic 18\c \pp{170}\c 315}
+\indexentry {0}{bar}{C}{\ic \pp{199}\c 316}
+\indexentry {0}{bar accent}{N}{\ic 199}
+\indexentry {0}{bar-under accent}{N}{\ic 199}
+\indexentry {0}{baselines}{N}{\ic 28\c \pp{51}\c 88}
+\indexentry {0}{baselineskip}{C}{\ic 70\c \pp{133--134}\c 135\c 316}
+\indexentry {1}{and {\tt\\smallskipamount}, etc.}{N}{\ic 155}
+\indexentry {1}{and preserving end of page}{N}{\ic 267}
+\indexentry {0}{batchmode}{C}{\ic \pp{253}\c 316}
+\indexentry {0}{begingroup}{C}{\ic \pp{227}\c 316}
+\indexentry {0}{beginsection}{C}{\ic \pp{129}\c 316}
+\indexentry {0}{belowdisplayshortskip}{C}{\ic \pp{217}\c 316}
+\indexentry {0}{belowdisplayskip}{C}{\ic \pp{217}\c 316}
+\indexentry {0}{beta}{N}{\ic 188}
+\indexentry {0}{beta}{C}{\ic \pp{187}\c 316}
+\indexentry {0}{bf}{C}{\ic \pp{103}\c 316}
+\indexentry {0}{bffam}{C}{\ic \pp{210}\c 316}
+\indexentry {0}{bgroup}{C}{\ic \pp{227}\c 316}
+\indexentry {0}{bibliographies}{N}{\ic 14}
+\indexentry {0}{\BibTeX}{N}{\ic 19}
+\indexentry {0}{BibTeX}{C}{\ic \pp{294}}
+\indexentry {0}{big}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{Big}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{bigbreak}{C}{\ic \pp{137}\c 316}
+\indexentry {0}{bigcap}{C}{\ic \pp{194}\c 316}
+\indexentry {0}{bigcirc}{C}{\ic \pp{189}\c 316}
+\indexentry {0}{bigcup}{C}{\ic \pp{194}\c 316}
+\indexentry {0}{bigg}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{Bigg}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{biggl}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{Biggl}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{biggm}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{Biggm}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{biggr}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{Biggr}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{bigl}{C}{\ic 58\c \pp{211}\c 316}
+\indexentry {0}{Bigl}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{bigm}{C}{\ic 189\c \pp{211}\c 316}
+\indexentry {0}{Bigm}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{bigodot}{C}{\ic \pp{194}\c 316}
+\indexentry {0}{bigoplus}{C}{\ic \pp{194}\c 316}
+\indexentry {0}{bigotimes}{C}{\ic \pp{194}\c 316}
+\indexentry {0}{bigr}{C}{\ic 58\c \pp{211}\c 316}
+\indexentry {0}{Bigr}{C}{\ic \pp{211}\c 316}
+\indexentry {0}{bigskip}{C}{\ic 137\c \pp{154}\c 317}
+\indexentry {0}{bigskipamount}{C}{\ic \pp{155}\c 317}
+\indexentry {0}{bigsqcup}{C}{\ic \pp{194}\c 317}
+\indexentry {0}{bigtriangledown}{C}{\ic \pp{189}\c 317}
+\indexentry {0}{bigtriangleup}{C}{\ic \pp{189}\c 317}
+\indexentry {0}{biguplus}{C}{\ic \pp{194}\c 317}
+\indexentry {0}{bigvee}{C}{\ic \pp{194}\c 317}
+\indexentry {0}{bigwedge}{C}{\ic \pp{194}\c 317}
+\indexentry {0}{binoppenalty}{C}{\ic \pp{126}\c 317}
+\indexentry {0}{blackbox}{C}{\ic \pp{294}}
+\indexentry {0}{bmod}{C}{\ic \pp{193}\c 317}
+\indexentry {0}{bordermatrix}{C}{\ic \pp{205}\c 317}
+\indexentry {0}{bot}{C}{\ic \pp{188}\c 317}
+\indexentry {0}{botmark}{C}{\ic 79\c 80\c \pp{144}\c 317}
+\indexentry {0}{bottom margin}{N}{\ic 66}
+\indexentry {0}{bowtie}{C}{\ic \pp{190}\c 317}
+\indexentry {0}{box}{C}{\ic \pp{164}\c 165\c 317}
+\indexentry {0}{box commands}{N}{\ic 160--171}
+\indexentry {0}{box registers}{N}{\ic 52\c 89\c 164--166\c 167}
+\indexentry {1}{reserved by \b\tt\\newbox\e}{N}{\ic 244}
+\indexentry {0}{boxes}{N}{\ic 17\c \pp{51--53}}
+\indexentry {1}{baselines of}{N}{\ic 51}
+\indexentry {1}{copying}{N}{\ic 164\c 165}
+\indexentry {1}{depth of}{N}{\ic 60}
+\indexentry {1}{drawing}{N}{\ic 30}
+\indexentry {1}{empty}{N}{\ic 169}
+\indexentry {1}{extracting contents of}{N}{\ic 165}
+\indexentry {1}{glue with}{N}{\ic 66}
+\indexentry {1}{height of}{N}{\ic 69}
+\indexentry {1}{invisible}{N}{\ic 92}
+\indexentry {1}{last box in a list}{N}{\ic 171}
+\indexentry {1}{overfull}{N}{\ic 170--171\c 268--270}
+\indexentry {1}{phantom}{N}{\ic 168--169}
+\indexentry {1}{reference point of}{N}{\ic 88}
+\indexentry {1}{shifting}{N}{\ic 166--167}
+\indexentry {1}{testing if void}{N}{\ic 238}
+\indexentry {1}{underfull}{N}{\ic 170--171\c 268--270}
+\indexentry {1}{width of}{N}{\ic 95}
+\indexentry {0}{boxmaxdepth}{C}{\ic 52\c 162\c \pp{163}\c 317}
+\indexentry {0}{box255}{C}{\ic 84\c 90\c 144\c 148}
+\indexentry {0}{brace}{C}{\ic \pp{200}\c 317}
+\indexentry {0}{braces}{N}{\ic 202\c 211}
+\indexentry {1}{mismatched}{N}{\ic 275}
+\indexentry {1}{space after}{N}{\ic 270}
+\indexentry {0}{bracevert}{C}{\ic \pp{212}\c 317}
+\indexentry {0}{brack}{C}{\ic \pp{200}\c 317}
+\indexentry {0}{break}{C}{\ic 74\c \pp{120}\c \pp{136}\c 317}
+\indexentry {1}{correcting line breaks with}{N}{\ic 268}
+\indexentry {1}{end of line as}{N}{\ic 278}
+\indexentry {0}{breve}{C}{\ic \pp{199}\c 317}
+\indexentry {0}{breve accent}{N}{\ic 100\c 199}
+\indexentry {0}{brokenpenalty}{C}{\ic \pp{139}\c 317}
+\indexentry {0}{buildrel}{C}{\ic \pp{202}\c 317}
+\indexentry {0}{bullet}{C}{\ic \pp{189}\c 317}
+\indexentry {0}{bye}{C}{\ic \pp{246}\c 317}
+\indexgroup C
+\indexentry {0}{\char `\c}{C}{\ic \pp{100}\c 317}
+\indexentry {0}{cal}{C}{\ic \pp{209}\c 317}
+\indexentry {0}{cap}{C}{\ic \pp{189}\c 317}
+\indexentry {0}{card suits}{N}{\ic 26\c 188}
+\indexentry {0}{case conversion}{N}{\ic 103--104}
+\indexentry {0}{case testing}{N}{\ic 239}
+\indexentry {0}{cases}{C}{\ic \pp{201}\c 317}
+\indexentry {0}{catcode}{C}{\ic 43\c 53\c 61\c \pp{251}\c 317}
+\indexentry {0}{category codes}{N}{\ic \pp{53--55}}
+\indexentry {1}{attached during input}{N}{\ic 55}
+\indexentry {1}{cause of unwanted spaces}{N}{\ic 270}
+\indexentry {1}{changing}{N}{\ic 280}
+\indexentry {1}{for verbatim text}{N}{\ic 277}
+\indexentry {1}{in \b\tt\\catcode\e\ table}{N}{\ic 251}
+\indexentry {1}{of active characters}{N}{\ic 43}
+\indexentry {1}{testing}{N}{\ic 235}
+\indexentry {1}{useful definitions for}{N}{\ic 291}
+\indexentry {0}{cdot}{C}{\ic \pp{189}\c 196\c 317}
+\indexentry {0}{cdotp}{C}{\ic \pp{196}\c 317}
+\indexentry {0}{cdots}{C}{\ic \pp{203}\c 317}
+\indexentry {0}{cedilla accent}{N}{\ic 100}
+\indexentry {0}{center}{C}{\ic \pp{306}}
+\indexentry {0}{centered text}{N}{\ic 68\c 71\c 306--307}
+\indexentry {0}{centereddisplays}{C}{\ic \pp{295}}
+\indexentry {0}{centering}{N}{\ic 32\c 108--109}
+\indexentry {0}{centerline}{C}{\ic 68\c \pp{108}\c 317}
+\indexentry {0}{centimeter}{N}{\ic 60}
+\indexentry {0}{char}{C}{\ic 53\c 56\c \pp{99}\c 318}
+\indexentry {0}{character tokens}{N}{\ic 292}
+\indexentry {0}{characters}{N}{\ic 49\c \pp{55--56}\c 99}
+\indexentry {1}{\ascii\ codes for}{N}{\ic 82}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{defined by \b\tt\\chardef\e}{N}{\ic 232}
+\indexentry {1}{special}{N}{\ic 26}
+\indexentry {0}{\<charcode>}{N}{\ic 4}
+\indexentry {0}{chardef}{C}{\ic \pp{232}\c 234\c 318}
+\indexentry {0}{check}{C}{\ic \pp{199}\c 318}
+\indexentry {0}{check accent}{N}{\ic 100\c 199}
+\indexentry {0}{chi}{C}{\ic \pp{187}\c 318}
+\indexentry {0}{choose}{C}{\ic \pp{200}\c 318}
+\indexentry {0}{cicero}{N}{\ic 60}
+\indexentry {0}{circ}{C}{\ic \pp{189}\c 318}
+\indexentry {0}{circumflex accent}{N}{\ic 100}
+\indexentry {0}{class}{N}{\ic \pp{56}\c 210\c 218}
+\indexentry {1}{of a delimiter}{N}{\ic 59}
+\indexentry {0}{cleaders}{C}{\ic 72--73\c \pp{174}\c 318}
+\indexentry {0}{cleartabs}{C}{\ic \pp{177}\c 318}
+\indexentry {0}{closein}{C}{\ic 63\c \pp{248}\c 318}
+\indexentry {0}{closeout}{C}{\ic 63\c \pp{249}\c 318}
+\indexentry {1}{whatsit produced by}{N}{\ic 95}
+\indexentry {1}{with {\tt\\immediate}}{N}{\ic 250}
+\indexentry {0}{closing}{N}{\ic 191}
+\indexentry {0}{club line}{N}{\ic 138}
+\indexentry {0}{clubpenalty}{C}{\ic \pp{138}\c 318}
+\indexentry {0}{clubsuit}{C}{\ic \pp{188}\c 318}
+\indexentry {0}{cmex10}{T}{\ic 212}
+\indexentry {0}{cmtt10}{T}{\ic 109}
+\indexentry {0}{colon}{C}{\ic \pp{196}\c 318}
+\indexentry {0}{combinations, notation for}{N}{\ic 201}
+\indexentry {0}{commands}{N}{\ic 3\c 10--11\c \pp{56}}
+\indexentry {1}{arguments of}{N}{\ic 48}
+\indexentry {1}{versus control sequences}{N}{\ic 11}
+\indexentry {0}{comments}{N}{\ic \pp{13}\c 22\c 53}
+\indexentry {0}{Computer Modern fonts}{N}{\ic 34\c 49\c 64\c 109}
+\indexentry {0}{computer programs, typesetting}{N}{\ic 122\c 277\c 280}
+\indexentry {0}{conditional tests}{N}{\ic \pp{57}\c 235--240}
+\indexentry {0}{cong}{C}{\ic \pp{190}\c 191\c 318}
+\indexentry {0}{control characters}{N}{\ic 7\c 49\c 55}
+\indexentry {0}{control sequences}{N}{\ic 10--11\c \pp{57}}
+\indexentry {1}{absorbing spaces}{N}{\ic 10}
+\indexentry {1}{as tokens}{N}{\ic 16}
+\indexentry {1}{converting to strings}{N}{\ic 226}
+\indexentry {1}{defining with \b\tt\\let\e}{N}{\ic 232}
+\indexentry {1}{versus commands}{N}{\ic 11}
+\indexentry {0}{control space}{N}{\ic 10\c 104\c 270}
+\indexentry {0}{control symbols}{N}{\ic 10\c 57\c \pp{58}}
+\indexentry {0}{control words}{N}{\ic 10\c 57\c \pp{58}}
+\indexentry {0}{controlling \TeX}{N}{\ic 252--253}
+\indexentry {0}{coprod}{C}{\ic \pp{194}\c 318}
+\indexentry {0}{copy}{C}{\ic \pp{164}\c 318}
+\indexentry {0}{copyright}{C}{\ic \pp{98}\c 318}
+\indexentry {0}{cos}{C}{\ic \pp{193}\c 318}
+\indexentry {0}{cosh}{C}{\ic \pp{193}\c 318}
+\indexentry {0}{cot}{C}{\ic \pp{193}\c 318}
+\indexentry {0}{coth}{C}{\ic \pp{193}\c 318}
+\indexentry {0}{count}{C}{\ic 48\c \pp{242}\c 246\c 318}
+\indexentry {0}{count registers}{N}{\ic 89\c 242}
+\indexentry {1}{reserved by \b\tt\\newcount\e}{N}{\ic 244}
+\indexentry {0}{countdef}{C}{\ic \pp{245}\c 318}
+\indexentry {0}{count0}{C}{\ic 142}
+\indexentry {0}{cr}{C}{\ic 44--46\c \pp{180}\c 318}
+\indexentry {0}{cramped variants}{N}{\ic 93}
+\indexentry {0}{crcr}{C}{\ic \pp{180}\c 318}
+\indexentry {0}{cross-references}{N}{\ic 302}
+\indexentry {0}{csc}{C}{\ic \pp{193}\c 318}
+\indexentry {0}{csname}{C}{\ic 226\c \pp{233}\c 318}
+\indexentry {1}{expanded by {\tt\\edef} rules}{N}{\ic 231}
+\indexentry {0}{cup}{C}{\ic \pp{189}\c 318}
+\indexgroup D
+\indexentry {0}{\char `\d}{C}{\ic \pp{100}\c 318}
+\indexentry {0}{dag}{C}{\ic \pp{98}\c 318}
+\indexentry {0}{dagger}{C}{\ic \pp{189}\c 318}
+\indexentry {0}{dashes}{N}{\ic 14\c 22}
+\indexentry {0}{dashv}{C}{\ic \pp{190}\c 318}
+\indexentry {0}{date}{N}{\ic 225\c 297}
+\indexentry {0}{day}{C}{\ic \pp{225}\c 297\c 318}
+\indexentry {0}{ddag}{C}{\ic \pp{98}\c 318}
+\indexentry {0}{ddagger}{C}{\ic \pp{189}\c 318}
+\indexentry {0}{ddot}{C}{\ic \pp{199}\c 319}
+\indexentry {0}{ddots}{C}{\ic \pp{203}\c 319}
+\indexentry {0}{deadcycles}{C}{\ic \pp{148}\c 319}
+\indexentry {0}{debugging}{N}{\ic 253--261}
+\indexentry {0}{decimal constant}{N}{\ic \pp{58}\c 83}
+\indexentry {0}{decimal point}{N}{\ic 83}
+\indexentry {0}{def}{C}{\ic 57\c \pp{230}\c 319}
+\indexentry {1}{making global}{N}{\ic 66}
+\indexentry {0}{defaulthyphenchar}{C}{\ic \pp{129}\c 319}
+\indexentry {0}{defaultskewchar}{C}{\ic \pp{213}\c 319}
+\indexentry {0}{deg}{C}{\ic \pp{193}\c 319}
+\indexentry {0}{delcode}{C}{\ic 59\c 207\c \pp{251}\c 319}
+\indexentry {0}{delimited arguments}{N}{\ic 48}
+\indexentry {0}{delimiter}{C}{\ic 59\c \pp{204}\c 319}
+\indexentry {0}{delimiter codes}{N}{\ic 59--60\c 207\c 251}
+\indexentry {0}{delimiterfactor}{C}{\ic \pp{205}\c 319}
+\indexentry {0}{delimiters}{N}{\ic \pp{58--60}\c 191--192\c 204--205}
+\indexentry {1}{enlarging}{N}{\ic 211}
+\indexentry {1}{height of}{N}{\ic 205}
+\indexentry {1}{null, space for}{N}{\ic 217}
+\indexentry {1}{parts of}{N}{\ic 212}
+\indexentry {0}{delimitershortfall}{C}{\ic \pp{205}\c 319}
+\indexentry {0}{delta}{C}{\ic \pp{187}\c 319}
+\indexentry {0}{Delta}{C}{\ic \pp{187}\c 319}
+\indexentry {0}{demerits}{N}{\ic \pp{60}\c 74}
+\indexentry {0}{depth}{N}{\ic 51\c \pp{60}\c 167}
+\indexentry {0}{description lists}{N}{\ic 30}
+\indexentry {0}{design size}{N}{\ic 78}
+\indexentry {0}{det}{C}{\ic \pp{193}\c 197\c 319}
+\indexentry {0}{device drivers}{N}{\ic 8\c 64\c 222\c 250}
+\indexentry {1}{instructions from \b\tt\\special\e}{N}{\ic 250}
+\indexentry {1}{page origin known to}{N}{\ic 141}
+\indexentry {0}{diacritical marks}{N}{\see{accents}}
+\indexentry {0}{diagnostic aids}{N}{\ic 253--261}
+\indexentry {0}{diamond}{C}{\ic \pp{189}\c 319}
+\indexentry {0}{diamondsuit}{C}{\ic \pp{188}\c 319}
+\indexentry {0}{\didotpt}{N}{\ic 60}
+\indexentry {0}{dim}{C}{\ic \pp{193}\c 319}
+\indexentry {0}{dimen}{C}{\ic \pp{242}\c 246\c 319}
+\indexentry {0}{\<dimen>}{N}{\ic 4\c 276}
+\indexentry {0}{dimendef}{C}{\ic \pp{245}\c 319}
+\indexentry {0}{dimension registers}{N}{\ic 89\c 242}
+\indexentry {1}{reserved by \b\tt\\newdimen\e}{N}{\ic 244}
+\indexentry {0}{dimensions}{N}{\ic \pp{60--61}}
+\indexentry {1}{comparing}{N}{\ic 237}
+\indexentry {1}{maximum}{N}{\ic 244}
+\indexentry {1}{negative}{N}{\ic 61}
+\indexentry {1}{of box registers}{N}{\ic 167}
+\indexentry {0}{discretionary}{C}{\ic \pp{127}\c 319}
+\indexentry {0}{discretionary hyphens}{N}{\ic 70\c 74\c 125\c 126}
+\indexentry {1}{bad line breaks, correcting with}{N}{\ic 268}
+\indexentry {1}{overfull boxes, correcting with}{N}{\ic 269}
+\indexentry {0}{display math}{N}{\ic 16\c \pp{61}}
+\indexentry {0}{display math mode}{N}{\ic 80\c 81}
+\indexentry {0}{display style}{N}{\ic 93\c 194\c 198}
+\indexentry {0}{displayindent}{C}{\ic \pp{216}\c 319}
+\indexentry {0}{displaylimits}{C}{\ic \pp{195}\c 319}
+\indexentry {0}{displaylines}{C}{\ic \pp{208}\c 297\c 319}
+\indexentry {0}{displays}{N}{}
+\indexentry {1}{actions for every display}{N}{\ic 218}
+\indexentry {1}{multiline}{N}{\ic 208--209}
+\indexentry {1}{spacing parameters for}{N}{\ic 216--217}
+\indexentry {0}{displays, formatting}{N}{\ic 295}
+\indexentry {0}{displaysetup}{C}{\ic 296}
+\indexentry {0}{displaystyle}{C}{\ic 93\c \pp{198}\c 319}
+\indexentry {0}{displaywidowpenalty}{C}{\ic \pp{138}\c 319}
+\indexentry {0}{displaywidth}{C}{\ic \pp{216}\c 319}
+\indexentry {0}{div}{C}{\ic \pp{189}\c 319}
+\indexentry {0}{divide}{C}{\ic \pp{246}\c 319}
+\indexentry {0}{dot}{C}{\ic \pp{199}\c 319}
+\indexentry {0}{dot accent}{N}{\ic 100\c 199}
+\indexentry {0}{doteq}{C}{\ic \pp{190}\c 319}
+\indexentry {0}{dotfill}{C}{\ic \pp{175}\c 319}
+\indexentry {0}{dotless letters}{N}{\ic 100}
+\indexentry {0}{dots}{N}{\ic 99\c 203}
+\indexentry {0}{dots}{C}{\ic \pp{99}\c 319}
+\indexentry {0}{double columns}{N}{\ic 309}
+\indexentry {0}{double dot accent}{N}{\ic 199}
+\indexentry {0}{double spacing}{N}{\ic 134}
+\indexentry {0}{doublehyphendemerits}{C}{\ic \pp{125}\c 320}
+\indexentry {0}{downarrow}{C}{\ic 59\c \pp{192}\c 320}
+\indexentry {0}{Downarrow}{C}{\ic 59\c \pp{192}\c 320}
+\indexentry {0}{downbracefill}{C}{\ic \pp{211}\c 320}
+\indexentry {0}{dp}{C}{\ic \pp{167}\c 320}
+\indexentry {0}{drawing lines}{N}{\see{rules}}
+\indexentry {0}{drivers}{N}{\see{device drivers}}
+\indexentry {0}{dump}{C}{\ic 65\c \pp{263}\c 320}
+\indexentry {0}{\dvifile}{N}{\ic 8}
+\indexentry {1}{as a result file}{N}{\ic 62}
+\indexentry {1}{boxes recorded in log file}{N}{\ic 258}
+\indexentry {1}{converted by driver}{N}{\ic 65}
+\indexentry {1}{created by \TeX's intestines}{N}{\ic 16\c 47}
+\indexentry {1}{material from output routine}{N}{\ic 83\c 84\c 85}
+\indexentry {1}{material inserted by \b\tt\\special\e}{N}{\ic 95}
+\indexentry {1}{receives boxes from \b\tt\\shipout\e}{N}{\ic 148}
+\indexentry {1}{whatsits in}{N}{\ic 95}
+\indexgroup E
+\indexentry {0}{edef}{C}{\ic \pp{230}\c 320}
+\indexentry {1}{expansion of {\tt\\'\it c} in}{N}{\ic 82}
+\indexentry {1}{making global}{N}{\ic 66}
+\indexentry {0}{egroup}{C}{\ic \pp{227}\c 320}
+\indexentry {0}{ehrule}{C}{\ic \pp{292}}
+\indexentry {0}{eject}{C}{\ic \pp{137}\c 266\c 320}
+\indexentry {0}{El Paso}{N}{\ic 93}
+\indexentry {0}{ell}{C}{\ic \pp{188}\c 320}
+\indexentry {0}{ellipsis}{N}{\ic 99}
+\indexentry {0}{else}{C}{\ic 57\c \pp{239}\c 320}
+\indexentry {0}{em}{T}{\ic 60}
+\indexentry {0}{emergencystretch}{C}{\ic 18\c 123\c \pp{124}\c 268\c 320}
+\indexentry {0}{empty}{C}{\ic \pp{241}\c 320}
+\indexentry {0}{emptyset}{C}{\ic \pp{188}\c 320}
+\indexentry {0}{en}{N}{\ic 154}
+\indexentry {0}{end}{C}{\ic \pp{247}\c 320}
+\indexentry {0}{end of file, testing for}{N}{\ic 239}
+\indexentry {0}{end of line}{N}{\ic 53\c 91\c 105}
+\indexentry {0}{endcsname}{C}{\ic 320}
+\indexentry {0}{endgraf}{C}{\ic \pp{111}\c 320}
+\indexentry {0}{endgroup}{C}{\ic \pp{227}\c 320}
+\indexentry {0}{ending the job}{N}{\ic 246}
+\indexentry {0}{endinput}{C}{\ic \pp{247}\c 320}
+\indexentry {0}{endinsert}{C}{\ic \pp{147}\c 320}
+\indexentry {0}{endline}{C}{\ic \pp{180}\c 320}
+\indexentry {0}{endlinechar}{C}{\ic \pp{252}\c 281\c 320}
+\indexentry {0}{enskip}{C}{\ic \pp{154}\c 320}
+\indexentry {0}{enspace}{C}{\ic \pp{154}\c 320}
+\indexentry {0}{entry (column or row)}{N}{\ic 44\c 178--179}
+\indexentry {0}{enumerations}{N}{\ic 298--300}
+\indexentry {0}{environment}{C}{\ic \pp{305}}
+\indexentry {0}{environments}{N}{\ic 304}
+\indexentry {0}{eplain.tex}{T}{\ic 19\c 291--311}
+\indexentry {0}{epsilon}{C}{\ic \pp{187}\c 320}
+\indexentry {0}{eq}{C}{\ic \pp{295}}
+\indexentry {0}{eqalign}{C}{\ic \pp{208}\c 320}
+\indexentry {0}{eqalignno}{C}{\ic \pp{208}\c 297\c 320}
+\indexentry {0}{eqdef}{C}{\ic \pp{304}}
+\indexentry {0}{eqn}{C}{\ic \pp{295}}
+\indexentry {0}{eqno}{C}{\ic \pp{207}\c 320}
+\indexentry {0}{eqprint}{C}{\ic \pp{304}}
+\indexentry {0}{eqref}{C}{\ic \pp{304}}
+\indexentry {0}{equation numbers}{N}{\ic 208}
+\indexentry {0}{equations, labelling}{N}{\ic 304}
+\indexentry {0}{equiv}{C}{\ic \pp{190}\c 191\c 320}
+\indexentry {0}{errhelp}{C}{\ic \pp{261}\c 262\c 320}
+\indexentry {0}{errmessage}{C}{\ic \pp{261}\c 320}
+\indexentry {1}{expanded by {\tt\\edef} rules}{N}{\ic 231}
+\indexentry {0}{error messages}{N}{\ic 9\c 261--262\c 283--288}
+\indexentry {0}{errorcontextlines}{C}{\ic 18\c \pp{262}\c 288\c 320}
+\indexentry {0}{errorstopmode}{C}{\ic \pp{252}\c 321}
+\indexentry {0}{escape character}{N}{\ic 57\c 58\c \pp{61}}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {1}{represented by \b\tt\\escapechar\e}{N}{\ic 226}
+\indexentry {0}{escapechar}{C}{\ic 61\c \pp{226}\c 250\c 321}
+\indexentry {0}{eta}{C}{\ic \pp{187}\c 321}
+\indexentry {0}{European alphabets}{N}{\ic 97}
+\indexentry {0}{European languages}{N}{\ic 74\c 128}
+\indexentry {0}{everycr}{C}{\ic 180\c \pp{185}\c 321}
+\indexentry {0}{everydisplay}{C}{\ic \pp{218}\c 296\c 299\c 321}
+\indexentry {0}{everyfootnote}{C}{\ic \pp{309}}
+\indexentry {0}{everyhbox}{C}{\ic \pp{164}\c 321}
+\indexentry {0}{everyjob}{C}{\ic \pp{263}\c 321}
+\indexentry {0}{everymath}{C}{\ic \pp{218}\c 321}
+\indexentry {0}{everypar}{C}{\ic 87\c 110\c \pp{113}\c 321}
+\indexentry {1}{for hanging indentation}{N}{\ic 117}
+\indexentry {1}{for setting \b\tt\\looseness\e}{N}{\ic 124}
+\indexentry {0}{everyvbox}{C}{\ic \pp{164}\c 321}
+\indexentry {0}{evrule}{C}{\ic \pp{292}}
+\indexentry {0}{ex}{T}{\ic 60}
+\indexentry {0}{exclamation point}{N}{\ic 13}
+\indexentry {0}{exhyphenpenalty}{C}{\ic \pp{125}\c 321}
+\indexentry {0}{exists}{C}{\ic \pp{188}\c 321}
+\indexentry {0}{exp}{C}{\ic \pp{193}\c 321}
+\indexentry {0}{expandafter}{C}{\ic 231\c \pp{233}\c 321}
+\indexentry {0}{expanding tokens}{N}{\ic 16}
+\indexentry {0}{extra space}{N}{\ic 214\c 258}
+\indexentry {0}{eyes}{N}{\ic 16\c \pp{46}\seealso{\anatomy}}
+\indexgroup F
+\indexentry {0}{factor}{N}{\ic 61}
+\indexentry {0}{fam}{C}{\ic \pp{210}\c 321}
+\indexentry {0}{family}{N}{\ic \pp{62}}
+\indexentry {1}{as part of mathcode}{N}{\ic 80}
+\indexentry {1}{given by \b\tt\\fam\e}{N}{\ic 210}
+\indexentry {1}{reserved by \b\tt\\newfam\e}{N}{\ic 244}
+\indexentry {1}{script size in}{N}{\ic 91}
+\indexentry {1}{scriptscript size in}{N}{\ic 91}
+\indexentry {1}{text size in}{N}{\ic 93}
+\indexentry {1}{variable}{N}{\ic 81}
+\indexentry {0}{fi}{C}{\ic 57\c \pp{240}\c 321}
+\indexentry {0}{fil}{T}{\ic 61\c 67}
+\indexentry {0}{filbreak}{C}{\ic \pp{137}\c 266\c 321}
+\indexentry {0}{file names}{N}{\ic \pp{63}}
+\indexentry {0}{files}{N}{\ic \pp{62--63}\c 247--251}
+\indexentry {1}{testing for existence of}{N}{\ic 295}
+\indexentry {0}{fill}{N}{\ic 175}
+\indexentry {0}{fill}{T}{\ic 61\c 67}
+\indexentry {0}{filll}{T}{\ic 61\c 67}
+\indexentry {0}{finalhyphendemerits}{C}{\ic \pp{126}\c 321}
+\indexentry {0}{firstmark}{C}{\ic 79\c 80\c \pp{144}\c 321}
+\indexentry {0}{fivebf}{C}{\ic \pp{102}\c 321}
+\indexentry {0}{fivei}{C}{\ic \pp{102}\c 321}
+\indexentry {0}{fiverm}{C}{\ic \pp{102}\c 321}
+\indexentry {0}{fivesy}{C}{\ic \pp{102}\c 321}
+\indexentry {0}{flat}{C}{\ic \pp{188}\c 321}
+\indexentry {0}{floating material}{N}{\ic 139\c 146}
+\indexentry {0}{floatingpenalty}{C}{\ic \pp{139}\c 321}
+\indexentry {0}{flush left}{N}{\ic 32\c 68\c 108--109\c 306--307}
+\indexentry {0}{flush right}{N}{\ic 32\c 68\c 108--109\c 306--307}
+\indexentry {0}{flushleft}{C}{\ic \pp{306}}
+\indexentry {0}{flushright}{C}{\ic \pp{306}}
+\indexentry {0}{fmtname}{C}{\ic \pp{225}\c 321}
+\indexentry {0}{fmtversion}{C}{\ic \pp{225}\c 321}
+\indexentry {0}{folio}{C}{\ic \pp{143}\c 321}
+\indexentry {0}{font}{C}{\ic 129\c 213\c \pp{221}\c 293\c 321}
+\indexentry {0}{font files}{N}{\ic 8}
+\indexentry {0}{fontdimen}{C}{\ic \pp{222}\c 293\c 321}
+\indexentry {0}{fontname}{C}{\ic \pp{227}\c 321}
+\indexentry {0}{fonts}{N}{\ic 26\c \pp{64--65}\c 102\c 209}
+\indexentry {1}{composite}{N}{\ic 276--277}
+\indexentry {1}{families of}{N}{\ic 62}
+\indexentry {1}{hyphenation characters for}{N}{\ic 129}
+\indexentry {1}{names of}{N}{\ic 227}
+\indexentry {1}{naming and modifying}{N}{\ic 221--224}
+\indexentry {1}{parameters of}{N}{\ic 222}
+\indexentry {0}{footers}{N}{\ic \pp{65}\c 86}
+\indexentry {1}{marks used in}{N}{\ic 79}
+\indexentry {1}{multiple-line}{N}{\ic 274--275}
+\indexentry {0}{footline}{C}{\ic 65\c 86\c \pp{143}\c 274\c 322}
+\indexentry {0}{footnote}{C}{\ic 70\c \pp{145}\c 147\c 322}
+\indexentry {0}{footnotemarkseparation}{C}{\ic \pp{309}}
+\indexentry {0}{footnotes}{N}{\ic 22\c 309}
+\indexentry {1}{using \b\tt\\textindent\e\ with}{N}{\ic 112}
+\indexentry {0}{for}{C}{\ic 293}
+\indexentry {0}{for loop}{N}{\ic 293}
+\indexentry {0}{forall}{C}{\ic \pp{188}\c 322}
+\indexentry {0}{forbidden control sequence}{N}{\ic 279}
+\indexentry {0}{foreign languages}{N}{\ic 18\seealso{European languages}}
+\indexentry {0}{form feed}{N}{\ic 53}
+\indexentry {0}{format file}{N}{\ic \pp{65}\c 263}
+\indexentry {0}{frac}{C}{\ic \pp{294}}
+\indexentry {0}{fractions}{N}{\ic 200--202}
+\indexentry {1}{produced by \b\tt\\over\e}{N}{\ic 200}
+\indexentry {1}{slashed form}{N}{\ic 294}
+\indexentry {0}{frenchspacing}{C}{\ic 14\c \pp{106}\c 322}
+\indexentry {0}{frown}{C}{\ic \pp{190}\c 322}
+\indexentry {0}{functions, names of}{N}{\ic 193--194}
+\indexentry {0}{futurelet}{C}{\ic \pp{232}\c 322}
+\indexgroup G
+\indexentry {0}{gamma}{C}{\ic \pp{187}\c 322}
+\indexentry {0}{Gamma}{C}{\ic \pp{187}\c 322}
+\indexentry {0}{gcd}{C}{\ic \pp{193}\c 322}
+\indexentry {0}{gdef}{C}{\ic 66\c 228\c \pp{231}\c 322}
+\indexentry {0}{ge}{C}{\ic \pp{190}\c 191\c 322}
+\indexentry {0}{generaldisplay}{C}{\ic 296}
+\indexentry {0}{geq}{C}{\ic \pp{190}\c 191\c 322}
+\indexentry {0}{gets}{C}{\ic \pp{192}\c 322}
+\indexentry {0}{\gffile}{N}{\ic 8\c 65}
+\indexentry {0}{gg}{C}{\ic \pp{190}\c 322}
+\indexentry {0}{global}{N}{\ic \pp{65--66}}
+\indexentry {0}{global}{C}{\ic 65\c \pp{228}\c 229\c 322}
+\indexentry {0}{globaldefs}{C}{\ic 65\c \pp{228}\c 281\c 322}
+\indexentry {0}{glue}{N}{\ic 17\c \pp{66--68}\c 215}
+\indexentry {1}{creating space with}{N}{\ic 91}
+\indexentry {1}{infinitely shrinkable}{N}{\ic 68}
+\indexentry {1}{infinitely stretchable}{N}{\ic 157--158}
+\indexentry {1}{last glue item in a list}{N}{\ic 171}
+\indexentry {1}{mathematical}{N}{\ic 82}
+\indexentry {1}{negative}{N}{\ic 159}
+\indexentry {0}{glue registers}{N}{\ic 89}
+\indexentry {0}{\<glue>}{N}{\ic 4}
+\indexentry {0}{gobble}{C}{\ic \pp{291}}
+\indexentry {0}{gobblethree}{C}{\ic \pp{291}}
+\indexentry {0}{gobbletwo}{C}{\ic \pp{291}}
+\indexentry {0}{goodbreak}{C}{\ic \pp{137}\c 322}
+\indexentry {0}{grave}{C}{\ic \pp{199}\c 322}
+\indexentry {0}{grave accent}{N}{\ic 100\c 199}
+\indexentry {0}{Greek letters}{N}{\ic 187--188\c 210}
+\indexentry {0}{groups}{N}{\ic 15--16\c 53\c \pp{68--69}\c 227--229}
+\indexentry {0}{gullet}{N}{\ic 46\c \pp{47}\c 53}
+\indexgroup H
+\indexentry {0}{\char `\H}{C}{\ic \pp{100}\c 322}
+\indexentry {0}{halign}{C}{\ic 45--46\c \pp{178}\c 180\c 322}
+\indexentry {1}{grouping for}{N}{\ic 16}
+\indexentry {1}{illegal in math mode}{N}{\ic 297}
+\indexentry {1}{inherently vertical}{N}{\ic 69}
+\indexentry {0}{hang}{C}{\ic \pp{117}\c 272\c 322}
+\indexentry {0}{hangafter}{C}{\ic \pp{117}\c 118\c 322}
+\indexentry {0}{hangindent}{C}{\ic 87\c \pp{117}\c 118\c 272\c 322}
+\indexentry {0}{hanging indentation}{N}{\ic 117}
+\indexentry {0}{hat}{C}{\ic \pp{199}\c 322}
+\indexentry {0}{hat accent}{N}{\ic 199}
+\indexentry {0}{hbadness}{C}{\ic 123\c \pp{170}\c 322}
+\indexentry {0}{hbar}{C}{\ic \pp{188}\c 322}
+\indexentry {0}{hbox}{N}{}
+\indexentry {1}{constructing with \b\tt\\hbox\e}{N}{\ic 161}
+\indexentry {0}{hbox}{C}{\ic 51\c \pp{160}\c 268\c 322}
+\indexentry {1}{overfull box from}{N}{\ic 269--270}
+\indexentry {0}{hboxes}{N}{\ic 51\c \pp{69}}
+\indexentry {1}{constructing with \b\tt\\hbox\e}{N}{\ic 160}
+\indexentry {1}{controlling line breaks}{N}{\ic 74}
+\indexentry {1}{horizontal mode for}{N}{\ic 69}
+\indexentry {1}{testing for}{N}{\ic 238}
+\indexentry {0}{headers}{N}{\ic \pp{69}\c 86}
+\indexentry {1}{marks used in}{N}{\ic 79}
+\indexentry {1}{multiple-line}{N}{\ic 274--275}
+\indexentry {0}{headline}{C}{\ic 69\c 86\c \pp{143}\c 274\c 322}
+\indexentry {0}{heartsuit}{C}{\ic \pp{188}\c 322}
+\indexentry {0}{height}{N}{\ic 51\c \pp{69}\c 167}
+\indexentry {0}{help message}{N}{\ic 262}
+\indexentry {0}{help text}{N}{\ic 262}
+\indexentry {0}{hexadecimal digit}{N}{\ic 55}
+\indexentry {0}{hexadecimal numbers}{N}{\ic 82}
+\indexentry {0}{hfil}{C}{\ic \pp{157}\c 159\c 160\c 270\c 322}
+\indexentry {0}{hfill}{C}{\ic \pp{157}\c 322}
+\indexentry {0}{hfilneg}{C}{\ic \pp{159}\c 322}
+\indexentry {0}{hfuzz}{C}{\ic 123\c \pp{171}\c 269\c 322}
+\indexentry {0}{hglue}{C}{\ic \pp{156}\c 157\c 323}
+\indexentry {0}{hidewidth}{C}{\ic \pp{184}\c 323}
+\indexentry {0}{hoffset}{C}{\ic 79\c 86\c \pp{140}\c 323}
+\indexentry {0}{holdinginserts}{C}{\ic 18\c \pp{149}\c 323}
+\indexentry {0}{hom}{C}{\ic \pp{193}\c 323}
+\indexentry {0}{hookleftarrow}{C}{\ic \pp{192}\c 323}
+\indexentry {0}{hookrightarrow}{C}{\ic \pp{192}\c 323}
+\indexentry {0}{horizontal braces}{N}{\ic 211}
+\indexentry {0}{horizontal glue}{N}{\ic 155\c 156}
+\indexentry {0}{horizontal lists}{N}{\ic 51\c 66\c \pp{69}}
+\indexentry {1}{can't contain vertical commands}{N}{\ic 69}
+\indexentry {1}{hboxes formed from}{N}{\ic 69}
+\indexentry {1}{penalties in}{N}{\ic 88}
+\indexentry {1}{rule in}{N}{\ic 90}
+\indexentry {0}{horizontal mode}{N}{\ic \pp{69--70}\c 81}
+\indexentry {1}{rules in}{N}{\ic 173}
+\indexentry {1}{testing for}{N}{\ic 238}
+\indexentry {0}{horizontal rules}{N}{\ic 90--91\c 172--173}
+\indexentry {0}{horizontal skip}{N}{\ic 155}
+\indexentry {0}{horizontal space}{N}{\ic 153--154\c 155--159}
+\indexentry {0}{horizontal tab}{N}{\ic 53}
+\indexentry {0}{hphantom}{C}{\ic \pp{169}\c 323}
+\indexentry {0}{hrule}{C}{\ic 90--91\c \pp{172}\c 273\c 323}
+\indexentry {1}{inherently vertical}{N}{\ic 69}
+\indexentry {0}{hrulefill}{C}{\ic \pp{175}\c 323}
+\indexentry {0}{hsize}{C}{\ic 79\c 86\c \pp{114}\c \pp{140}\c 323}
+\indexentry {1}{set by {\tt\\magnification}}{N}{\ic 223}
+\indexentry {0}{hskip}{C}{\ic 66\c \pp{155}\c 323}
+\indexentry {0}{hss}{C}{\ic \pp{158}\c 269\c 323}
+\indexentry {0}{ht}{C}{\ic \pp{167}\c 323}
+\indexentry {0}{Hungarian umlaut accent}{N}{\ic 100}
+\indexentry {0}{hyphenation}{N}{\ic 32\c \pp{70}\c 126--129\c 139}
+\indexentry {1}{German}{N}{\ic 127}
+\indexentry {1}{penalties for}{N}{\ic 125--126}
+\indexentry {0}{hyphenation}{C}{\ic 70\c \pp{127}\c 323}
+\indexentry {0}{hyphenation rules}{N}{\ic 128}
+\indexentry {0}{hyphenchar}{C}{\ic \pp{129}\c 234\c 323}
+\indexentry {0}{hyphenpenalty}{C}{\ic \pp{125}\c 139\c 323}
+\indexentry {0}{hypotheses}{N}{\ic 131}
+\indexgroup I
+\indexentry {0}{\char `\i}{C}{\ic \pp{100}\c 323}
+\indexentry {0}{ialign}{C}{\ic \pp{180}\c 323}
+\indexentry {0}{if}{C}{\ic \pp{235}\c 323}
+\indexentry {0}{ifcase}{C}{\ic \pp{239}\c 323}
+\indexentry {0}{ifcat}{C}{\ic \pp{235}\c 323}
+\indexentry {0}{ifdim}{C}{\ic \pp{237}\c 323}
+\indexentry {0}{ifempty}{C}{\ic \pp{293}}
+\indexentry {0}{ifeof}{C}{\ic \pp{239}\c 323}
+\indexentry {0}{ifeqno}{C}{\ic \pp{295}}
+\indexentry {0}{iff}{C}{\ic \pp{192}\c 323}
+\indexentry {0}{iffalse}{C}{\ic \pp{239}\c 323}
+\indexentry {0}{ifhbox}{C}{\ic \pp{238}\c 323}
+\indexentry {0}{ifhmode}{C}{\ic \pp{238}\c 323}
+\indexentry {0}{ifinner}{C}{\ic \pp{238}\c 323}
+\indexentry {0}{ifleqno}{C}{\ic \pp{295}}
+\indexentry {0}{ifmmode}{C}{\ic \pp{238}\c 323}
+\indexentry {0}{ifnum}{C}{\ic \pp{237}\c 323}
+\indexentry {0}{ifodd}{C}{\ic \pp{237}\c 324}
+\indexentry {0}{iftrue}{C}{\ic \pp{239}\c 324}
+\indexentry {0}{ifvbox}{C}{\ic \pp{238}\c 324}
+\indexentry {0}{ifvmode}{C}{\ic \pp{238}\c 324}
+\indexentry {0}{ifvoid}{C}{\ic 147\c \pp{238}\c 324}
+\indexentry {0}{ifx}{C}{\ic \pp{236}\c 324}
+\indexentry {0}{ignored characters}{N}{\ic 53}
+\indexentry {0}{ignorespaces}{C}{\ic \pp{252}\c 324}
+\indexentry {0}{Im}{C}{\ic \pp{188}\c 324}
+\indexentry {0}{imath}{C}{\ic 100\c \pp{188}\c 324}
+\indexentry {0}{immediate}{C}{\ic 63\c 95\c 249\c \pp{250}\c 324}
+\indexentry {0}{in}{C}{\ic \pp{190}\c 324}
+\indexentry {0}{inch}{N}{\ic 60}
+\indexentry {0}{incomplete conditional}{N}{\ic 279}
+\indexentry {0}{indent}{C}{\ic 87\c \pp{111}\c 324}
+\indexentry {0}{indentation}{N}{\ic 24\c 111--119}
+\indexentry {0}{inf}{C}{\ic \pp{193}\c 324}
+\indexentry {0}{infty}{C}{\ic \pp{188}\c 324}
+\indexentry {0}{initex}{T}{\ic 65\c 263}
+\indexentry {0}{input}{C}{\ic 7\c 46\c 62\c \pp{247}\c 324}
+\indexentry {0}{input characters}{N}{\ic 280}
+\indexentry {0}{input files}{N}{\ic 9\c 46\c 247--248}
+\indexentry {1}{embedded}{N}{\ic 9}
+\indexentry {0}{input lines}{N}{\ic 252}
+\indexentry {0}{input streams}{N}{\ic \pp{70}}
+\indexentry {1}{opening}{N}{\ic 248}
+\indexentry {1}{reading with \b\tt\\read\e}{N}{\ic 62\c 248}
+\indexentry {1}{reserved by \b\tt\\newread\e}{N}{\ic 244}
+\indexentry {0}{input, preparing}{N}{\ic 10}
+\indexentry {0}{inputlineno}{C}{\ic \pp{247}\c 324}
+\indexentry {0}{insert}{C}{\ic 70\c \pp{147}\c 324}
+\indexentry {0}{<inserted text>}{T}{\ic 286}
+\indexentry {0}{insertions}{N}{\ic \pp{70}}
+\indexentry {1}{commands for}{N}{\ic 146--148}
+\indexentry {1}{forced out by \b\tt\\supereject\e}{N}{\ic 137}
+\indexentry {1}{numbers reserved by \b\tt\\newinsert\e}{N}{\ic 244}
+\indexentry {1}{penalties for}{N}{\ic 139}
+\indexentry {0}{insertpenalties}{C}{\ic \pp{139}\c 324}
+\indexentry {0}{int}{C}{\ic \pp{194}\c 195\c 196\c 324}
+\indexentry {1}{limits after}{N}{\ic 195}
+\indexentry {0}{interline glue}{N}{\ic 52\c \pp{70}\c 133--134}
+\indexentry {0}{interlinepenalty}{C}{\ic \pp{138}\c 324}
+\indexentry {0}{internal mode}{N}{}
+\indexentry {1}{testing for}{N}{\ic 238}
+\indexentry {0}{internal vertical mode}{N}{\ic 81\c 94}
+\indexentry {0}{interword spacing}{N}{\ic 50\c 106\c 107}
+\indexentry {0}{intestines}{N}{\ic 16\c 46\c \pp{47}\seealso{\anatomy}}
+\indexentry {0}{invalid character}{N}{\ic 53\c 54}
+\indexentry {0}{iota}{C}{\ic \pp{187}\c 324}
+\indexentry {0}{it}{C}{\ic \pp{103}\c 324}
+\indexentry {0}{italic correction}{N}{\ic 106}
+\indexentry {0}{item}{C}{\ic \pp{130}\c 324}
+\indexentry {0}{itemitem}{C}{\ic \pp{130}\c 324}
+\indexentry {0}{itemized lists}{N}{\ic 32\c 130\c 298--300}
+\indexentry {0}{items}{N}{\ic \pp{71}}
+\indexentry {0}{itfam}{C}{\ic \pp{210}\c 324}
+\indexgroup J
+\indexentry {0}{\char `\j}{C}{\ic \pp{100}\c 324}
+\indexentry {0}{jmath}{C}{\ic 100\c \pp{188}\c 324}
+\indexentry {0}{jobname}{C}{\ic \pp{225}\c 324}
+\indexentry {0}{jot}{C}{\ic \pp{215}\c 324}
+\indexentry {0}{justification}{N}{\ic \pp{71}\c 108--109\c 116}
+\indexgroup K
+\indexentry {0}{kappa}{C}{\ic \pp{187}\c 324}
+\indexentry {0}{ker}{C}{\ic \pp{193}\c 324}
+\indexentry {0}{kern}{C}{\ic \pp{157}\c 324}
+\indexentry {0}{kerns}{N}{\ic \pp{71--72}\c 157}
+\indexentry {1}{as list items}{N}{\ic 51}
+\indexentry {1}{creating space with}{N}{\ic 91}
+\indexentry {1}{in math formulas}{N}{\ic 215}
+\indexentry {1}{last kern in a list}{N}{\ic 171}
+\indexentry {0}{Knuth, Donald E.}{N}{\ic 18\c 294}
+\indexgroup L
+\indexentry {0}{\char `\l}{C}{\ic \pp{97}\c 324}
+\indexentry {0}{\char `\L}{C}{\ic \pp{97}\c 324}
+\indexentry {0}{lambda}{C}{\ic \pp{187}\c 324}
+\indexentry {0}{Lambda}{C}{\ic \pp{187}\c 324}
+\indexentry {0}{Lamport, Leslie}{N}{\ic 18}
+\indexentry {0}{land}{C}{\ic \pp{189}\c 325}
+\indexentry {0}{langle}{C}{\ic 59\c \pp{191}\c 325}
+\indexentry {0}{language}{C}{\ic 18\c 95\c \pp{128}\c 325}
+\indexentry {0}{lastbox}{C}{\ic \pp{171}\c 172\c 325}
+\indexentry {0}{lastkern}{C}{\ic \pp{171}\c 234\c 325}
+\indexentry {0}{lastpenalty}{C}{\ic \pp{171}\c 234\c 325}
+\indexentry {0}{lastskip}{C}{\ic \pp{171}\c 234\c 325}
+\indexentry {0}{\LaTeX}{N}{\ic \r8\c 18\c 225}
+\indexentry {0}{LaTeX}{C}{\ic \pp{294}}
+\indexentry {0}{lbrace}{C}{\ic 59\c \pp{191}\c 325}
+\indexentry {0}{lbrack}{C}{\ic 59\c \pp{98}\c \pp{191}\c 325}
+\indexentry {0}{lccode}{C}{\ic \pp{103}\c 325}
+\indexentry {0}{lceil}{C}{\ic 59\c \pp{191}\c 325}
+\indexentry {0}{ldotp}{C}{\ic \pp{196}\c 325}
+\indexentry {0}{ldots}{C}{\ic \pp{203}\c 325}
+\indexentry {0}{le}{C}{\ic \pp{190}\c 191\c 325}
+\indexentry {0}{leaders}{N}{\ic \pp{72--73}\c 174--176}
+\indexentry {0}{leaders}{C}{\ic 72--73\c \pp{174}\c 325}
+\indexentry {0}{left}{C}{\ic 58\c \pp{204}\c 325}
+\indexentry {0}{leftarrow}{C}{\ic \pp{192}\c 325}
+\indexentry {0}{Leftarrow}{C}{\ic \pp{192}\c 325}
+\indexentry {0}{leftarrowfill}{C}{\ic \pp{175}\c 325}
+\indexentry {0}{leftdisplays}{C}{\ic \pp{295}\c \pp{296}\c \pp{297}}
+\indexentry {0}{leftharpoondown}{C}{\ic \pp{192}\c 325}
+\indexentry {0}{leftharpoonup}{C}{\ic \pp{192}\c 325}
+\indexentry {0}{lefthyphenmin}{C}{\ic 18\c \pp{128}\c 325}
+\indexentry {0}{leftline}{C}{\ic 68\c \pp{108}\c 325}
+\indexentry {0}{leftrightarrow}{C}{\ic \pp{192}\c 325}
+\indexentry {0}{Leftrightarrow}{C}{\ic \pp{192}\c 325}
+\indexentry {0}{leftskip}{C}{\ic 71\c \pp{115}\c 272\c 325}
+\indexentry {0}{lemmas}{N}{\ic 32\c 131}
+\indexentry {0}{leq}{C}{\ic \pp{190}\c 191\c 325}
+\indexentry {0}{leqalignno}{C}{\ic \pp{208}\c 297\c 325}
+\indexentry {0}{leqno}{C}{\ic \pp{207}\c 325}
+\indexentry {0}{let}{C}{\ic 57\c \pp{232}\c 325}
+\indexentry {0}{letreturn}{C}{\ic \pp{291}\c 293}
+\indexentry {0}{letter}{N}{\ic 53\c 56}
+\indexentry {0}{letter}{C}{\ic \pp{291}}
+\indexentry {0}{lfloor}{C}{\ic 59\c \pp{191}\c 325}
+\indexentry {0}{lg}{C}{\ic \pp{193}\c 325}
+\indexentry {0}{lgroup}{C}{\ic \pp{204}\c 326}
+\indexentry {0}{li}{C}{\ic \pp{298}}
+\indexentry {0}{ligatures}{N}{\ic \pp{73--74}\c 97--98\c 101}
+\indexentry {0}{lim}{C}{\ic \pp{193}\c 197\c 326}
+\indexentry {0}{liminf}{C}{\ic \pp{193}\c 326}
+\indexentry {0}{limits}{N}{\ic 194}
+\indexentry {0}{limits}{C}{\ic \pp{195}\c 326}
+\indexentry {0}{limsup}{C}{\ic \pp{193}\c 326}
+\indexentry {0}{line}{C}{\ic \pp{109}\c 326}
+\indexentry {0}{line breaking}{N}{\ic 17\c 47\c 272}
+\indexentry {1}{tracing}{N}{\ic 259}
+\indexentry {0}{line breaks}{N}{\ic \pp{74--75}\c 120--129}
+\indexentry {1}{and paragraph shape}{N}{\ic 114--120}
+\indexentry {1}{bad}{N}{\ic 268}
+\indexentry {1}{badness for}{N}{\ic 50}
+\indexentry {1}{deleting}{N}{\ic 13}
+\indexentry {1}{demerits for}{N}{\ic 60}
+\indexentry {1}{encouraging or discouraging}{N}{\ic 120--122}
+\indexentry {1}{in math formulas}{N}{\ic 121}
+\indexentry {1}{kerns at}{N}{\ic 157}
+\indexentry {1}{parameters affecting}{N}{\ic 123--126}
+\indexentry {0}{line length}{N}{\ic 114}
+\indexentry {0}{line spacing}{N}{\ic 133}
+\indexentry {0}{linepenalty}{C}{\ic \pp{125}\c 326}
+\indexentry {0}{lineskip}{C}{\ic 70\c \pp{133--134}\c 326}
+\indexentry {0}{lineskiplimit}{C}{\ic 70\c \pp{133--134}\c 326}
+\indexentry {0}{listcompact}{C}{\ic \pp{298}}
+\indexentry {0}{listing}{C}{\ic \pp{300}}
+\indexentry {0}{lists}{N}{\ic \pp{75}}
+\indexentry {0}{ll}{C}{\ic \pp{190}\c 326}
+\indexentry {0}{llap}{C}{\ic \pp{109}\c 326}
+\indexentry {0}{lmoustache}{C}{\ic \pp{212}\c 326}
+\indexentry {0}{ln}{C}{\ic \pp{193}\c 326}
+\indexentry {0}{lnot}{C}{\ic \pp{188}\c 189\c 326}
+\indexentry {0}{local information}{N}{\ic \pp{7}\c 9\c 128}
+\indexentry {0}{log}{C}{\ic \pp{193}\c 326}
+\indexentry {0}{log file}{N}{\ic \pp{75}\c 313}
+\indexentry {1}{as a result file}{N}{\ic 62}
+\indexentry {1}{error messages}{N}{\ic 283}
+\indexentry {1}{tracing statistics in}{N}{\ic 260}
+\indexentry {1}{written by \b\tt\\wlog\e}{N}{\ic 261}
+\indexentry {1}{written by \b\tt\\write\e}{N}{\ic 250}
+\indexentry {0}{loggingall}{C}{\ic \pp{292}}
+\indexentry {0}{logos}{N}{\ic 64}
+\indexentry {0}{long}{C}{\ic \pp{231}\c 236\c 326}
+\indexentry {0}{longleftarrow}{C}{\ic \pp{192}\c 326}
+\indexentry {0}{Longleftarrow}{C}{\ic \pp{192}\c 326}
+\indexentry {0}{longleftrightarrow}{C}{\ic \pp{192}\c 326}
+\indexentry {0}{Longleftrightarrow}{C}{\ic \pp{192}\c 326}
+\indexentry {0}{longmapsto}{C}{\ic \pp{192}\c 326}
+\indexentry {0}{longrightarrow}{C}{\ic \pp{192}\c 326}
+\indexentry {0}{Longrightarrow}{C}{\ic \pp{192}\c 326}
+\indexentry {0}{loop}{C}{\ic \pp{240}\c 326}
+\indexentry {0}{loops}{N}{\ic 240--241}
+\indexentry {0}{looseness}{C}{\ic 87\c \pp{124}\c 267\c 326}
+\indexentry {0}{lor}{C}{\ic \pp{189}\c 326}
+\indexentry {0}{lower}{C}{\ic 52\c \pp{166}\c 326}
+\indexentry {0}{lower limits}{N}{\ic 197}
+\indexentry {0}{lowercase}{N}{}
+\indexentry {1}{conversion to}{N}{\ic 103--104}
+\indexentry {0}{lowercase}{C}{\ic \pp{104}\c 326}
+\indexentry {0}{lq}{C}{\ic \pp{98}\c 326}
+\indexgroup M
+\indexentry {0}{macron accent}{N}{\ic 100}
+\indexentry {0}{macros}{N}{\ic \pp{75--78}\c 230--241}
+\indexentry {1}{arguments of}{N}{\ic 48\c 280}
+\indexentry {1}{controlling expansion of}{N}{\ic 233--235}
+\indexentry {1}{defining}{N}{\ic 230--232}
+\indexentry {1}{expanded in \TeX's stomach}{N}{\ic 47}
+\indexentry {1}{global}{N}{\ic 66}
+\indexentry {1}{in auxiliary files}{N}{\ic 7}
+\indexentry {1}{making readable}{N}{\ic 281}
+\indexentry {1}{named by active characters}{N}{\ic 43}
+\indexentry {1}{outer}{N}{\ic 83\c 279}
+\indexentry {1}{parameters of}{N}{\ic 48\c 53\c 75--77\c 280}
+\indexentry {1}{tracing}{N}{\ic 258}
+\indexentry {1}{using \b\tt\\begingroup\e\ and \b\tt\\endgroup\e\ in}{N}{\ic 227}
+\indexentry {1}{using \b\tt\\bgroup\e\ and \b\tt\\egroup\e\ in}{N}{\ic 228}
+\indexentry {0}{mag}{C}{\ic 61\c 78\c \pp{223}\c 326}
+\indexentry {0}{magnification}{N}{\ic 8\c 61\c \pp{78}}
+\indexentry {0}{magnification}{C}{\ic \pp{223}\c 326}
+\indexentry {0}{magstep}{C}{\ic 78\c \pp{223}\c 326}
+\indexentry {0}{magstephalf}{C}{\ic 78\c 223\c \pp{224}\c 327}
+\indexentry {0}{main vertical list}{N}{\ic 84}
+\indexentry {0}{makeactive}{C}{\ic \pp{291}}
+\indexentry {0}{makeblankbox}{C}{\ic \pp{294}}
+\indexentry {0}{makecolumns}{C}{\ic \pp{307}}
+\indexentry {0}{makefootline}{C}{\ic 274}
+\indexentry {0}{makeheadline}{C}{\ic 274}
+\indexentry {0}{mapsto}{C}{\ic \pp{192}\c 327}
+\indexentry {0}{margins}{N}{\ic 24\c \pp{79}\c 86}
+\indexentry {0}{mark}{C}{\ic 79\c 80\c \pp{144}\c 327}
+\indexentry {0}{mark text}{N}{\ic 79\c 144}
+\indexentry {0}{marks}{N}{\ic \pp{79--80}\c 144--145}
+\indexentry {1}{for split lists}{N}{\ic 144}
+\indexentry {1}{with headers or footers}{N}{\ic 86}
+\indexentry {0}{math}{N}{\ic 16\c 38\c 40\c 187--219}
+\indexentry {1}{accents}{N}{\ic 199}
+\indexentry {0}{math characters}{N}{\ic 232}
+\indexentry {1}{described by mathcodes}{N}{\ic 80}
+\indexentry {0}{math display}{N}{\ic 138\c 271}
+\indexentry {0}{math extensions}{N}{\ic 62}
+\indexentry {0}{math mode}{N}{\ic \pp{80}\c 81}
+\indexentry {1}{testing for}{N}{\ic 238}
+\indexentry {0}{math shift}{N}{\ic 53}
+\indexentry {0}{math symbols}{N}{\ic 64\c 198}
+\indexentry {0}{mathaccent}{C}{\ic \pp{199}\c 327}
+\indexentry {0}{mathbin}{C}{\ic \pp{218}\c 327}
+\indexentry {0}{mathchar}{C}{\ic \pp{99}\c 327}
+\indexentry {0}{mathchardef}{C}{\ic \pp{232}\c 234\c 327}
+\indexentry {0}{mathchoice}{C}{\ic \pp{198}\c 327}
+\indexentry {0}{mathclose}{C}{\ic \pp{218}\c 327}
+\indexentry {0}{mathcode}{C}{\ic 81\c 205\c \pp{251}\c 252\c 327}
+\indexentry {0}{mathcodes}{N}{\ic \pp{80--81}\c 232}
+\indexentry {1}{class encoded in}{N}{\ic 56}
+\indexentry {0}{mathematical units}{N}{\ic \pp{81}\c 82}
+\indexentry {0}{mathinner}{C}{\ic \pp{218}\c 327}
+\indexentry {0}{mathop}{C}{\ic \pp{218}\c 327}
+\indexentry {0}{mathopen}{C}{\ic \pp{218}\c 327}
+\indexentry {0}{mathord}{C}{\ic \pp{218}\c 327}
+\indexentry {0}{mathpalette}{C}{\ic \pp{198}\c 327}
+\indexentry {0}{mathpunct}{C}{\ic \pp{218}\c 327}
+\indexentry {0}{mathrel}{C}{\ic \pp{218}\c 327}
+\indexentry {0}{mathstrut}{C}{\ic 92\c \pp{168}\c 327}
+\indexentry {0}{mathsurround}{C}{\ic \pp{217}\c 327}
+\indexentry {0}{matrix}{N}{\ic 205}
+\indexentry {0}{matrix}{C}{\ic \pp{205}\c 327}
+\indexentry {0}{max}{C}{\ic \pp{193}\c 327}
+\indexentry {0}{maxdeadcycles}{C}{\ic \pp{148}\c 327}
+\indexentry {0}{maxdepth}{C}{\ic \pp{141}\c 150\c 327}
+\indexentry {0}{maxdimen}{C}{\ic \pp{244}\c 327}
+\indexentry {0}{meaning}{C}{\ic \pp{226}\c 327}
+\indexentry {0}{medbreak}{C}{\ic \pp{137}\c 327}
+\indexentry {0}{medmuskip}{C}{\ic \pp{214}\c 327}
+\indexentry {0}{medskip}{C}{\ic 137\c \pp{154}\c 327}
+\indexentry {0}{medskipamount}{C}{\ic \pp{155}\c 327}
+\indexentry {0}{message}{C}{\ic \pp{261}\c 327}
+\indexentry {1}{expanded by {\tt\\edef} rules}{N}{\ic 231}
+\indexentry {0}{messages, sending}{N}{\ic 261--262}
+\indexentry {0}{\Metafont}{N}{\ic \r7\c 34}
+\indexentry {0}{metrics file}{N}{\ic 8\c 59\c 221}
+\indexentry {1}{default hyphen in}{N}{\ic 129}
+\indexentry {1}{default skew character in}{N}{\ic 213}
+\indexentry {1}{italic correction in}{N}{\ic 106}
+\indexentry {0}{MF}{C}{\ic \pp{294}}
+\indexentry {0}{mid}{C}{\ic \pp{190}\c 327}
+\indexentry {0}{midinsert}{C}{\ic 70\c \pp{146}\c 147\c 328}
+\indexentry {0}{millimeter}{N}{\ic 60}
+\indexentry {0}{min}{C}{\ic \pp{193}\c 328}
+\indexentry {0}{mit}{C}{\ic \pp{209}\c 328}
+\indexentry {0}{mkern}{C}{\ic \pp{215}\c 328}
+\indexentry {0}{models}{C}{\ic \pp{190}\c 328}
+\indexentry {0}{modes}{N}{\ic 17\c \pp{81--82}}
+\indexentry {0}{modulus}{N}{\ic 193\c 194}
+\indexentry {0}{month}{C}{\ic \pp{225}\c 297\c 328}
+\indexentry {0}{monthname}{C}{\ic \pp{297}}
+\indexentry {0}{mouth}{N}{\ic 16\c \pp{46}\seealso{\anatomy}}
+\indexentry {0}{moveleft}{C}{\ic 52\c 161\c \pp{166}\c 328}
+\indexentry {0}{moveright}{C}{\ic 52\c 161\c \pp{166}\c 328}
+\indexentry {0}{mp}{C}{\ic \pp{189}\c 328}
+\indexentry {0}{mskip}{C}{\ic 82\c \pp{215}\c 328}
+\indexentry {0}{mu}{T}{\ic 82\c 243}
+\indexentry {0}{mu}{C}{\ic \pp{187}\c 328}
+\indexentry {0}{muglue}{N}{\ic \pp{82}}
+\indexentry {0}{muglue registers}{N}{\ic 89}
+\indexentry {0}{multiply}{C}{\ic \pp{246}\c 328}
+\indexentry {0}{multispan}{C}{\ic \pp{182}\c 328}
+\indexentry {0}{mushrooms}{N}{\ic 36}
+\indexentry {0}{music symbols}{N}{\ic 26\c 188}
+\indexentry {0}{muskip}{C}{\ic \pp{242}\c 246\c 328}
+\indexentry {0}{muskip registers}{N}{\ic 243}
+\indexentry {1}{reserved by \b\tt\\newmuskip\e}{N}{\ic 244}
+\indexentry {0}{muskipdef}{C}{\ic \pp{245}\c 328}
+\indexgroup N
+\indexentry {0}{nabla}{C}{\ic \pp{188}\c 328}
+\indexentry {0}{narrower}{C}{\ic \pp{114}\c 272\c 328}
+\indexentry {0}{natural}{C}{\ic \pp{188}\c 328}
+\indexentry {0}{ne}{C}{\ic \pp{190}\c 328}
+\indexentry {0}{nearrow}{C}{\ic \pp{192}\c 328}
+\indexentry {0}{neg}{C}{\ic \pp{188}\c 189\c 328}
+\indexentry {0}{negthinspace}{C}{\ic \pp{153}\c 328}
+\indexentry {0}{neq}{C}{\ic \pp{190}\c 328}
+\indexentry {0}{newbox}{C}{\ic 53\c 89\c \pp{244}\c 328}
+\indexentry {0}{newcount}{C}{\ic 89\c 242\c \pp{244}\c 328}
+\indexentry {0}{newdimen}{C}{\ic 89\c \pp{244}\c 328}
+\indexentry {0}{newfam}{C}{\ic 62\c \pp{244}\c 328}
+\indexentry {0}{newhelp}{C}{\ic \pp{262}\c 305\c 328}
+\indexentry {0}{newif}{C}{\ic \pp{240}\c 328}
+\indexentry {0}{newinsert}{C}{\ic 147\c \pp{244}\c 328}
+\indexentry {0}{newlanguage}{C}{\ic 18\c \pp{244}\c 328}
+\indexentry {0}{newlinechar}{C}{\ic \pp{250}\c 261\c 262\c 328}
+\indexentry {0}{newmuskip}{C}{\ic 89\c \pp{244}\c 328}
+\indexentry {0}{newread}{C}{\ic 63\c \pp{244}\c 328}
+\indexentry {0}{newskip}{C}{\ic 89\c \pp{244}\c 329}
+\indexentry {0}{\newTeX}{N}{\ic 18\c 156}
+\indexentry {0}{newtoks}{C}{\ic 89\c \pp{244}\c 329}
+\indexentry {0}{newwrite}{C}{\ic 63\c \pp{244}\c 329}
+\indexentry {0}{ni}{C}{\ic \pp{190}\c 329}
+\indexentry {0}{noalign}{C}{\ic 46\c 180\c \pp{183}\c 329}
+\indexentry {0}{noboundary}{C}{\ic 18\c 73\c \pp{101}\c 329}
+\indexentry {0}{nobreak}{C}{\ic 74\c \pp{121}\c \pp{136}\c 266\c 329}
+\indexentry {0}{noexpand}{C}{\ic 231\c \pp{234}\c 329}
+\indexentry {0}{noindent}{C}{\ic 87\c \pp{112}\c 329}
+\indexentry {0}{nointerlineskip}{C}{\ic \pp{135}\c 329}
+\indexentry {0}{nolimits}{C}{\ic \pp{195}\c 329}
+\indexentry {0}{nonfrenchspacing}{C}{\ic \pp{106}\c 329}
+\indexentry {0}{nonscript}{C}{\ic \pp{215}\c 218\c 329}
+\indexentry {0}{nonstopmode}{C}{\ic \pp{253}\c 329}
+\indexentry {0}{nopagenumbers}{C}{\ic \pp{142}\c 329}
+\indexentry {0}{normalbaselines}{C}{\ic \pp{134}\c 329}
+\indexentry {0}{normalbaselineskip}{C}{\ic \pp{134}\c 329}
+\indexentry {0}{normalbottom}{C}{\ic \pp{137}\c 329}
+\indexentry {0}{normallineskip}{C}{\ic \pp{134}\c 329}
+\indexentry {0}{normallineskiplimit}{C}{\ic \pp{134}\c 329}
+\indexentry {0}{not}{C}{\ic 329}
+\indexentry {0}{notin}{C}{\ic \pp{190}\c 329}
+\indexentry {0}{nu}{C}{\ic \pp{187}\c 329}
+\indexentry {0}{null}{C}{\ic \pp{169}\c 329}
+\indexentry {0}{nulldelimiterspace}{C}{\ic 60\c 204\c \pp{217}\c 329}
+\indexentry {0}{nullfont}{C}{\ic \pp{102}\c 329}
+\indexentry {0}{number}{C}{\ic 83\c \pp{224}\c 329}
+\indexentry {0}{\<number>}{N}{\ic 4}
+\indexentry {0}{numberedfootnote}{C}{\ic \pp{309}}
+\indexentry {0}{numberedlist}{C}{\ic \pp{298}}
+\indexentry {0}{numberedmarker}{C}{\ic \pp{299}}
+\indexentry {0}{numbername}{C}{\ic \pp{295}}
+\indexentry {0}{numbers}{N}{\ic \pp{82--83}}
+\indexentry {1}{comparing}{N}{\ic 237}
+\indexentry {1}{converting to characters}{N}{\ic 224}
+\indexentry {1}{testing for odd/even}{N}{\ic 237}
+\indexentry {0}{nwarrow}{C}{\ic \pp{192}\c 329}
+\indexgroup O
+\secondprinting{\vskip.33\baselineskip}
+\indexentry {0}{\char `\o}{C}{\ic \pp{97}\c 330}
+\indexentry {0}{\char `\O}{C}{\ic \pp{97}\c 330}
+\indexentry {0}{obeylines}{C}{\ic \pp{122}\c 278\c 293\c 330}
+\indexentry {0}{obeyspaces}{C}{\ic \pp{107}\c 122\c 278\c 293\c 330}
+\indexentry {0}{obeywhitespace}{C}{\ic 107\c 278\c \pp{293}}
+\indexentry {0}{octal numbers}{N}{\ic 82}
+\indexentry {0}{odot}{C}{\ic \pp{189}\c 330}
+\indexentry {0}{oe}{C}{\ic \pp{97}\c 330}
+\indexentry {0}{OE}{C}{\ic \pp{97}\c 330}
+\indexentry {0}{offinterlineskip}{C}{\ic 92\c \pp{135}\c 167\c 330}
+\indexentry {0}{oint}{C}{\ic \pp{194}\c 330}
+\indexentry {0}{oldstyle}{C}{\ic \pp{209}\c 330}
+\indexentry {0}{omega}{C}{\ic \pp{187}\c 330}
+\indexentry {0}{Omega}{C}{\ic \pp{187}\c 330}
+\indexentry {0}{omicron}{N}{\ic 188}
+\indexentry {0}{ominus}{C}{\ic \pp{189}\c 330}
+\indexentry {0}{omit}{C}{\ic \pp{181}\c 330}
+\indexentry {0}{openin}{C}{\ic 63\c \pp{247}\c 248\c 330}
+\indexentry {0}{opening}{N}{\ic 191}
+\indexentry {0}{openout}{C}{\ic 63\c \pp{249}\c 330}
+\indexentry {1}{whatsit produced by}{N}{\ic 95}
+\indexentry {1}{with {\tt\\immediate}}{N}{\ic 250}
+\indexentry {0}{openup}{C}{\ic \pp{135}\c 183\c 330}
+\indexentry {0}{operating system}{N}{\ic 62\c 63}
+\indexentry {0}{operations}{N}{\ic 189--190}
+\indexentry {0}{operators}{N}{\ic 126}
+\indexentry {1}{large}{N}{\ic 194--196}
+\indexentry {0}{oplus}{C}{\ic \pp{189}\c 330}
+\indexentry {0}{or}{C}{\ic 330}
+\indexentry {0}{ordinary horizontal mode}{N}{\ic 69\c 81}
+\indexentry {0}{ordinary mode}{N}{\ic \pp{83}}
+\indexentry {0}{ordinary symbol}{N}{\ic 188}
+\indexentry {0}{ordinary vertical mode}{N}{\ic 81\c 94}
+\indexentry {0}{origin}{N}{\see{page origin}}
+\indexentry {0}{oslash}{C}{\ic \pp{189}\c 330}
+\indexentry {0}{other}{C}{\ic \pp{291}}
+\indexentry {0}{other characters}{N}{\ic 53\c 56}
+\indexentry {0}{otimes}{C}{\ic \pp{189}\c 330}
+\indexentry {0}{outer}{N}{\ic \pp{83}\c 232}
+\indexentry {0}{outer}{C}{\ic 83\c \pp{232}\c 236\c 279\c 330}
+\indexentry {0}{output}{C}{\ic 84\c \pp{148}\c 330}
+\indexentry {0}{output devices}{N}{\ic 8}
+\indexentry {0}{output files}{N}{\ic 249--251}
+\indexentry {0}{output routine}{N}{\ic \pp{83--84}\c 147\c 148--149}
+\indexentry {1}{default in \plainTeX}{N}{\ic 148}
+\indexentry {1}{insertions, treatment of}{N}{\ic 70}
+\indexentry {1}{meaning of \b\tt\\insertpenalties\e\ in}{N}{\ic 139}
+\indexentry {0}{output streams}{N}{\ic 63\c \pp{84}}
+\indexentry {1}{closing}{N}{\ic 249}
+\indexentry {1}{opening}{N}{\ic 249}
+\indexentry {1}{reserved by \b\tt\\newwrite\e}{N}{\ic 244}
+\indexentry {1}{writing}{N}{\ic 249}
+\indexentry {0}{<output>}{T}{\ic 288}
+\indexentry {0}{outputpenalty}{C}{\ic \pp{149}\c 330}
+\indexentry {0}{over}{C}{\ic \pp{200}\c 204\c 330}
+\indexentry {0}{overbrace}{C}{\ic \pp{202}\c 212\c 330}
+\indexentry {0}{overfull boxes}{N}{\ic 124\c 268--270}
+\indexentry {0}{overfullrule}{C}{\ic \pp{170}\c 330}
+\indexentry {0}{overlapping text}{N}{\ic 109}
+\indexentry {0}{overleftarrow}{C}{\ic \pp{202}\c 330}
+\indexentry {0}{overline}{C}{\ic \pp{202}\c 330}
+\indexentry {0}{overprinting}{N}{\ic 109}
+\indexentry {0}{overrightarrow}{C}{\ic \pp{202}\c 330}
+\indexentry {0}{overwithdelims}{C}{\ic 58\c \pp{201}\c 330}
+\indexentry {0}{owns}{C}{\ic \pp{190}\c 330}
+\indexgroup P
+\secondprinting{\vskip1.5\baselineskip}
+\indexentry {0}{\char `\P}{C}{\ic \pp{98}\c 331}
+\indexentry {0}{page breaks}{N}{\ic \pp{85--86}\c 136--140}
+\indexentry {1}{bad}{N}{\ic 265--268}
+\indexentry {1}{badness for}{N}{\ic 50}
+\indexentry {1}{encouraging or discouraging}{N}{\ic 136--138}
+\indexentry {1}{glue at}{N}{\ic 268}
+\indexentry {1}{in split lists}{N}{\ic 149}
+\indexentry {1}{inserted by \TeX's stomach}{N}{\ic 17}
+\indexentry {1}{insertions at}{N}{\ic 70}
+\indexentry {1}{kerns at}{N}{\ic 157}
+\indexentry {1}{parameters for}{N}{\ic 138--140}
+\indexentry {1}{tracing}{N}{\ic 259}
+\indexentry {0}{page builder}{N}{\ic 84\c \pp{86}}
+\indexentry {0}{page dimensions}{N}{\ic 140}
+\indexentry {0}{page footers}{N}{\see{footers}}
+\indexentry {0}{page headers}{N}{\see{headers}}
+\indexentry {0}{page layout}{N}{\ic \pp{86}}
+\indexentry {0}{page numbering}{N}{\ic 90\c 142--143}
+\indexentry {0}{page origin}{N}{\ic 140}
+\indexentry {0}{pagedepth}{C}{\ic \pp{139}\c 331}
+\indexentry {0}{pagefilllstretch}{C}{\ic \pp{140}\c 331}
+\indexentry {0}{pagefillstretch}{C}{\ic \pp{140}\c 331}
+\indexentry {0}{pagefilstretch}{C}{\ic \pp{140}\c 331}
+\indexentry {0}{pagegoal}{C}{\ic \pp{139}\c 140\c 149\c 331}
+\indexentry {0}{pageinsert}{C}{\ic 70\c \pp{146}\c 147\c 331}
+\indexentry {0}{pageno}{C}{\ic \pp{142}\c 143\c 331}
+\indexentry {0}{pages}{N}{\ic 17\c \pp{84--85}}
+\indexentry {1}{assembled in \TeX's stomach}{N}{\ic 47}
+\indexentry {0}{pageshrink}{C}{\ic \pp{140}\c 331}
+\indexentry {0}{pagestretch}{C}{\ic \pp{140}\c 331}
+\indexentry {0}{pagetotal}{C}{\ic \pp{139}\c 331}
+\indexentry {0}{Palatino fonts}{N}{\ic 34\c 64}
+\indexentry {0}{par}{C}{\ic 86\c \pp{110}\c 111\c 331}
+\indexentry {1}{ending a paragraph with}{N}{\ic 86}
+\indexentry {1}{from empty line}{N}{\ic 91\c 105}
+\indexentry {1}{in macro arguments}{N}{\ic 231}
+\indexentry {1}{when changing paragraph shape}{N}{\ic 272}
+\indexentry {0}{paragraph skip}{N}{\ic 141}
+\indexentry {0}{paragraphs}{N}{\ic \pp{86--87}}
+\indexentry {1}{ending}{N}{\ic 12\c 22}
+\indexentry {1}{glue at end of}{N}{\ic 111}
+\indexentry {1}{glue between}{N}{\ic 141}
+\indexentry {1}{indenting}{N}{\see{indentation}}
+\indexentry {1}{narrow}{N}{\ic 24\c 114}
+\indexentry {1}{shaping}{N}{\ic 110--120\c 272}
+\indexentry {1}{starting}{N}{\ic 110}
+\indexentry {0}{parallel}{C}{\ic \pp{190}\c 331}
+\indexentry {0}{parameters}{N}{\ic \pp{87--88}}
+\indexentry {1}{and arguments}{N}{\ic 48}
+\indexentry {1}{as commands}{N}{\ic 4\c 12}
+\indexentry {1}{assignments to}{N}{\ic 49}
+\indexentry {1}{delimited}{N}{\ic 77}
+\indexentry {1}{indicated by \b\tt\#\e}{N}{\ic 53}
+\indexentry {1}{like registers}{N}{\ic 89}
+\indexentry {1}{undelimited}{N}{\ic 76}
+\indexentry {1}{using \b\tt\\the\e\ with}{N}{\ic 234}
+\indexentry {0}{parentheses}{N}{\ic 58\c 204}
+\indexentry {0}{parfillskip}{C}{\ic \pp{111}\c 331}
+\indexentry {0}{parindent}{C}{\ic 4\c 87\c \pp{113}\c 331}
+\indexentry {1}{indentation for itemized lists}{N}{\ic 130}
+\indexentry {0}{parshape}{C}{\ic 87\c 117\c \pp{118}\c 331}
+\indexentry {0}{parskip}{C}{\ic 111\c 112\c 113\c \pp{141}\c 267\c 269\c 331}
+\indexentry {0}{partial}{C}{\ic \pp{188}\c 331}
+\indexentry {0}{Patashnik, Oren}{N}{\ic 19}
+\indexentry {0}{pausing}{C}{\ic \pp{253}\c 331}
+\indexentry {0}{penalties}{N}{\ic \pp{88}}
+\indexentry {1}{in horizontal lists}{N}{\ic 74}
+\indexentry {1}{in vertical lists}{N}{\ic 85}
+\indexentry {1}{last penalty in a list}{N}{\ic 171}
+\indexentry {0}{penalty}{C}{\ic \pp{121}\c \pp{136}\c 331}
+\indexentry {0}{percentchar}{C}{\ic 292}
+\indexentry {0}{period}{N}{\ic 12\c 13}
+\indexentry {0}{perp}{C}{\ic \pp{190}\c 331}
+\indexentry {0}{phantom}{C}{\ic \pp{168}\c 331}
+\indexentry {0}{phantoms}{N}{\ic 168--169}
+\indexentry {0}{phi}{C}{\ic \pp{187}\c 331}
+\indexentry {0}{Phi}{C}{\ic \pp{187}\c 331}
+\indexentry {0}{pi}{C}{\ic \pp{187}\c 331}
+\indexentry {0}{Pi}{C}{\ic \pp{187}\c 194\c 331}
+\indexentry {0}{pica}{N}{\ic 60}
+\indexentry {0}{pixel file}{N}{\ic 65}
+\indexentry {0}{\pkfile}{N}{\ic 8\c 65}
+\indexentry {0}{plainoutput}{C}{\ic \pp{148}\c 331}
+\indexentry {0}{\plainTeX}{N}{\ic 3\c 8\c 9\c \pp{88}}
+\indexentry {1}{font families in}{N}{\ic 62}
+\indexentry {0}{pm}{C}{\ic \pp{189}\c 332}
+\indexentry {0}{pmatrix}{C}{\ic \pp{205}\c 332}
+\indexentry {0}{pmod}{C}{\ic \pp{194}\c 332}
+\indexentry {0}{poetry, typesetting}{N}{\ic 122}
+\indexentry {0}{point}{N}{\ic 60}
+\indexentry {0}{postdisplaypenalty}{C}{\ic \pp{138}\c 332}
+\indexentry {0}{pound sterling}{N}{\ic 98}
+\indexentry {0}{Pr}{C}{\ic \pp{193}\c 332}
+\indexentry {0}{preamble}{N}{\ic \pp{45}\c 178\c 179}
+\indexentry {0}{prec}{C}{\ic \pp{190}\c 191\c 332}
+\indexentry {0}{preceq}{C}{\ic \pp{190}\c 191\c 332}
+\indexentry {0}{predisplaypenalty}{C}{\ic \pp{138}\c 332}
+\indexentry {0}{predisplaysize}{C}{\ic \pp{216}\c 332}
+\indexentry {0}{preloaded}{N}{\ic 65}
+\indexentry {0}{pretolerance}{C}{\ic \pp{123}\c 332}
+\indexentry {0}{prevdepth}{C}{\ic 133\c \pp{134}\c 332}
+\indexentry {0}{prevgraf}{C}{\ic \pp{120}\c 332}
+\indexentry {0}{previewer}{N}{\ic 8}
+\indexentry {0}{prime}{C}{\ic \pp{188}\c 332}
+\indexentry {0}{primitive}{N}{\ic \pp{88}}
+\indexentry {1}{command}{N}{\ic 3\c 48\c 313}
+\indexentry {1}{control sequence}{N}{\ic 57}
+\indexentry {0}{printable characters}{N}{\ic 49}
+\indexentry {0}{printers}{N}{\ic 8}
+\indexentry {0}{proclaim}{C}{\ic \pp{131}\c 332}
+\indexentry {0}{prod}{C}{\ic \pp{194}\c 332}
+\indexentry {0}{programming features}{N}{\ic 221}
+\indexentry {0}{propto}{C}{\ic \pp{190}\c 332}
+\indexentry {0}{psi}{C}{\ic \pp{187}\c 332}
+\indexentry {0}{Psi}{C}{\ic \pp{187}\c 332}
+\indexentry {0}{punctuation}{N}{\ic 13\c 22}
+\indexentry {0}{punctuation in math formulas}{N}{\ic 196}
+\indexentry {0}{\pxlfile}{N}{\ic 8}
+\indexgroup Q
+\indexentry {0}{qquad}{C}{\ic \pp{154}\c 332}
+\indexentry {0}{quad}{C}{\ic \pp{154}\c 332}
+\indexentry {0}{question mark}{N}{\ic 13}
+\indexentry {0}{quotation marks}{N}{\ic 14\c 22}
+\indexgroup R
+\indexentry {0}{radical}{C}{\ic \pp{207}\c 332}
+\indexentry {0}{ragged left}{N}{\ic 71\c 115}
+\indexentry {0}{ragged right}{N}{\ic 71\c 116}
+\indexentry {0}{raggedbottom}{C}{\ic \pp{137}\c 332}
+\indexentry {0}{raggedright}{C}{\ic 71\c \pp{116}\c 269\c 332}
+\indexentry {0}{raise}{C}{\ic 52\c \pp{166}\c 332}
+\indexentry {0}{rangle}{C}{\ic 59\c \pp{191}\c 332}
+\indexentry {0}{rbrace}{C}{\ic 59\c \pp{191}\c 332}
+\indexentry {0}{rbrack}{C}{\ic 59\c \pp{98}\c \pp{191}\c 332}
+\indexentry {0}{rceil}{C}{\ic 59\c \pp{191}\c 332}
+\indexentry {0}{Re}{C}{\ic \pp{188}\c 332}
+\indexentry {0}{read}{C}{\ic 62\c \pp{248}\c 332}
+\indexentry {0}{reading a file}{N}{\ic 248}
+\indexentry {0}{readreffile}{C}{\ic \pp{303}}
+\indexentry {0}{readtocfile}{C}{\ic \pp{301}}
+\indexentry {0}{recent contributions}{N}{\ic 84}
+\indexentry {0}{recursive macros}{N}{\see{macros, recursive}}
+\indexentry {0}{reference mark}{N}{\ic 145}
+\indexentry {0}{reference point}{N}{\ic 51--52\c \pp{88}}
+\indexentry {0}{\<register>}{N}{\ic 4}
+\indexentry {0}{registers}{N}{\ic \pp{89--90}\c 242--246}
+\indexentry {1}{arithmetic in}{N}{\ic 245--246}
+\indexentry {1}{assignment to}{N}{\ic 49}
+\indexentry {1}{parameters as}{N}{\ic 4\c 12\c 88}
+\indexentry {1}{reserving}{N}{\ic 244--245}
+\indexentry {1}{with \b\tt\\the\e}{N}{\ic 234}
+\indexentry {0}{relations}{N}{\ic 126\c 190--191}
+\indexentry {1}{putting formulas above}{N}{\ic 202}
+\indexentry {0}{relax}{C}{\ic 9\c \pp{241}\c 332}
+\indexentry {0}{relpenalty}{C}{\ic \pp{126}\c 332}
+\indexentry {0}{repeat}{C}{\ic \pp{240}\c 333}
+\indexentry {0}{repeated actions}{N}{\ic 240--241}
+\indexentry {0}{resident fonts}{N}{\ic 222}
+\indexentry {0}{restricted horizontal mode}{N}{\ic 69\c 81}
+\indexentry {0}{restricted mode}{N}{\ic \pp{90}}
+\indexentry {1}{horizontal}{N}{\ic 272}
+\indexentry {0}{result file}{N}{\ic 62}
+\indexentry {0}{revision bars}{N}{\ic \r7\c 30}
+\indexentry {0}{rfloor}{C}{\ic 59\c \pp{191}\c 333}
+\indexentry {0}{rgroup}{C}{\ic \pp{204}\c 333}
+\indexentry {0}{rho}{C}{\ic \pp{187}\c 333}
+\indexentry {0}{right}{C}{\ic 58\c \pp{204}\c 333}
+\indexentry {0}{right margin}{N}{\ic 66}
+\indexentry {0}{rightarrow}{C}{\ic \pp{192}\c 333}
+\indexentry {0}{Rightarrow}{C}{\ic \pp{192}\c 333}
+\indexentry {0}{rightarrowfill}{C}{\ic \pp{175}\c 333}
+\indexentry {0}{rightharpoondown}{C}{\ic \pp{192}\c 333}
+\indexentry {0}{rightharpoonup}{C}{\ic \pp{192}\c 333}
+\indexentry {0}{righthyphenmin}{C}{\ic 18\c \pp{128}\c 333}
+\indexentry {0}{rightleftharpoons}{C}{\ic \pp{192}\c 333}
+\indexentry {0}{rightline}{C}{\ic 68\c \pp{108}\c 333}
+\indexentry {0}{rightskip}{C}{\ic 71\c \pp{115}\c 333}
+\indexentry {0}{rlap}{C}{\ic \pp{109}\c 333}
+\indexentry {0}{rm}{C}{\ic \pp{103}\c 333}
+\indexentry {0}{rmoustache}{C}{\ic \pp{212}\c 333}
+\indexentry {0}{Roman numerals}{N}{\ic 224}
+\indexentry {0}{romannumeral}{C}{\ic 83\c \pp{224}\c 333}
+\indexentry {0}{root}{C}{\ic \pp{207}\c 333}
+\indexentry {0}{row}{N}{\ic 179}
+\indexentry {0}{rq}{C}{\ic \pp{98}\c 333}
+\indexentry {0}{rules}{N}{\ic \pp{90--91}\c 172--173\c 273}
+\indexentry {1}{thickness of}{N}{\ic 292}
+\indexentry {0}{running \TeX}{N}{\ic 9\c 252--253}
+\indexgroup S
+\indexentry {0}{\char `\S}{C}{\ic \pp{98}\c 333}
+\indexentry {0}{sb}{C}{\ic \pp{197}\c 333}
+\indexentry {0}{scale factor}{N}{\ic 223}
+\indexentry {0}{scaled point}{N}{\ic 60}
+\indexentry {0}{script size}{N}{\ic 62\c \pp{91}}
+\indexentry {0}{script style}{N}{\ic 93\c 197\c 198\c 210}
+\indexentry {0}{scriptfont}{C}{\ic 62\c \pp{210}\c 333}
+\indexentry {0}{scriptscript size}{N}{\ic 62\c \pp{91}}
+\indexentry {0}{scriptscript style}{N}{\ic 93\c 197\c 198\c 210}
+\indexentry {0}{scriptscriptfont}{C}{\ic 62\c \pp{210}\c 333}
+\indexentry {0}{scriptscriptstyle}{C}{\ic 93\c 197\c \pp{198}\c 333}
+\indexentry {0}{scriptspace}{C}{\ic \pp{218}\c 333}
+\indexentry {0}{scriptstyle}{C}{\ic 93\c 197\c \pp{198}\c 333}
+\indexentry {0}{scrollmode}{C}{\ic \pp{252}\c 333}
+\indexentry {0}{searrow}{C}{\ic \pp{192}\c 333}
+\indexentry {0}{sec}{C}{\ic \pp{193}\c 333}
+\indexentry {0}{section headings}{N}{\ic 129}
+\indexentry {0}{setbox}{C}{\ic \pp{164}\c 333}
+\indexentry {0}{setlanguage}{C}{\ic 18\c 95\c \pp{128}\c 334}
+\indexentry {0}{setminus}{C}{\ic \pp{189}\c 334}
+\indexentry {0}{settabs}{C}{\ic 44--45\c \pp{176}\c 334}
+\indexentry {0}{setuplistinghook}{C}{\ic \pp{300}}
+\indexentry {0}{sevenbf}{C}{\ic \pp{102}\c 334}
+\indexentry {0}{seveni}{C}{\ic \pp{102}\c 334}
+\indexentry {0}{sevenrm}{C}{\ic \pp{102}\c 334}
+\indexentry {0}{sevensy}{C}{\ic \pp{102}\c 334}
+\indexentry {0}{sfcode}{C}{\ic \pp{107}\c 334}
+\indexentry {0}{shape file}{N}{\ic 8\c 65\c 78}
+\indexentry {0}{sharp}{C}{\ic \pp{188}\c 334}
+\indexentry {0}{shipout}{C}{\ic 63\c 84\c \pp{148}\c 260\c 334}
+\indexentry {1}{{\tt\\count} registers displayed at}{N}{\ic 142}
+\indexentry {0}{show}{C}{\ic \pp{253}\c 280\c 334}
+\indexentry {0}{showbox}{C}{\ic \pp{253}\c 256\c 261\c 334}
+\indexentry {0}{showboxbreadth}{C}{\ic 254\c 258\c \pp{261}\c 334}
+\indexentry {0}{showboxdepth}{C}{\ic 254\c 258\c \pp{261}\c 334}
+\indexentry {0}{showhyphens}{C}{\ic \pp{128}\c 334}
+\indexentry {0}{showlists}{C}{\ic \pp{253}\c 256\c 261\c 334}
+\indexentry {0}{showthe}{C}{\ic 90\c \pp{253}\c 334}
+\indexentry {0}{shrink}{N}{\ic 66--68\c \pp{91}}
+\indexentry {0}{sigma}{C}{\ic \pp{187}\c 334}
+\indexentry {0}{Sigma}{C}{\ic \pp{187}\c 194\c 334}
+\indexentry {0}{sim}{C}{\ic \pp{190}\c 191\c 334}
+\indexentry {0}{simeq}{C}{\ic \pp{190}\c 191\c 334}
+\indexentry {0}{sin}{C}{\ic \pp{193}\c 334}
+\indexentry {0}{singlecolumn}{C}{\ic \pp{309}}
+\indexentry {0}{sinh}{C}{\ic \pp{193}\c 334}
+\indexentry {0}{skew}{C}{\ic \pp{212}\c 334}
+\indexentry {0}{skewchar}{C}{\ic \pp{213}\c 234\c 334}
+\indexentry {0}{skip}{C}{\ic \pp{242}\c 246\c 334}
+\indexentry {0}{skip registers}{N}{\ic 243}
+\indexentry {1}{reserved by \b\tt\\newskip\e}{N}{\ic 244}
+\indexentry {0}{skipdef}{C}{\ic \pp{245}\c 334}
+\indexentry {0}{sl}{C}{\ic \pp{103}\c 334}
+\indexentry {0}{slash}{C}{\ic 74\c \pp{122}\c 334}
+\indexentry {0}{slfam}{C}{\ic \pp{210}\c 334}
+\indexentry {0}{smallbreak}{C}{\ic \pp{137}\c 334}
+\indexentry {0}{smallint}{C}{\ic \pp{194}\c 334}
+\indexentry {0}{smallskip}{C}{\ic 137\c \pp{154}\c 334}
+\indexentry {0}{smallskipamount}{C}{\ic \pp{155}\c 335}
+\indexentry {0}{smash}{C}{\ic \pp{169}\c 335}
+\indexentry {0}{smile}{C}{\ic \pp{190}\c 335}
+\indexentry {0}{solidus}{N}{\ic 74\c 122}
+\indexentry {0}{source file}{N}{\ic 62}
+\indexentry {0}{sp}{C}{\ic \pp{197}\c 335}
+\indexentry {0}{space}{N}{\ic \pp{91--92}}
+\indexentry {1}{in math formulas}{N}{\ic 214--216}
+\indexentry {1}{lost}{N}{\ic 270}
+\indexentry {1}{producing}{N}{\ic 153--159}
+\indexentry {1}{unwanted}{N}{\ic 270--271}
+\indexentry {0}{space}{C}{\ic \pp{105}\c 281\c 335}
+\indexentry {0}{space characters}{N}{\ic 22\c 293}
+\indexentry {1}{category code of}{N}{\ic 53}
+\indexentry {0}{space factor}{N}{\ic 107}
+\indexentry {0}{spacefactor}{C}{\ic \pp{107}\c 335}
+\indexentry {0}{spaces}{N}{\ic 12--13}
+\indexentry {1}{interword}{N}{\ic 66\c 104--108}
+\indexentry {1}{visible}{N}{\ic \pp{3}}
+\indexentry {0}{spaceskip}{C}{\ic \pp{107}\c 335}
+\indexentry {0}{spacesub}{C}{\ic \pp{293}}
+\indexentry {0}{spacing}{N}{}
+\indexentry {1}{adjusting with kerns}{N}{\ic 71}
+\indexentry {1}{interline}{N}{\ic 28}
+\indexentry {0}{spadesuit}{C}{\ic \pp{188}\c 335}
+\indexentry {0}{span}{C}{\ic \pp{181}\c 335}
+\indexentry {0}{special}{C}{\ic 95\c \pp{250}\c 335}
+\indexentry {0}{special characters}{N}{\ic 98}
+\indexentry {0}{special symbols}{N}{\ic 62\c 97}
+\indexentry {0}{Spivak, Michael~D.}{N}{\ic 18}
+\indexentry {0}{splitbotmark}{C}{\ic 80\c \pp{144}\c 335}
+\indexentry {0}{splitfirstmark}{C}{\ic 80\c \pp{144}\c 335}
+\indexentry {0}{splitmaxdepth}{C}{\ic \pp{150}\c 335}
+\indexentry {0}{splittopskip}{C}{\ic \pp{150}\c 335}
+\indexentry {0}{sqcap}{C}{\ic \pp{189}\c 335}
+\indexentry {0}{sqcup}{C}{\ic \pp{189}\c 335}
+\indexentry {0}{sqrt}{C}{\ic \pp{206}\c 335}
+\indexentry {0}{sqsubseteq}{C}{\ic \pp{190}\c 191\c 335}
+\indexentry {0}{sqsupseteq}{C}{\ic \pp{190}\c 191\c 335}
+\indexentry {0}{ss}{C}{\ic \pp{97}\c 335}
+\indexentry {0}{stacking subformulas}{N}{\ic 200--202}
+\indexentry {0}{star}{C}{\ic \pp{189}\c 335}
+\indexentry {0}{stomach}{N}{\ic 16\c 46\c \pp{47}\seealso{\anatomy}}
+\indexentry {0}{stretch}{N}{\ic 66--68\c \pp{92}}
+\indexentry {0}{string}{C}{\ic \pp{226}\c 233\c 335}
+\indexentry {0}{strut}{C}{\ic 46\c 92\c \pp{167}\c 168\c 335}
+\indexentry {0}{struts}{N}{\ic \pp{92}\c 135\c 167--168}
+\indexentry {1}{in vertical alignments}{N}{\ic 179}
+\indexentry {0}{styles}{N}{\ic \pp{92--93}\c 198--199}
+\indexentry {0}{subscripts}{N}{\ic 53\c 197}
+\indexentry {0}{subset}{C}{\ic \pp{190}\c 191\c 335}
+\indexentry {0}{subseteq}{C}{\ic \pp{190}\c 191\c 335}
+\indexentry {0}{succ}{C}{\ic \pp{190}\c 191\c 335}
+\indexentry {0}{succeq}{C}{\ic \pp{190}\c 191\c 335}
+\indexentry {0}{sum}{C}{\ic \pp{194}\c 335}
+\indexentry {0}{sup}{C}{\ic \pp{193}\c 335}
+\indexentry {0}{supereject}{C}{\ic \pp{137}\c 335}
+\indexentry {0}{superscripts}{N}{\ic 53\c 197}
+\indexentry {0}{supset}{C}{\ic \pp{190}\c 191\c 335}
+\indexentry {0}{supseteq}{C}{\ic \pp{190}\c 191\c 335}
+\indexentry {0}{surd}{C}{\ic \pp{188}\c 336}
+\indexentry {0}{swarrow}{C}{\ic \pp{192}\c 336}
+\indexgroup T
+\indexentry {0}{\char `\t}{C}{\ic \pp{100}\c 336}
+\indexentry {0}{tabalign}{C}{\ic \pp{176}\c 336}
+\indexentry {0}{tabbing alignments}{N}{\ic 176--177}
+\indexentry {0}{table of contents}{N}{\ic 301}
+\indexentry {0}{tables}{N}{\ic 44--46\seealso{alignments}}
+\indexentry {0}{tabs}{N}{\ic 53\c 176}
+\indexentry {0}{tabskip}{C}{\ic 46\c \pp{184}\c 336}
+\indexentry {0}{tan}{C}{\ic \pp{193}\c 336}
+\indexentry {0}{tanh}{C}{\ic \pp{193}\c 336}
+\indexentry {0}{tau}{C}{\ic \pp{187}\c 336}
+\indexentry {0}{template}{N}{\ic \pp{45}\c 178--182}
+\indexentry {0}{tenbf}{C}{\ic \pp{102}\c 336}
+\indexentry {0}{tenex}{C}{\ic \pp{102}\c 336}
+\indexentry {0}{teni}{C}{\ic \pp{102}\c 336}
+\indexentry {0}{tenit}{C}{\ic \pp{102}\c 336}
+\indexentry {0}{tenrm}{C}{\ic \pp{102}\c 336}
+\indexentry {0}{tensl}{C}{\ic \pp{102}\c 336}
+\indexentry {0}{tensy}{C}{\ic \pp{102}\c 336}
+\indexentry {0}{tentt}{C}{\ic \pp{102}\c 336}
+\indexentry {0}{terminal}{N}{\ic 254}
+\indexentry {0}{testfileexistence}{C}{\ic \pp{295}}
+\indexentry {0}{TeX}{C}{\ic \pp{98}\c 336}
+\indexentry {0}{\texbook}{N}{\ic \r8\c 43}
+\indexentry {0}{\TeXMeX}{N}{\ic \pp{93}}
+\indexentry {0}{text editor}{N}{\ic 7}
+\indexentry {0}{text math}{N}{\ic 16\c \pp{93}}
+\indexentry {0}{text math mode}{N}{\ic 80\c 81}
+\indexentry {0}{text size}{N}{\ic 62\c \pp{93}}
+\indexentry {0}{text style}{N}{\ic 93\c 194\c 198\c 210}
+\indexentry {0}{textfont}{C}{\ic 62\c \pp{210}\c 336}
+\indexentry {0}{textindent}{C}{\ic \pp{112}\c 336}
+\indexentry {0}{textstyle}{C}{\ic 93\c \pp{198}\c 336}
+\indexentry {0}{\tfmfile}{N}{\ic 8\c 64\c 72\c 221}
+\indexentry {0}{the}{C}{\ic 226\c \pp{234}\c 242\c 243\c 336}
+\indexentry {0}{theorems}{N}{\ic 32\c 131}
+\indexentry {0}{theta}{C}{\ic \pp{187}\c 336}
+\indexentry {0}{Theta}{C}{\ic \pp{187}\c 336}
+\indexentry {0}{thickmuskip}{C}{\ic \pp{214}\c 336}
+\indexentry {0}{thinmuskip}{C}{\ic \pp{214}\c 336}
+\indexentry {0}{thinspace}{C}{\ic \pp{153}\c 336}
+\indexentry {0}{tie}{N}{\ic 13\c 74\c 105}
+\indexentry {0}{tie-after accent}{N}{\ic 100}
+\indexentry {0}{tilde}{C}{\ic \pp{199}\c 336}
+\indexentry {0}{tilde accent}{N}{\ic 100\c 199}
+\indexentry {0}{time}{C}{\ic \pp{224}\c 297\c 336}
+\indexentry {0}{time of day}{N}{\ic 224\c 297}
+\indexentry {0}{times}{C}{\ic \pp{189}\c 336}
+\indexentry {0}{timestamp}{C}{\ic \pp{297}}
+\indexentry {0}{timestring}{C}{\ic \pp{297}}
+\indexentry {0}{to}{C}{\ic \pp{192}\c 336}
+\indexentry {0}{<to be read again>}{T}{\ic 285}
+\indexentry {0}{token registers}{N}{\ic 89\c 243}
+\indexentry {1}{reserved by \b\tt\\newtoks\e}{N}{\ic 244}
+\indexentry {0}{tokens}{N}{\ic 16\c \pp{93}}
+\indexentry {1}{as commands}{N}{\ic 56}
+\indexentry {1}{assembled from characters}{N}{\ic 47}
+\indexentry {1}{displayed by \b\tt\\show\e}{N}{\ic 253}
+\indexentry {1}{passed to \TeX's stomach}{N}{\ic 47}
+\indexentry {1}{showing the meaning of}{N}{\ic 226}
+\indexentry {0}{toks}{C}{\ic \pp{242}\c 336}
+\indexentry {0}{toksdef}{C}{\ic \pp{245}\c 336}
+\indexentry {0}{tokstostring}{C}{\ic \pp{292}}
+\indexentry {0}{tolerance}{C}{\ic \pp{123}\c 124\c 336}
+\indexentry {0}{top}{C}{\ic \pp{188}\c 336}
+\indexentry {0}{topglue}{C}{\ic 18\c \pp{156}\c 268\c 336}
+\indexentry {0}{topinsert}{C}{\ic 70\c \pp{146}\c 147\c 336}
+\indexentry {0}{topmark}{C}{\ic 79\c \pp{144}\c 336}
+\indexentry {0}{topskip}{C}{\ic \pp{141}\c 150\c 336}
+\indexentry {0}{tracing}{N}{\ic 253--261}
+\indexentry {0}{tracingall}{C}{\ic \pp{261}\c 337}
+\indexentry {0}{tracingboxes}{C}{\ic \pp{292}}
+\indexentry {0}{tracingcommands}{C}{\ic \pp{257}\c 337}
+\indexentry {0}{tracinglostchars}{C}{\ic \pp{257}\c 337}
+\indexentry {0}{tracingmacros}{C}{\ic \pp{258}\c 337}
+\indexentry {0}{tracingonline}{C}{\ic 254\c \pp{256}\c 257\c 258\c 259\c 260\c 261\c 337}
+\indexentry {0}{tracingoutput}{C}{\ic \pp{258}\c 261\c 337}
+\indexentry {0}{tracingpages}{C}{\ic \pp{259}\c 337}
+\indexentry {0}{tracingparagraphs}{C}{\ic \pp{259}\c 337}
+\indexentry {0}{tracingrestores}{C}{\ic \pp{260}\c 337}
+\indexentry {0}{tracingstats}{C}{\ic \pp{260}\c 337}
+\indexentry {0}{triangle}{C}{\ic \pp{188}\c 337}
+\indexentry {0}{triangleleft}{C}{\ic \pp{189}\c 337}
+\indexentry {0}{triangleright}{C}{\ic \pp{189}\c 337}
+\indexentry {0}{true}{T}{\ic 78}
+\indexentry {0}{tt}{C}{\ic \pp{103}\c 337}
+\indexentry {0}{ttfam}{C}{\ic \pp{210}\c 337}
+\indexentry {0}{ttraggedright}{C}{\ic \pp{116}\c 337}
+\indexentry {0}{\TUG}{N}{\ic 19}
+\indexentry {0}{TUGBoat}{N}{\ic 19}
+\indexentry {0}{type styles}{N}{\ic 103\c 210}
+\indexentry {0}{typewriter font}{N}{\ic 109}
+\indexgroup U
+\indexentry {0}{\char `\u}{C}{\ic \pp{100}\c 337}
+\indexentry {0}{uccode}{C}{\ic \pp{103}\c 337}
+\indexentry {0}{uchyph}{C}{\ic \pp{128}\c 337}
+\indexentry {0}{umlaut accent}{N}{\ic 100}
+\indexentry {0}{unbox}{C}{\ic 172}
+\indexentry {0}{uncatcodespecials}{C}{\ic \pp{291}}
+\indexentry {0}{undelimited arguments}{N}{\ic 48}
+\indexentry {0}{underbar}{C}{\ic \pp{163}\c 337}
+\indexentry {0}{underbrace}{C}{\ic \pp{202}\c 212\c 337}
+\indexentry {0}{underdot accent}{N}{\ic 100}
+\indexentry {0}{underfull boxes}{N}{\ic 268--270}
+\indexentry {0}{underline}{C}{\ic \pp{202}\c 337}
+\indexentry {0}{unhbox}{C}{\ic \pp{165}\c 337}
+\indexentry {0}{unhcopy}{C}{\ic \pp{165}\c 337}
+\indexentry {0}{units of measure}{N}{\ic 60\c 61\c \pp{93}}
+\indexentry {0}{unkern}{C}{\ic \pp{172}\c 337}
+\indexentry {0}{unnumberedlist}{C}{\ic \pp{298}}
+\indexentry {0}{unpenalty}{C}{\ic \pp{172}\c 337}
+\indexentry {0}{unskip}{C}{\ic \pp{172}\c 337}
+\indexentry {0}{unvbox}{C}{\ic \pp{165}\c 337}
+\indexentry {0}{unvcopy}{C}{\ic \pp{165}\c 337}
+\indexentry {0}{unwanted space}{N}{\ic 12}
+\indexentry {0}{uparrow}{C}{\ic 59\c \pp{192}\c 338}
+\indexentry {0}{Uparrow}{C}{\ic 59\c \pp{192}\c 338}
+\indexentry {0}{upbracefill}{C}{\ic \pp{211}\c 338}
+\indexentry {0}{updownarrow}{C}{\ic 59\c \pp{192}\c 338}
+\indexentry {0}{Updownarrow}{C}{\ic 59\c \pp{192}\c 338}
+\indexentry {0}{uplus}{C}{\ic \pp{189}\c 338}
+\indexentry {0}{upper limits}{N}{\ic 197}
+\indexentry {0}{uppercase}{N}{}
+\indexentry {1}{conversion to}{N}{\ic 103--104}
+\indexentry {0}{uppercase}{C}{\ic \pp{104}\c 338}
+\indexentry {0}{upsilon}{C}{\ic \pp{187}\c 338}
+\indexentry {0}{Upsilon}{C}{\ic \pp{187}\c 338}
+\indexgroup V
+\indexentry {0}{\char `\v}{C}{\ic \pp{100}\c 338}
+\indexentry {0}{vadjust}{C}{\ic \pp{120}\c 266\c 267\c 338}
+\indexentry {0}{valign}{C}{\ic 46\c \pp{179}\c 338}
+\indexentry {1}{grouping for}{N}{\ic 16}
+\indexentry {1}{inherently horizontal}{N}{\ic 94}
+\indexentry {1}{used in {\tt\\makecolumns}}{N}{\ic 308}
+\indexentry {0}{varepsilon}{C}{\ic \pp{187}\c 338}
+\indexentry {0}{varphi}{C}{\ic \pp{187}\c 338}
+\indexentry {0}{varpi}{C}{\ic \pp{187}\c 338}
+\indexentry {0}{varrho}{C}{\ic \pp{187}\c 338}
+\indexentry {0}{varsigma}{C}{\ic \pp{187}\c 338}
+\indexentry {0}{vartheta}{C}{\ic \pp{187}\c 338}
+\indexentry {0}{vbadness}{C}{\ic \pp{170}\c 338}
+\indexentry {0}{vbox}{C}{\ic 51\c 52\c 94\c \pp{161}\c 338}
+\indexentry {1}{fixing page breaks with}{N}{\ic 265}
+\indexentry {1}{overfull box from}{N}{\ic 269--270}
+\indexentry {0}{vboxes}{N}{\ic 51\c \pp{94}}
+\indexentry {1}{interline glue for}{N}{\ic 133}
+\indexentry {1}{testing for}{N}{\ic 238}
+\indexentry {1}{vertical mode for}{N}{\ic 94}
+\indexentry {1}{width determined by \b\tt\\hsize\e}{N}{\ic 114}
+\indexentry {0}{vcenter}{C}{\ic \pp{213}\c 297\c 338}
+\indexentry {0}{vdash}{C}{\ic \pp{190}\c 338}
+\indexentry {0}{vdots}{C}{\ic \pp{203}\c 338}
+\indexentry {0}{vec}{C}{\ic \pp{199}\c 338}
+\indexentry {0}{vector accent}{N}{\ic 199}
+\indexentry {0}{vee}{C}{\ic \pp{189}\c 338}
+\indexentry {0}{verbatim text}{N}{\ic 277}
+\indexentry {0}{verse, typesetting}{N}{\ic 122}
+\indexentry {0}{version number}{N}{\ic 225}
+\indexentry {0}{vert}{C}{\ic 59\c \pp{188}\c 338}
+\indexentry {0}{Vert}{C}{\ic 59\c \pp{188}\c 189\c 338}
+\indexentry {0}{vertical glue}{N}{\ic 155\c 156}
+\indexentry {0}{vertical lists}{N}{\ic 51\c 66\c \pp{94}}
+\indexentry {1}{can't contain horizontal commands}{N}{\ic 94}
+\indexentry {1}{inserting in paragraphs}{N}{\ic 120}
+\indexentry {1}{penalties in}{N}{\ic 88}
+\indexentry {1}{rule in}{N}{\ic 90}
+\indexentry {1}{vboxes formed from}{N}{\ic 94}
+\indexentry {0}{vertical mode}{N}{\ic 81\c \pp{94}}
+\indexentry {1}{rules in}{N}{\ic 173}
+\indexentry {1}{testing for}{N}{\ic 238}
+\indexentry {0}{vertical rules}{N}{\ic 90--91\c 172--173}
+\indexentry {0}{vertical skip}{N}{\ic 155}
+\indexentry {0}{vertical space}{N}{\ic 154--159}
+\indexentry {1}{reserving at top of page}{N}{\ic 267}
+\indexentry {0}{vfil}{C}{\ic \pp{157}\c 270\c 338}
+\indexentry {1}{filling a vbox}{N}{\ic 162}
+\indexentry {1}{needed with {\tt\\eject}}{N}{\ic 137}
+\indexentry {0}{vfill}{C}{\ic \pp{157}\c 266\c 338}
+\indexentry {0}{vfilneg}{C}{\ic \pp{159}\c 338}
+\indexentry {0}{vfootnote}{C}{\ic \pp{145}\c 147\c 309\c 338}
+\indexentry {0}{vfuzz}{C}{\ic \pp{171}\c 269\c 338}
+\indexentry {0}{vglue}{C}{\ic \pp{156}\c 157\c 338}
+\indexentry {0}{virtex}{T}{\ic 65\c 263}
+\indexentry {0}{visible space}{N}{\ic 104}
+\indexentry {0}{voffset}{C}{\ic 79\c 86\c \pp{140}\c 274\c 339}
+\indexentry {0}{vphantom}{C}{\ic \pp{169}\c 339}
+\indexentry {0}{vrule}{C}{\ic 90--91\c \pp{172}\c 273\c 339}
+\indexentry {1}{inherently horizontal}{N}{\ic 94}
+\indexentry {0}{vsize}{C}{\ic 79\c 86\c \pp{140}\c 274\c 339}
+\indexentry {1}{set by {\tt\\magnification}}{N}{\ic 223}
+\indexentry {0}{vskip}{C}{\ic 66\c \pp{155}\c 339}
+\indexentry {0}{vsplit}{C}{\ic 144\c \pp{149}\c 339}
+\indexentry {0}{vss}{C}{\ic \pp{158}\c 269\c 339}
+\indexentry {0}{vtop}{C}{\ic 51\c 52\c 94\c \pp{161}\c 339}
+\indexgroup W
+\indexentry {0}{wd}{C}{\ic \pp{167}\c 339}
+\indexentry {0}{wedge}{C}{\ic \pp{189}\c 339}
+\indexentry {0}{whatsit}{N}{\ic \pp{94--95}\c 128}
+\indexentry {0}{whitespace, preserving}{N}{\ic 278}
+\indexentry {0}{wide hat accent}{N}{\ic 199}
+\indexentry {0}{wide tilde accent}{N}{\ic 199}
+\indexentry {0}{widehat}{C}{\ic \pp{199}\c 339}
+\indexentry {0}{widetilde}{C}{\ic \pp{199}\c 339}
+\indexentry {0}{widow line}{N}{\ic 138}
+\indexentry {0}{widowpenalty}{C}{\ic \pp{138}\c 339}
+\indexentry {0}{width}{N}{\ic 51\c \pp{95}\c 167}
+\indexentry {0}{wlog}{C}{\ic \pp{261}\c 339}
+\indexentry {1}{expanded by {\tt\\edef} rules}{N}{\ic 231}
+\indexentry {0}{words run together}{N}{\ic 270}
+\indexentry {0}{wp}{C}{\ic \pp{188}\c 339}
+\indexentry {0}{wr}{C}{\ic \pp{189}\c 339}
+\indexentry {0}{write}{C}{\ic \pp{249}\c 339}
+\indexentry {1}{expanded by {\tt\\edef} rules}{N}{\ic 231}
+\indexentry {1}{expanded during {\tt\\shipout}}{N}{\ic 148}
+\indexentry {1}{expansion of {\tt\\'\it c} in}{N}{\ic 82}
+\indexentry {1}{output stream for}{N}{\ic 63}
+\indexentry {1}{whatsit produced by}{N}{\ic 95}
+\indexentry {1}{with {\tt\\immediate}}{N}{\ic 250}
+\indexentry {1}{writing \b\tt\%\e\ with}{N}{\ic 292}
+\indexentry {0}{<write>}{T}{\ic 288}
+\indexentry {0}{writetocentry}{C}{\ic \pp{301}}
+\indexentry {0}{writing a file}{N}{\ic 249}
+\indexgroup X
+\indexentry {0}{xdef}{C}{\ic 66\c 228\c \pp{231}\c 339}
+\indexentry {0}{xi}{C}{\ic \pp{187}\c 339}
+\indexentry {0}{Xi}{C}{\ic \pp{187}\c 339}
+\indexentry {0}{xleaders}{C}{\ic 72--73\c \pp{174}\c 339}
+\indexentry {0}{xrdef}{C}{\ic \pp{302}}
+\indexentry {0}{xref}{C}{\ic \pp{302}}
+\indexentry {0}{xrefn}{C}{\ic \pp{302}}
+\indexentry {0}{xspaceskip}{C}{\ic \pp{107}\c 339}
+\indexgroup Y
+\indexentry {0}{year}{C}{\ic \pp{225}\c 297\c 339}
+\indexgroup Z
+\indexentry {0}{Zapf, Hermann}{N}{\ic 34}
+\indexentry {0}{zeta}{C}{\ic \pp{187}\c 339}

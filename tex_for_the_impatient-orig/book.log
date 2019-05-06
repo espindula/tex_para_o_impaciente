@@ -1,0 +1,1478 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdftex 2016.2.21)  2 APR 2016 19:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\nonstopmode\input book
+(./book.tex (./macros.tex (./eplain.tex) (./config.tex) (./fonts.tex)
+\openout3 = `book.idx'.
+
+
+No .aux file; I won't warn you about undefined labels.
+\openout0 = `book.aux'.
+
+) (./frontm.tex
+(./macros.tex) [-1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex
+.map}] [-2] [-3] (./copyrght.tex (./macros.tex) [-4]) [-5] [-6] (./preface.tex
+(./macros.tex) 56: Undefined label `resources'. [-7]
+91: Undefined label `newtex'. [-8] [-9]) [-10] [-11] [-12] [-13] [-14]
+(./read1st.tex (./macros.tex) Undefined chapter `usebook'.
+Undefined chapter `usingtex'. Undefined chapter `examples'.
+Undefined chapter `capsule'. Undefined chapter `concepts'.
+Undefined chapter `capsule'.
+Overfull \hbox (8.8427pt too wide) in paragraph at lines 29--33
+ []\oldtenrm For a quick remin-der of what a com-m-and does, look in Sect-ion `
+capsule',|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\glue(\leftskip) 20.00003
+.\hbox(3.44444+0.0)x0.0, glue set - 7.58334fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\rule(3.44444+-0.86108)x2.58334
+..\kern 5.0
+.\oldtenrm F
+.\kern-0.83334
+.\oldtenrm o
+.etc.
+
+Undefined chapter `concepts'. [-15])) (./usebook.tex (./macros.tex) [-16]
+\openout1 = `book.toc'.
+
+
+Undefined chapter `usebook'. Undefined chapter `examples'.
+Undefined chapter `concepts'. Undefined chapter `tips'.
+Undefined chapter `usingtex'. [1] Undefined chapter `paras'.
+Undefined chapter `general'. 69: Undefined label `cmddesc'.
+Undefined chapter `capsule'. Undefined chapter `errors'. [2]
+144: Undefined label `\plainTeX'. Undefined chapter `pages'.
+Undefined chapter `hvmodes'. Undefined chapter `math'. [3]
+202: Undefined label `arg1'. 232: Undefined label `introparms'. [4]
+Chapter ends on a verso page. [5]) (./usingtex.tex (./macros.tex) [6]
+43: Undefined label `\input'. [7] [8] Undefined chapter `examples'. [9]
+197: Undefined label `spaces'. [10] 291: Undefined label `bracegroup'. [11]
+299: Undefined label `parameter'. 320: Undefined label `category+code'.
+357: Undefined label `unwantedspace'. 364: Undefined label `glue'. [12]
+[13] 451: Undefined label `\frenchspacing'.
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(548.4975+2.5)x316.99124, glue set 6.00536
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+2.15277)x316.99124, glue set 0.5625
+..\oldtenrm T
+..\oldtenrm h
+..\oldtenrm e
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\tenbt \
+..etc.
+.\penalty 10000
+.\glue(\baselineskip) 2.90279
+.\hbox(6.94444+1.94444)x316.99124, glue set 0.1842
+..\oldtenrm a
+..\oldtenrm s
+..\oldtenrm s
+..\oldtenrm o
+..\kern0.27779
+..etc.
+.etc.
+
+ [14]
+[15] Undefined chapter `math'. Undefined chapter `concepts'.
+648: Undefined label `\anatomy'. 657: Undefined label `box'. [16]
+686: Undefined label `line+break'. 693: Undefined label `page+break'.
+697: Undefined label `mode'. 709: Undefined label `mathform'. [17]
+727: Undefined label `\badness'. 728: Undefined label `\emergencystretch'.
+729: Undefined label `\errorcontextlines'.
+730: Undefined label `\holdinginserts'. 732: Undefined label `\language'.
+732: Undefined label `\@newlanguage'.
+Overfull \hbox (62.42314pt too wide) in paragraph at lines 731--733
+ [][]\tenbt \language\oldtenrm , []\tenbt \setlanguage\oldtenrm , and \tenbt \n
+ew-lan-guage \oldtenrm (pp.`\tenbt \language\oldtenrm ', `\tenbt \@newlanguage\
+oldtenrm ')|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\glue(\leftskip) 20.00003
+.\hbox(3.44444+0.0)x0.0, glue set - 7.58334fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\rule(3.44444+-0.86108)x2.58334
+..\kern 5.0
+.\write3{language::C::\number \pageno }
+.\tenbt \
+.\tenbt l
+.etc.
+
+733: Undefined label `\lefthyphenmin'. 734: Undefined label `\noboundary'.
+735: Undefined label `\topglue'. 736: Undefined label `hexchars'. [18]
+Undefined chapter `eplain'. [19]) (./examples.tex (./macros.tex) [20]
+Undefined chapter `capsule'. 38: Undefined label `macro'.
+Overfull \hbox (1.3979pt too wide) in paragraph at lines 37--46
+[]\oldtenrm Each example exc-ept for the first one starts with a macro (see p.`
+\tenbt macro\oldtenrm ')|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(0.0+0.0)x10.00002
+.\oldtenrm E
+.\oldtenrm a
+.\oldtenrm c
+.\kern-0.27779
+.etc.
+
+\openout4 = `x.tex'.
+
+[21] (./x.tex) [22]
+\openout4 = `x.tex'.
+
+ 51: Undefined label `xmphead'. [23] (./x.tex) [24]
+\openout4 = `x.tex'.
+
+
+51: Undefined label `accents'. 51: Undefined label `fornlets'.
+51: Undefined label `specsyms'. [25] (./x.tex
+Overfull \hbox (0.39742pt too wide) in paragraph at lines 25--31
+\oldtenrm and letters of European languages on page `\tenbt accents\oldtenrm ' 
+and page `\tenbt fornlets\oldtenrm '. |
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\oldtenrm a
+.\oldtenrm n
+.\oldtenrm d
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\oldtenrm l
+.etc.
+
+) [26]
+\openout4 = `x.tex'.
+
+ [27] (./x.tex) [28]
+\openout4 = `x.tex'.
+
+ [29] (./x.tex
+Overfull \hbox (10.01387pt too wide) in paragraph at lines 20--24
+ \oldtenrm a comp-an-ion to the Gryphon. Rep-utedly the principal|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\glue(\leftskip) 96.0
+.\oldtenrm a
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\oldtenrm c
+.\oldtenrm o
+.etc.
+
+) [30]
+\openout4 = `x.tex'.
+
+ [31] (./x.tex) [32]
+\openout4 = `x.tex'.
+
+ [33] (./x.tex) [34]
+\openout4 = `x.tex'.
+
+ [35] (./x.tex) [36]
+\openout4 = `x.tex'.
+
+ [37]
+(./x.tex) [38]
+\openout4 = `x.tex'.
+
+ [39] (./x.tex) [40] [41]) (./concepts.tex (./macros.tex)
+[42] 44: Undefined label `\catcode'. [43
+\openout5 = `book.ccs'.
+
+] 90: Undefined label `\settabs'.
+92: Undefined label `\@plus'. [44] 150: Undefined label `\halign'. [45]
+212: Undefined label `\tabskip'. 215: Undefined label `\noalign'.
+225: Undefined label `\valign'. 248: Undefined label `\strut'. [46]
+291: Undefined label `\expandafter'. [47] 374: Undefined label `\count'.
+412: Undefined label `mismatched'. [48] [49]
+522: Undefined label `\tolerance'. [50] 593: Undefined label `\hbox'.
+594: Undefined label `\vbox'. 595: Undefined label `\vtop'.
+Overfull \hbox (0.2025pt too wide) in paragraph at lines 589--611
+\oldtenrm num-ber of T[]X[][] com-m-ands, notably []\tenbt \hbox \oldtenrm (p.`
+\tenbt \hbox\oldtenrm '), []\tenbt \vbox \oldtenrm (p.`\tenbt \vbox\oldtenrm ')
+,|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm n
+.\kern-0.27779
+.\oldtenrm u
+.\discretionary replacing 2
+..\oldtenrm m
+..\oldtenrm -
+.\oldtenrm m
+.etc.
+
+[51] 696: Undefined label `\boxmaxdepth'. 727: Undefined label `\@newbox'.
+728: Undefined label `register'. [52]
+Overfull \hbox (5.23143pt too wide) in paragraph at lines 735--747
+[][]\tenbt category code. [][]\oldtenrm The \tenit category code \oldtenrm of a
+ charac-ter determ-ines that charac-|
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\write3{category+codes::N::\number \pageno PB}
+.\hbox(0.0+0.0)x0.0
+.\tenbt c
+.\tenbt a
+.\tenbt t
+.etc.
+
+752: Undefined label `\char'.
+Overfull \hbox (13.33278pt too wide) in paragraph at lines 761--767
+\oldtenrm change the roles of var-ious charac-ters. For in-stance, if you type 
+`\tenbt \catcode`\@|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\oldtenrm c
+.\kern-0.27779
+.\oldtenrm h
+.\oldtenrm a
+.\oldtenrm n
+.etc.
+
+769: Undefined label `twocarets'. [53] [54]
+Overfull \hbox (1.37051pt too wide) in paragraph at lines 969--977
+\oldtenrm produc-ing an output charac-ter has the me-an-ing ``Produce a box con
+taining|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\oldtenrm p
+.\oldtenrm r
+.\oldtenrm o
+.\kern0.27779
+.\oldtenrm d
+.etc.
+
+[55] 1004: Undefined label `\mathord'. [56] 1079: Undefined label `conds'.
+Undefined chapter `eplain'. [57] 1167: Undefined label `number'.
+1191: Undefined label `\overwithdelims'. 1191: Undefined label `\left'.
+Overfull \hbox (0.66443pt too wide) in paragraph at lines 1172--1194
+\tenbt delims\oldtenrm , or \tenbt \above-with-delims [][][]\oldtenrm (see pp.`
+\tenbt \overwithdelims\oldtenrm ', `\tenbt \left\oldtenrm '). The|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\tenbt d
+.\tenbt e
+.\tenbt l
+.\tenbt i
+.\tenbt m
+.etc.
+
+1222: Undefined label `\bigl'. [58] 1270: Undefined label `\lbrace'.
+1270: Undefined label `\Uparrow'. 1286: Undefined label `\delcode'.
+Overfull \hbox (1.58292pt too wide) in paragraph at lines 1283--1293
+ \oldtenrm (p.`\tenbt \delcode\oldtenrm '). There-af-ter the charac-ter acts as
+ a delim-iter whenever|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\glue(\leftskip) 20.00003
+.\oldtenrm (
+.\oldtenrm p
+.\oldtenrm .
+.\kern 1.66672
+.etc.
+
+1294: Undefined label `\delimiter'. [59]
+Overfull \hbox (9.0644pt too wide) in paragraph at lines 1338--1352
+\oldtenrm when it's bre-aking a para-graph into lines (see ``line break'', p.`\
+tenbt line+break\oldtenrm ').|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm w
+.\oldtenrm h
+.\oldtenrm e
+.\oldtenrm n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+[60] 1461: Undefined label `verbatim'. [61]
+1469: Undefined label `\escapechar'. 1509: Undefined label `\@newfam'.
+1511: Undefined label `\scriptscriptfont'. [62] 1547: Undefined label `\read'.
+1560: Undefined label `\write'. 1578: Undefined label `\openin'.
+1579: Undefined label `\openout'. 1583: Undefined label `\closein'.
+1584: Undefined label `\closeout'. 1591: Undefined label `\@newwrite'.
+1604: Undefined label `\immediate'. [63]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(548.4975+2.22223)x316.99124, glue set 50.92908
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+1.94444)x316.99124, glue set - 0.40585
+..\oldtenrm o
+..\oldtenrm n
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\oldtenrm a
+..\oldtenrm n
+..etc.
+.\penalty 10000
+.\glue(\baselineskip) 2.55556
+.\hbox(7.5+2.5)x316.99124, glue set - 0.48347
+..\write3{immediate::C::\number \pageno }
+..\tenbt \
+..\tenbt i
+..\tenbt m
+..\tenbt m
+..etc.
+.etc.
+
+ [64]
+Overfull \hbox (15.87054pt too wide) in paragraph at lines 1633--1644
+\oldtenrm usually having the same typ-eface design, style (roman, italic, bold,
+ condensed,|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm u
+.\oldtenrm s
+.\oldtenrm u
+.\oldtenrm a
+.\oldtenrm l
+.etc.
+
+1694: Undefined label `palatino'. [65] 1743: Undefined label `\footline'.
+1744: Undefined label `bighead'. 1755: Undefined label `\dump'.
+1794: Undefined label `\global'. 1794: Undefined label `\globaldefs'. [66]
+1801: Undefined label `\edef'. 1846: Undefined label `\hskip'.
+1851: Undefined label `\vskip'. [67] [68] 1922: Undefined label `\leftline'.
+1923: Undefined label `\raggedright'. 1927: Undefined label `\rightline'.
+1933: Undefined label `\centerline'. 1967: Undefined label `\hsize'. [69]
+2020: Undefined label `\headline'. 2070: Undefined label `\hrule'.
+Overfull \hbox (23.75804pt too wide) in paragraph at lines 2068--2075
+\oldtenrm are in fact in-her-ently vertical: \tenbt \halign \oldtenrm (p.`\tenb
+t \halign\oldtenrm ') and \tenbt \hrule \oldtenrm (p.`\tenbt \hrule\oldtenrm ')
+.|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm a
+.\oldtenrm r
+.\oldtenrm e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\oldtenrm i
+.etc.
+
+[70] 2106: Undefined label `\@minus'. 2109: Undefined label `\hyphenation'.
+2113: Undefined label `\hyphenpenalty'.
+Overfull \hbox (54.11897pt too wide) in paragraph at lines 2112--2114
+ []\oldtenrm You can set the value of pen-alt-ies such as \tenbt \hyphenpenalty
+ \oldtenrm (p.`\tenbt \hyphenpenalty\oldtenrm '). |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\glue(\leftskip) 20.00003
+.\hbox(3.44444+0.0)x0.0, glue set - 7.58334fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\rule(3.44444+-0.86108)x2.58334
+..\kern 5.0
+.\oldtenrm Y
+.\kern-0.83334
+.\oldtenrm o
+.etc.
+
+2123: Undefined label `file'. 2140: Undefined label `\insert'.
+2156: Undefined label `\footnote'. 2156: Undefined label `endofinsert'.
+Overfull \hbox (2.3331pt too wide) in paragraph at lines 2128--2159
+\oldtenrm inserted into a page when T[]X[][] has fin-is-hed build-ing that page
+.$[]$ Examples|
+
+\hbox(8.14003+2.15277)x316.99124, glue set - 1.0
+.\oldtenrm i
+.\oldtenrm n
+.\oldtenrm s
+.\oldtenrm e
+.\oldtenrm r
+.etc.
+
+
+Overfull \hbox (29.06348pt too wide) in paragraph at lines 2128--2159
+[]\tenbt \pageinsert\oldtenrm , as well as the prim-it-ive []\tenbt \insert \ol
+dtenrm com-m-and it-self (pp.`\tenbt \footnote\oldtenrm '--|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\write3{pageinsert::C::\number \pageno }
+.\tenbt \
+.\tenbt p
+.\tenbt a
+.\tenbt g
+.etc.
+
+
+Overfull \hbox (3.2769pt too wide) in paragraph at lines 2128--2159
+\oldtenrm `\tenbt endofinsert\oldtenrm '). T[]X[][]'s mech-anism for han-dling 
+insert-ions is rather compli-|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm `
+.\tenbt e
+.\tenbt n
+.\tenbt d
+.\tenbt o
+.etc.
+
+2169: Undefined label `\baselineskip'.
+Overfull \hbox (48.03455pt too wide) in paragraph at lines 2163--2170
+[]\tenbt \baselineskip\oldtenrm , []\tenbt \lineskip\oldtenrm , and []\tenbt \l
+ineskiplimit \oldtenrm param-eters (p.`\tenbt \baselineskip\oldtenrm '). |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\write3{baselineskip::C::\number \pageno }
+.\tenbt \
+.\tenbt b
+.\tenbt a
+.\tenbt s
+.etc.
+
+[71] 2199: Undefined label `\leftskip'.
+Overfull \hbox (22.3682pt too wide) in paragraph at lines 2185--2200
+[]\tenbt \rightskip\oldtenrm , and []\tenbt \raggedright \oldtenrm com-m-ands (
+pp.`\tenbt \leftskip\oldtenrm ', `\tenbt \raggedright\oldtenrm ')|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\write3{rightskip::C::\number \pageno }
+.\tenbt \
+.\tenbt r
+.\tenbt i
+.\tenbt g
+.etc.
+
+[72] 2273: Undefined label `\leaders'. [73] [74]
+2436: Undefined label `hpenalty'. 2445: Undefined label `hbreak'.
+2445: Undefined label `hnobreak'. 2452: Undefined label `hyphenation'.
+2456: Undefined label `\slash'.
+Overfull \hbox (3.92601pt too wide) in paragraph at lines 2463--2466
+ []\oldtenrm You can adjust the pen-alt-ies as-s-oc-iated with line bre-aking b
+y assigning|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\glue(\leftskip) 20.00003
+.\hbox(3.44444+0.0)x0.0, glue set - 7.58334fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\rule(3.44444+-0.86108)x2.58334
+..\kern 5.0
+.\oldtenrm Y
+.\kern-0.83334
+.\oldtenrm o
+.etc.
+
+
+Overfull \hbox (9.12033pt too wide) in paragraph at lines 2467--2470
+ []\oldtenrm You can en-close a word or sequ-ence of words in an hbox, thus pre
+venting|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\glue(\leftskip) 20.00003
+.\hbox(3.44444+0.0)x0.0, glue set - 7.58334fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\rule(3.44444+-0.86108)x2.58334
+..\kern 5.0
+.\oldtenrm Y
+.\kern-0.83334
+.\oldtenrm o
+.etc.
+
+[75] 2507: Undefined label `horizontal+list'.
+2507: Undefined label `vertical+list'. [76] [77] [78]
+2704: Undefined label `mac1'. 2704: Undefined label `mac2'.
+2715: Undefined label `\mag'. 2724: Undefined label `font'.
+2729: Undefined label `\font'. [79]
+Overfull \hbox (3.3255pt too wide) in paragraph at lines 2762--2769
+[][]\tenbt margins. [][]\oldtenrm The mar-gins of a page define a rectangle tha
+t normally contains|
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\write3{margins::N::\number \pageno PB}
+.\hbox(0.0+0.0)x0.0
+.\tenbt m
+.\tenbt a
+.\tenbt r
+.etc.
+
+2774: Undefined label `\voffset'. 2810: Undefined label `\mark'.
+2814: Undefined label `\topmark'. [80] 2843: Undefined label `\vsplit'.
+2846: Undefined label `\splitfirstmark'. [81]
+2931: Undefined label `\mathcode'. 2941: Undefined label `\fam'.
+2958: Undefined label `muglue'.
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(548.4975+2.15277)x316.99124, glue set 8.33249
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+2.15277)x316.99124, glue set - 0.6414
+..\hbox(0.0+0.0)x10.00002
+..\oldtenrm T
+..\kern -1.66702
+..\hbox(6.83331+0.0)x6.80557, shifted 2.15277
+...\oldtenrm E
+..\kern -1.25
+..etc.
+.\penalty 10000
+.\glue(\baselineskip) 2.90279
+.\hbox(6.94444+1.94444)x316.99124, glue set 0.06053
+..\oldtenrm t
+..\oldtenrm h
+..\oldtenrm r
+..\oldtenrm e
+..\oldtenrm e
+..etc.
+.etc.
+
+ [82]
+[83] 3066: Undefined label `\number'. 3071: Undefined label `dimension'.
+3090: Undefined label `horizontal+mode'.
+3090: Undefined label `vertical+mode'.
+Overfull \hbox (36.67471pt too wide) in paragraph at lines 3087--3091
+\oldtenrm ``hor-izontal mode'' (p.`\tenbt horizontal+mode\oldtenrm '), ``vertic
+al mode'' (p.`\tenbt vertical+mode\oldtenrm '). |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm \ (ligature ``)
+.\oldtenrm h
+.\oldtenrm o
+.\oldtenrm r
+.\discretionary
+..\oldtenrm -
+.etc.
+
+3102: Undefined label `\outer'. [84] 3121: Undefined label `\@proclaim'.
+3148: Undefined label `\output'.
+Overfull \hbox (19.1475pt too wide) in paragraph at lines 3147--3150
+[]\oldtenrm The cur-rent output rout-ine is defined by the value of []\tenbt \o
+utput \oldtenrm (p.`\tenbt \output\oldtenrm '),|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(0.0+0.0)x10.00002
+.\oldtenrm T
+.\oldtenrm h
+.\oldtenrm e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+3166: Undefined label `\shipout'. 3197: Undefined label `\eject'. [85]
+3259: Undefined label `page'. 3264: Undefined label `vpenalty'.
+3273: Undefined label `vbreak'. [86]
+Overfull \hbox (8.37047pt too wide) in paragraph at lines 3275--3278
+ []\oldtenrm You can adjust the pen-alt-ies as-s-oc-iated with page bre-aking b
+y assigning|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\glue(\leftskip) 20.00003
+.\hbox(3.44444+0.0)x0.0, glue set - 7.58334fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\rule(3.44444+-0.86108)x2.58334
+..\kern 5.0
+.\oldtenrm Y
+.\kern-0.83334
+.\oldtenrm o
+.etc.
+
+3332: Undefined label `margins'. [87] 3359: Undefined label `mark'.
+3368: Undefined label `\@par'.
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(548.4975+1.94444)x316.99124, glue set 42.64886
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+1.94444)x316.99124, glue set - 0.48352
+..\oldtenrm p
+..\oldtenrm r
+..\oldtenrm o
+..\kern0.27779
+..\oldtenrm d
+..etc.
+.\penalty 10000
+.\glue(\abovedisplayskip) 4.5 plus 1.485 minus 1.125
+.\glue(\baselineskip) 1.55556
+.etc.
+
+ [88]
+3390: Undefined label `\indent'. 3390: Undefined label `\noindent'. [89]
+[90] 3579: Undefined label `\copy'. [91] 3635: Undefined label `\showthe'.
+3673: Undefined label `\vrule'. [92]
+Overfull \hbox (23.47963pt too wide) in paragraph at lines 3715--3719
+\oldtenrm the com-m-and `\tenbt \vrule height1pt depth2pt width3in\oldtenrm ' p
+roduces this horizontal-|
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\oldtenrm t
+.\oldtenrm h
+.\oldtenrm e
+.\glue(\spaceskip) 2.99997 plus 1.66666 minus 1.22223
+.\oldtenrm c
+.etc.
+
+
+Overfull \hbox (6.67625pt too wide) in paragraph at lines 3764--3767
+[][]\tenbt space. [][]\oldtenrm You can cause T[]X[][] to put \tenit space \old
+tenrm bet-ween two items in several ways: |
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\write3{space::N::\number \pageno PB}
+.\hbox(0.0+0.0)x0.0
+.\tenbt s
+.\tenbt p
+.\tenbt a
+.etc.
+
+[93] 3825: Undefined label `\mathstrut'. [94] 3906: Undefined label `family'.
+3916: Undefined label `\textstyle'. [95] [96]
+4067: Undefined label `\special'. [97]) (./paras.tex (./macros.tex) [98]
+Overfull \hbox (1.09271pt too wide) in paragraph at lines 39--47
+\oldtenrm languages---but if you need to typ-eset a large am-ount of text in a 
+European|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\oldtenrm l
+.\oldtenrm a
+.\oldtenrm n
+.\oldtenrm g
+.\oldtenrm u
+.etc.
+
+[99] [100] 124: Undefined label `\ldots'. [101] 219: Undefined label `\imath'.
+[102] 253: Undefined label `mathaccent'. [103] [104]
+369: Undefined label `mathfonts'. [105] 448: Undefined label `\spacefactor'.
+[106] [107] 593: Undefined label `periodspacing'. [108]
+616: Undefined label `ewhitesp'. 624: Undefined label `\obeylines'. [109]
+730: Undefined label `eplaincenter'. [110]
+Overfull \hbox (1.95349pt too wide) in paragraph at lines 732--735
+[]\oldtenrm Don't use these com-m-ands within a paragraph---if you do, T[]X[][]
+ probably|
+
+\hbox(6.94444+2.15277)x316.99124, glue set - 1.0
+.\hbox(0.0+0.0)x10.00002
+.\oldtenrm D
+.\oldtenrm o
+.\oldtenrm n
+.\oldtenrm '
+.etc.
+
+[111] 832: Undefined label `\parskip'. 833: Undefined label `\parindent'.
+842: Undefined label `\everypar'. [112] [113] 967: Undefined label `\item'.
+[114] [115] [116] [117] [118] [119] [120]
+Overfull \hbox (3.03223pt too wide) in paragraph at lines 1368--1387
+\sixrm reg-ion var-ies gre-atly from|
+
+\hbox(4.16667+1.16667)x77.0, glue set - 1.0
+.\sixrm r
+.\sixrm e
+.\sixrm g
+.\discretionary
+..\sixrm -
+.\sixrm i
+.etc.
+
+[121]
+Overfull \hbox (26.76924pt too wide) in paragraph at lines 1423--1427
+\tenbi See also: \tenbt \parindent \oldtenrm (p.`\tenbt \parindent\oldtenrm '),
+ \tenbt \parskip \oldtenrm (p.`\tenbt \parskip\oldtenrm '), \tenbt \everypar|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\tenbi S
+.\tenbi e
+.\kern-0.5889
+.\tenbi e
+.\glue(\spaceskip) 3.33 plus 2.0 minus 1.1
+.etc.
+
+[122] [123] 1534: Undefined label `\obeyspaces'. [124]
+1634: Undefined label `\hbadness'. 1637: Undefined label `\hfuzz'. [125]
+1691: Undefined label `@not'. [126] [127] [128] [129] [130]
+2057: Undefined label `\pretolerance'. [131] [132] [133]) (./pages.tex
+(./macros.tex) [134] [135]
+Overfull \hbox (0.84067pt too wide) in paragraph at lines 111--118
+\tenbt \base-line-skip\oldtenrm , \tenbt \line-skip\oldtenrm , and \tenbt \line
+-skip-limit \oldtenrm to the val-ues contained|
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\tenbt \
+.\tenbt b
+.\tenbt a
+.\tenbt s
+.\tenbt e
+.etc.
+
+[136] [137] [138] 270: Undefined label `\smallskip'.
+281: Undefined label `\vfil'. 306: Undefined label `filbreak'. [139] [140]
+[141] 524: Undefined label `\pagegoal'. [142] [143] [144]
+712: Undefined label `\hfil'. [145] [146] [147] [148]
+954: Undefined label `class'. 956: Undefined label `\@newinsert'.
+973: Undefined label `\@ifvoid'. [149]
+999: Undefined label `\floatingpenalty'.
+Overfull \hbox (6.55533pt too wide) in paragraph at lines 1055--1062
+\oldtenrm as-sumes that the output rout-ine has got-ten into a loop. T[]X[][] t
+hen complains|
+
+\hbox(6.94444+2.15277)x316.99124, glue set - 1.0
+.\oldtenrm a
+.\oldtenrm s
+.\discretionary
+..\oldtenrm -
+.\oldtenrm s
+.\oldtenrm u
+.etc.
+
+[150] 1088: Undefined label `\vsize'. 1139: Undefined label `\maxdepth'.
+[151] 1148: Undefined label `\topskip'. [152] Chapter ends on a verso page.
+[153]) (./modes.tex (./macros.tex) [154]
+Overfull \hbox (7.25896pt too wide) in paragraph at lines 7--16
+\oldtenrm ions used in this sect-ion, see ``Des-criptions of the com-m-ands'' (
+p.`\tenbt cmddesc\oldtenrm '). |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm i
+.\oldtenrm o
+.\oldtenrm n
+.\oldtenrm s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+33: Undefined label `dimdefs'. [155] [156]
+196: Undefined label `mathematical+unit'. 198: Undefined label `\mskip'.
+[157]
+Overfull \hbox (6.75899pt too wide) in paragraph at lines 258--262
+[]\oldtenrm This com-m-and is us-eful bec-ause T[]X[][] or-din-arily adjusts th
+e glue produced|
+
+\hbox(6.94444+2.15277)x316.99124, glue set - 1.0
+.\hbox(0.0+0.0)x10.00002
+.\oldtenrm T
+.\oldtenrm h
+.\oldtenrm i
+.\oldtenrm s
+.etc.
+
+[158] 299: Undefined label `\mkern'. [159] [160]
+454: Undefined label `\vbadness'. 455: Undefined label `\vfuzz'.
+456: Undefined label `leaders'. [161] [162] [163] [164]
+680: Undefined label `\maxdimen'. [165] [166] 831: Undefined label `\ht'.
+[167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177]
+1464: Undefined label `outer'. [178] 1558: Undefined label `\endline'. [179]
+1579: Undefined label `alignment'. [180] [181]
+1745: Undefined label `\everycr'. [182] [183] [184]
+1899: Undefined label `\openup'. [185] [186] [187]) (./math.tex (./macros.tex)
+[188] [189] 165: Undefined label `\bigm'. [190] [191] [192]
+336: Undefined label `arrows'. [193] 438: Undefined label `\big'.
+496: Undefined label `relations'.
+Overfull \hbox (12.00807pt too wide) in paragraph at lines 500--502
+[]\oldtenrm The com-m-and \tenbt \iff \oldtenrm differs from \tenbt \Longleftri
+ghtarrow \oldtenrm in that it produces|
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\hbox(0.0+0.0)x10.00002
+.\oldtenrm T
+.\oldtenrm h
+.\oldtenrm e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+504: Undefined label `\buildrel'. [194] [195] 636: Undefined label `binops'.
+[196] [197] 745: Undefined label `\cdot'. [198]
+808: Undefined label `\scriptscriptstyle'. 812: Undefined label `namedfns'.
+[199] [200] [201] [202] [203] [204] 1158: Undefined label `\vcenter'.
+1205: Undefined label `\dots'. [205]
+Overfull \hbox (6.89119pt too wide) in paragraph at lines 1236--1244
+\oldtenrm adjusted to fit the vertical size (height plus depth) of $\tensy h$\t
+enit subformula$\tensy i$\oldtenrm . $\tensy h$\tenit delim$[]$$\tensy i$|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm a
+.\oldtenrm d
+.\oldtenrm j
+.\oldtenrm u
+.\oldtenrm s
+.etc.
+
+1247: Undefined label `\over'. [206] 1316: Undefined label `\vert'. [207]
+[208] 1441: Undefined label `\eqalignno'. [209] [210]
+1578: Undefined label `selfont'. [211]
+Overfull \hbox (4.61119pt too wide) in paragraph at lines 1597--1601
+\oldtenrm These com-m-ands define type famil-ies for use in math mode. Their pr
+incipal|
+
+\hbox(6.94444+1.94444)x316.99124, glue set - 1.0
+.\oldtenrm T
+.\oldtenrm h
+.\oldtenrm e
+.\oldtenrm s
+.\oldtenrm e
+.etc.
+
+1648: Undefined label `seltype'. [212] 1719: Undefined label `\overbrace'.
+[213] [214] [215] [216] 1926: Undefined label `\kern'. [217] [218]
+2105: Undefined label `\nonscript'.
+Overfull \hbox (15.22125pt too wide) in paragraph at lines 2102--2108
+\oldtenrm af-ter a sub-script or super-script. The \tenbt \nonscript \oldtenrm 
+com-m-and (p.`\tenbt \nonscript\oldtenrm ')|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm a
+.\oldtenrm f
+.\discretionary
+..\oldtenrm -
+.\oldtenrm t
+.\oldtenrm e
+.etc.
+
+
+Overfull \hbox (4.02693pt too wide) in paragraph at lines 2102--2108
+[]\oldtenrm af-ter a sub-script or super-script canc-els this space. Plain T[]X
+[][] sets \tenbt \script-|
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\write3{nonscript::C::\number \pageno }
+.\oldtenrm a
+.\oldtenrm f
+.\discretionary
+..\oldtenrm -
+.\oldtenrm t
+.etc.
+
+[219] [220] [221]) (./genops.tex (./macros.tex) [222] [223]
+66: Undefined label `shape'. 73: Undefined label `magnification'.
+117: Undefined label `\spaceskip'. 119: Undefined label `\xspaceskip'.
+Overfull \hbox (15.84158pt too wide) in paragraph at lines 114--123
+\oldtenrm param-eters for produc-ing interword spaces (see \regttfont \spaceski
+p\oldtenrm , p.`\regttfont \spaceskip\oldtenrm ')|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm p
+.\oldtenrm a
+.\oldtenrm r
+.\oldtenrm a
+.\oldtenrm m
+.etc.
+
+[224] [225] [226]
+Overfull \hbox (1124.92886pt too wide) in paragraph at lines 325--327
+\oldtenrm 1991 (and plain 3.141592653/USenglish/polish/basque/czech/danish/dutc
+h/ukenglish/british/UKenglish/usenglishmax/finnish/french/patois/francais/germa
+n/ngerman/swissgerman/hungarian/italian/bokmal/norwegian/norsk/nynorsk/portugue
+se/portuges/brazil/brazilian/spanish/espanol/swedish/ukrainian/russian/german-|
+
+
+\hbox(7.5+2.5)x306.99123, glue set - 1.0
+.\oldtenrm 1
+.\oldtenrm 9
+.\oldtenrm 9
+.\oldtenrm 1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+
+Overfull \hbox (2332.54315pt too wide) in paragraph at lines 325--327
+\oldtenrm x-2013-05-26/german-x-latest/ngerman-x-2013-05-26/ngerman-x-latest/af
+rikaans/ancientgreek/ibycus/arabic/armenian/bulgarian/catalan/pinyin/coptic/cro
+atian/esperanto/estonian/ethiopic/amharic/geez/farsi/persian/friulan/galician/g
+eorgian/monogreek/greek/polygreek/icelandic/assamese/bengali/gujarati/hindi/kan
+nada/malayalam/marathi/oriya/odia/panjabi/tamil/telugu/indonesian/interlingua/i
+rish/kurmanji/latin/latvian/lithuanian/mongolian/mongolianlmc/piedmontese/roman
+ian/romansh/sanskrit/serbian/serbianc/slovak/slovenian/slovene/thai/turkish/tur
+kmen/uppersorbian/welsh). |
+
+\hbox(7.5+2.5)x306.99123
+.\oldtenrm x
+.\oldtenrm -
+.\discretionary
+.\oldtenrm 2
+.\oldtenrm 0
+.etc.
+
+355: Undefined label `\the'. [227] 378: Undefined label `\csname'. [228]
+[229] 518: Undefined label `global'. 543: Undefined label `\gdef'. [230]
+Overfull \hbox (3.24916pt too wide) in paragraph at lines 594--603
+\oldtenrm assign-ment, only the last call has any effect. One use of \regttfont
+ \afterassignment|
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\oldtenrm a
+.\oldtenrm s
+.\oldtenrm s
+.\oldtenrm i
+.\oldtenrm g
+.etc.
+
+[231] 674: Undefined label `\noexpand'.
+Overfull \hbox (8.99915pt too wide) in paragraph at lines 673--677
+\oldtenrm erwise be exp-anded by using \regttfont \no-expand \oldtenrm (p.`\reg
+ttfont \noexpand\oldtenrm '). []You can postpone|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm e
+.\oldtenrm r
+.\oldtenrm w
+.\oldtenrm i
+.\oldtenrm s
+.etc.
+
+
+Overfull \hbox (26.9803pt too wide) in paragraph at lines 673--677
+\oldtenrm the exp-ans-ion of a control sequ-ence by using []\regttfont \expanda
+fter \oldtenrm (p.`\regttfont \expandafter\oldtenrm '). |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\oldtenrm t
+.\oldtenrm h
+.\oldtenrm e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\oldtenrm e
+.etc.
+
+[232] [233] [234] 862: Undefined label `\string'. [235] [236]
+976: Undefined label `convert'. [237]
+Overfull \hbox (0.8981pt too wide) in paragraph at lines 1070--1072
+ []\oldtenrm both tokens are charac-ters (or control sequ-en-ces den-ot-ing cha
+rac-|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\glue(\leftskip) 40.00006
+.\hbox(7.5+2.5)x0.0, glue set - 13.88892fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\oldtenrm a
+..\oldtenrm )
+..\kern 5.0
+.\oldtenrm b
+.\kern0.27779
+.\oldtenrm o
+.etc.
+
+1079: Undefined label `\long'. [238] [239] [240] [241] [242] [243]
+1497: Undefined label `\@newcount'.
+Overfull \hbox (1.33162pt too wide) in paragraph at lines 1534--1541
+[]\oldtenrm A \regttfont \skip \oldtenrm register contains the dimensions of gl
+ue. Un-like a \regttfont \dimen \oldtenrm register,|
+
+\hbox(6.94444+2.22223)x316.99124, glue set - 1.0
+.\write3{skip+registers::N::\number \pageno }
+.\oldtenrm A
+.\glue 3.33333 plus 1.66498 minus 1.11221
+.\regttfont \
+.\regttfont s
+.etc.
+
+[244] [245] 1620: Undefined label `\advance'. 1621: Undefined label `\divide'.
+1621: Undefined label `\box'. [246] 1717: Undefined label `\@newif'.
+1717: Undefined label `\@newhelp'. [247] 1763: Undefined label `\skip'.
+[248] 1845: Undefined label `file+name'. [249]
+1888: Undefined label `\@newread'. [250] [251] [252]
+2106: Undefined label `catcodes'. 2131: Undefined label `mathcode'. [253]
+[254] 2297: Undefined label `\tracingonline'. [255]
+2308: Undefined label `\showboxbreadth'. [256] [257] [258] [259] [260] [261]
+[262] 2713: Undefined label `\newlinechar'. [263] [264]
+2808: Undefined label `format+file'. [265]) (./tips.tex (./macros.tex) [266]
+43: Undefined label `\interlinepenalty'. [267] 51: Undefined label `vnobreak'.
+72: Undefined label `\vadjust'. 76: Undefined label `\vfill'.
+92: Undefined label `\filbreak'. [268] 118: Undefined label `\looseness'.
+124: Undefined label `\tracingpages'. [269] [270] 291: Undefined label `\hss'.
+[271] 356: Undefined label `\tracingcommands'. [272] [273] [274] [275] [276]
+[277] [278] [279] [280] 896: Undefined label `\show'. [281]
+966: Undefined label `\endlinechar'. 974: Undefined label `\space'. [282]
+[283]) (./errors.tex (./macros.tex) [284] 50: Undefined label `infiles'.
+[285] [286] [287] [288] [289]
+Overfull \hbox (20.95186pt too wide) in paragraph at lines 303--309
+[]\oldtenrm You can use the []\tentt \errorcontextlines \oldtenrm com-m-and (p.
+`\tentt \errorcontextlines\oldtenrm ')|
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(0.0+0.0)x10.00002
+.\oldtenrm Y
+.\kern-0.83334
+.\oldtenrm o
+.\oldtenrm u
+.etc.
+
+[290] Chapter ends on a verso page. [291]) (./usermacs.tex (./macros.tex)
+[292] [293] 134: Undefined label `xrefs'. [294] [295]
+246: Undefined label `listmacs'. [296] [297] [298] [299] [300] [301] [302]
+[303] [304] [305] [306] [307] [308] [309] [310] [311] [312]
+1154: Undefined label `eplainconv'. [313]) (./capsule.tex (./macros.tex)
+[314] 19: Undefined label `character'. 28: Undefined label `primitive'.
+38: Undefined label `display+math'. 52: Undefined label `\@space'.
+54: Undefined label `\@shriek'. 55: Undefined label `\@quote'.
+57: Undefined label `@msharp'. 57: Undefined label `@asharp'. [315]
+58: Undefined label `\@pound'. 60: Undefined label `\@bucks'.
+61: Undefined label `comments'. 62: Undefined label `\@percent'.
+63: Undefined label `@and'. 64: Undefined label `\@and'.
+65: Undefined label `@prime'. 66: Undefined label `\@prime'.
+67: Undefined label `\@star'. 69: Undefined label `\@comma'.
+71: Undefined label `\@dot'. 72: Undefined label `\@slash'.
+73: Undefined label `\@semi'. 74: Undefined label `\@equal'.
+75: Undefined label `@backslash'. 76: Undefined label `\@greater'.
+77: Undefined label `@hat'. 78: Undefined label `\@hat'.
+82: Undefined label `@newline'. 84: Undefined label `@underscore'.
+85: Undefined label `\@underscore'. 87: Undefined label `\@lquote'.
+88: Undefined label `@lbrace'. 89: Undefined label `\@lbrace'.
+90: Undefined label `\@bar'. 91: Undefined label `@rbrace'.
+92: Undefined label `\@rbrace'. 94: Undefined label `\@not'.
+95: Undefined label `\aa'. 96: Undefined label `\AA'.
+97: Undefined label `\above'. 100: Undefined label `\abovedisplayshortskip'.
+103: Undefined label `\abovedisplayskip'. [316]
+105: Undefined label `\abovewithdelims'. 106: Undefined label `\accent'.
+107: Undefined label `\active'. 108: Undefined label `\acute'.
+110: Undefined label `\adjdemerits'. 113: Undefined label `\advancepageno'.
+114: Undefined label `\ae'. 115: Undefined label `\AE'.
+117: Undefined label `\afterassignment'. 119: Undefined label `\aftergroup'.
+120: Undefined label `\aleph'. 122: Undefined label `hallowbreak'.
+122: Undefined label `vallowbreak'. 123: Undefined label `\alpha'.
+124: Undefined label `\amalg'. 125: Undefined label `\angle'.
+126: Undefined label `\approx'. 127: Undefined label `\arccos'.
+128: Undefined label `\arcsin'. 129: Undefined label `\arctan'.
+130: Undefined label `\arg'. 131: Undefined label `\arrowvert'.
+132: Undefined label `\Arrowvert'. 133: Undefined label `\ast'.
+134: Undefined label `\asymp'. 135: Undefined label `\atop'.
+137: Undefined label `\atopwithdelims'. 138: Undefined label `\b'. [317]
+139: Undefined label `\backslash'. 142: Undefined label `\bar'.
+145: Undefined label `\batchmode'. 146: Undefined label `\begingroup'.
+148: Undefined label `\@beginsection'.
+151: Undefined label `\belowdisplayshortskip'.
+154: Undefined label `\belowdisplayskip'. 155: Undefined label `\beta'.
+156: Undefined label `\bf'. 157: Undefined label `\bffam'.
+158: Undefined label `\bgroup'. 161: Undefined label `\Big'.
+163: Undefined label `\bigbreak'. 165: Undefined label `\bigcap'.
+166: Undefined label `\bigcirc'. 167: Undefined label `\bigcup'.
+168: Undefined label `\bigg'. 169: Undefined label `\Bigg'.
+170: Undefined label `\biggl'. 171: Undefined label `\Biggl'.
+172: Undefined label `\biggm'. 173: Undefined label `\Biggm'.
+174: Undefined label `\biggr'. 175: Undefined label `\Biggr'.
+177: Undefined label `\Bigl'. [318] 179: Undefined label `\Bigm'.
+180: Undefined label `\bigodot'. 181: Undefined label `\bigoplus'.
+182: Undefined label `\bigotimes'. 183: Undefined label `\bigr'.
+184: Undefined label `\Bigr'. 185: Undefined label `\bigskip'.
+187: Undefined label `\bigskipamount'. 188: Undefined label `\bigsqcup'.
+190: Undefined label `\bigtriangledown'.
+191: Undefined label `\bigtriangleup'.
+Overfull \hbox (23.74132pt too wide) in paragraph at lines 191--191
+[]\tentt \bigtriangleup  \oldtenrm triangle op-era-tor pointing upward: $\tensy
+ 4$ \oldtenrm (p.`\tentt \bigtriangleup\oldtenrm ')  |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\tentt \
+.\tentt b
+.\tentt i
+.\tentt g
+.etc.
+
+192: Undefined label `\biguplus'. 193: Undefined label `\bigvee'.
+194: Undefined label `\bigwedge'. 196: Undefined label `\binoppenalty'.
+197: Undefined label `\bmod'. 198: Undefined label `\bordermatrix'.
+199: Undefined label `\bot'. 200: Undefined label `\botmark'.
+201: Undefined label `\bowtie'. 206: Undefined label `\brace'.
+207: Undefined label `\bracevert'. 208: Undefined label `\brack'.
+211: Undefined label `\breve'. 213: Undefined label `\brokenpenalty'.
+215: Undefined label `\bullet'. 217: Undefined label `\@bye'.
+218: Undefined label `\c'. [319] 220: Undefined label `\cal'.
+221: Undefined label `\cap'. 222: Undefined label `\cases'.
+225: Undefined label `\cdotp'. 226: Undefined label `\cdots'.
+231: Undefined label `\chardef'. 232: Undefined label `\check'.
+233: Undefined label `\chi'. 235: Undefined label `\choose'.
+236: Undefined label `\circ'. 238: Undefined label `\cleaders'.
+239: Undefined label `\cleartabs'. 243: Undefined label `\clubpenalty'.
+244: Undefined label `\clubsuit'. 245: Undefined label `\colon'.
+246: Undefined label `\cong'. 247: Undefined label `\coprod'.
+249: Undefined label `\copyright'. 250: Undefined label `\cos'.
+251: Undefined label `\cosh'. 252: Undefined label `\cot'.
+253: Undefined label `\coth'. 256: Undefined label `\countdef'.
+257: Undefined label `\cr'. 259: Undefined label `\crcr'.
+260: Undefined label `\csc'. [320] 262: Undefined label `\cup'.
+263: Undefined label `\d'. 264: Undefined label `\dag'.
+265: Undefined label `\dagger'. 266: Undefined label `\dashv'.
+267: Undefined label `\day'. 268: Undefined label `\ddag'.
+269: Undefined label `\ddagger'. 270: Undefined label `\ddot'.
+271: Undefined label `\ddots'. 273: Undefined label `\deadcycles'.
+274: Undefined label `\def'. 275: Undefined label `\defaulthyphenchar'.
+276: Undefined label `\defaultskewchar'. 277: Undefined label `\deg'.
+282: Undefined label `\delimiterfactor'.
+284: Undefined label `\delimitershortfall'. 285: Undefined label `\delta'.
+286: Undefined label `\Delta'. 287: Undefined label `\det'.
+288: Undefined label `\diamond'. 289: Undefined label `\diamondsuit'.
+290: Undefined label `\dim'. 291: Undefined label `\dimen'.
+293: Undefined label `\dimendef'. 295: Undefined label `\discretionary'.
+296: Undefined label `\displayindent'. 298: Undefined label `\displaylimits'.
+[321] 300: Undefined label `\displaylines'.
+301: Undefined label `\displaystyle'.
+303: Undefined label `\displaywidowpenalty'.
+304: Undefined label `\displaywidth'. 305: Undefined label `\div'.
+307: Undefined label `\dot'. 308: Undefined label `\doteq'.
+309: Undefined label `\dotfill'. 312: Undefined label `\doublehyphendemerits'.
+313: Undefined label `\downarrow'. 314: Undefined label `\Downarrow'.
+316: Undefined label `\downbracefill'. 317: Undefined label `\dp'.
+321: Undefined label `\egroup'. 324: Undefined label `\ell'.
+325: Undefined label `\@else'. 328: Undefined label `\empty'.
+329: Undefined label `\emptyset'. 330: Undefined label `\end'.
+332: Undefined label `\endcsname'. 333: Undefined label `\endgraf'.
+334: Undefined label `\endgroup'. 335: Undefined label `\endinput'.
+336: Undefined label `\endinsert'. [322] 340: Undefined label `\enskip'.
+341: Undefined label `\enspace'. 342: Undefined label `\epsilon'.
+344: Undefined label `\eqalign'. 347: Undefined label `\eqno'.
+348: Undefined label `\equiv'. 350: Undefined label `\errhelp'.
+351: Undefined label `\errmessage'. 354: Undefined label `\errorstopmode'.
+Overfull \hbox (19.79346pt too wide) in paragraph at lines 354--354
+[]\tentt \errorstopmode  \oldtenrm stop for interact-ion at error mes-sages (p.
+`\tentt \errorstopmode\oldtenrm ')  |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(5.20833+0.0)x0.0, glue set - 5.24995fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(5.20833+0.0)x5.24995
+...\tentt *
+.\tentt \
+.\tentt e
+.\tentt r
+.\tentt r
+.etc.
+
+357: Undefined label `\eta'. 360: Undefined label `\everydisplay'.
+361: Undefined label `\everyhbox'. 362: Undefined label `\everyjob'.
+364: Undefined label `\everymath'. 366: Undefined label `\everyvbox'.
+368: Undefined label `\exhyphenpenalty'. 369: Undefined label `\exists'.
+370: Undefined label `\exp'. 375: Undefined label `\@fi'. [323]
+379: Undefined label `\finalhyphendemerits'.
+380: Undefined label `\firstmark'. 381: Undefined label `\fivebf'.
+382: Undefined label `\fivei'. 383: Undefined label `\fiverm'.
+384: Undefined label `\fivesy'. 385: Undefined label `\flat'.
+388: Undefined label `\fmtname'. 389: Undefined label `\fmtversion'.
+391: Undefined label `\folio'. 393: Undefined label `\fontdimen'.
+394: Undefined label `\fontname'. 398: Undefined label `\forall'.
+400: Undefined label `\frown'. 402: Undefined label `\futurelet'.
+403: Undefined label `\gamma'. 404: Undefined label `\Gamma'.
+405: Undefined label `\gcd'. 407: Undefined label `\ge'.
+408: Undefined label `\geq'. 409: Undefined label `\gets'.
+410: Undefined label `\gg'.
+Overfull \hbox (11.26892pt too wide) in paragraph at lines 412--412
+[]\tentt \globaldefs  \oldtenrm over-rides \tentt \global \oldtenrm pref-ixes o
+n assign-ments (p.`\tentt \globaldefs\oldtenrm ')  |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(5.20833+0.0)x0.0, glue set - 5.24995fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(5.20833+0.0)x5.24995
+...\tentt *
+.\tentt \
+.\tentt g
+.\tentt l
+.\tentt o
+.etc.
+
+[324] 413: Undefined label `\goodbreak'. 414: Undefined label `\grave'.
+415: Undefined label `\H'. 417: Undefined label `\hang'.
+418: Undefined label `\hangafter'. 419: Undefined label `\hangindent'.
+420: Undefined label `\hat'. 423: Undefined label `\hbar'.
+427: Undefined label `\heartsuit'. 430: Undefined label `\hfill'.
+431: Undefined label `\hfilneg'. 435: Undefined label `\hglue'.
+437: Undefined label `\hidewidth'. 438: Undefined label `\hoffset'.
+441: Undefined label `\hom'. 442: Undefined label `\hookleftarrow'.
+443: Undefined label `\hookrightarrow'. 445: Undefined label `\hphantom'.
+447: Undefined label `\hrulefill'. [325] 455: Undefined label `\hyphenchar'.
+458: Undefined label `\i'. 460: Undefined label `\ialign'.
+461: Undefined label `\@if'. 462: Undefined label `\@ifcase'.
+464: Undefined label `\@ifcat'. 466: Undefined label `\@ifdim'.
+467: Undefined label `\@ifeof'. 468: Undefined label `\iff'.
+469: Undefined label `\@iffalse'. 470: Undefined label `\@ifhbox'.
+471: Undefined label `\@ifhmode'. 472: Undefined label `\@ifinner'.
+473: Undefined label `\@ifmmode'. 475: Undefined label `\@ifnum'.
+476: Undefined label `\@ifodd'. 477: Undefined label `\@iftrue'.
+478: Undefined label `\@ifvbox'. 479: Undefined label `\@ifvmode'.
+482: Undefined label `\@ifx'. 483: Undefined label `\ignorespaces'.
+484: Undefined label `\Im'. 487: Undefined label `\in'.
+490: Undefined label `\inf'. [326] 491: Undefined label `\infty'.
+493: Undefined label `\inputlineno'. 495: Undefined label `\insertpenalties'.
+Overfull \hbox (25.12662pt too wide) in paragraph at lines 495--495
+[]\tentt \insertpenalties  \oldtenrm sum of pen-alt-ies due to insert-ions (p.`
+\tentt \insertpenalties\oldtenrm ')  |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(5.20833+0.0)x0.0, glue set - 5.24995fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(5.20833+0.0)x5.24995
+...\tentt *
+.\tentt \
+.\tentt i
+.\tentt n
+.\tentt s
+.etc.
+
+496: Undefined label `\int'. 499: Undefined label `\iota'.
+500: Undefined label `\it'. 503: Undefined label `\itemitem'.
+504: Undefined label `\itfam'. 505: Undefined label `\j'.
+506: Undefined label `\jmath'. 507: Undefined label `\jobname'.
+508: Undefined label `\jot'. 509: Undefined label `\kappa'.
+510: Undefined label `\ker'. 513: Undefined label `\l'.
+514: Undefined label `\L'. 515: Undefined label `\lambda'.
+516: Undefined label `\Lambda'. 517: Undefined label `\land'.
+518: Undefined label `\langle'. 521: Undefined label `\lastbox'.
+523: Undefined label `\lastkern'. 525: Undefined label `\lastpenalty'.
+527: Undefined label `\lastskip'. [327] 529: Undefined label `\lbrack'.
+530: Undefined label `\lccode'. 531: Undefined label `\lceil'.
+532: Undefined label `\ldotp'. 534: Undefined label `\le'.
+539: Undefined label `\leftarrow'. 540: Undefined label `\Leftarrow'.
+542: Undefined label `\leftarrowfill'.
+543: Undefined label `\leftharpoondown'.
+544: Undefined label `\leftharpoonup'. 548: Undefined label `\leftrightarrow'.
+549: Undefined label `\Leftrightarrow'. 551: Undefined label `\leq'.
+553: Undefined label `\leqalignno'. 554: Undefined label `\leqno'.
+555: Undefined label `\let'. 556: Undefined label `\lfloor'.
+557: Undefined label `\lg'. 559: Undefined label `\lgroup'.
+560: Undefined label `\lim'. 561: Undefined label `\liminf'.
+563: Undefined label `\limits'. 564: Undefined label `\limsup'. [328]
+565: Undefined label `\line'. 567: Undefined label `\linepenalty'.
+569: Undefined label `\lineskip'. 571: Undefined label `\lineskiplimit'.
+572: Undefined label `\ll'. 574: Undefined label `\llap'.
+575: Undefined label `\lmoustache'. 576: Undefined label `\ln'.
+577: Undefined label `\lnot'. 578: Undefined label `\log'.
+581: Undefined label `\longleftarrow'. 582: Undefined label `\Longleftarrow'.
+583: Undefined label `\longleftrightarrow'.
+584: Undefined label `\Longleftrightarrow'.
+585: Undefined label `\longmapsto'. 586: Undefined label `\longrightarrow'.
+587: Undefined label `\Longrightarrow'. 588: Undefined label `\loop'.
+591: Undefined label `\lor'. 592: Undefined label `\lower'.
+594: Undefined label `\lowercase'. 595: Undefined label `\lq'.
+597: Undefined label `\magnification'. 598: Undefined label `\magstep'.
+599: Undefined label `\magstephalf'. 600: Undefined label `\mapsto'.
+602: Undefined label `\mathaccent'. 603: Undefined label `\mathbin'. [329]
+604: Undefined label `\mathchar'. 606: Undefined label `\mathchardef'.
+608: Undefined label `\mathchoice'. 609: Undefined label `\mathclose'.
+612: Undefined label `\mathinner'. 613: Undefined label `\mathop'.
+614: Undefined label `\mathopen'. 617: Undefined label `\mathpalette'.
+618: Undefined label `\mathpunct'. 619: Undefined label `\mathrel'.
+622: Undefined label `\mathsurround'. 623: Undefined label `\matrix'.
+624: Undefined label `\max'. 626: Undefined label `\maxdeadcycles'.
+631: Undefined label `\meaning'. 633: Undefined label `\medbreak'.
+635: Undefined label `\medmuskip'. 636: Undefined label `\medskip'.
+638: Undefined label `\medskipamount'. [330] 639: Undefined label `\message'.
+640: Undefined label `\mid'. 642: Undefined label `\midinsert'.
+643: Undefined label `\min'. 644: Undefined label `\mit'.
+646: Undefined label `\models'. 647: Undefined label `\month'.
+649: Undefined label `\moveleft'. 651: Undefined label `\moveright'.
+652: Undefined label `\mp'. 654: Undefined label `\mu'.
+656: Undefined label `\multiply'. 658: Undefined label `\multispan'.
+659: Undefined label `\muskip'. 661: Undefined label `\muskipdef'.
+662: Undefined label `\nabla'. 664: Undefined label `\narrower'.
+665: Undefined label `\natural'. 666: Undefined label `\nearrow'.
+667: Undefined label `\ne'. 668: Undefined label `\neg'.
+669: Undefined label `\negthinspace'. 670: Undefined label `\neq'.
+673: Undefined label `\@newdimen'. [331] 682: Undefined label `\@newmuskip'.
+684: Undefined label `\@newskip'. 685: Undefined label `\@newtoks'.
+687: Undefined label `\ni'. 696: Undefined label `\nointerlineskip'.
+697: Undefined label `\nolimits'. 698: Undefined label `\nonfrenchspacing'.
+701: Undefined label `\nonstopmode'. 703: Undefined label `\nopagenumbers'.
+705: Undefined label `\normalbaselines'.
+707: Undefined label `\normalbaselineskip'.
+708: Undefined label `\normalbottom'. 710: Undefined label `\normallineskip'.
+712: Undefined label `\normallineskiplimit'. 714: Undefined label `\not'.
+715: Undefined label `\notin'. 716: Undefined label `\nu'. [332]
+717: Undefined label `\null'. 719: Undefined label `\nulldelimiterspace'.
+720: Undefined label `\nullfont'. 722: Undefined label `\nwarrow'.
+723: Undefined label `\o'. 724: Undefined label `\O'.
+729: Undefined label `\odot'. 730: Undefined label `\oe'.
+731: Undefined label `\OE'. 732: Undefined label `\offinterlineskip'.
+Overfull \hbox (35.70988pt too wide) in paragraph at lines 732--732
+[]\tentt \offinterlineskip  \oldtenrm in-hibit interline glue from now on (p.`\
+tentt \offinterlineskip\oldtenrm ')  |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\tentt \
+.\tentt o
+.\tentt f
+.\tentt f
+.etc.
+
+733: Undefined label `\oint'. 734: Undefined label `\oldstyle'.
+735: Undefined label `\omega'. 736: Undefined label `\Omega'.
+737: Undefined label `\ominus'. 738: Undefined label `\omit'.
+743: Undefined label `\oplus'. 744: Undefined label `\@or'.
+745: Undefined label `\oslash'. 746: Undefined label `\otimes'.
+751: Undefined label `\outputpenalty'. 755: Undefined label `\overfullrule'.
+[333] 757: Undefined label `\overleftarrow'. 759: Undefined label `\overline'.
+761: Undefined label `\overrightarrow'. 764: Undefined label `\owns'.
+765: Undefined label `\P'. 767: Undefined label `\pagedepth'.
+769: Undefined label `\pagefilllstretch'.
+771: Undefined label `\pagefillstretch'.
+773: Undefined label `\pagefilstretch'. 777: Undefined label `\pageinsert'.
+779: Undefined label `\pageno'. 781: Undefined label `\pageshrink'.
+783: Undefined label `\pagestretch'. 785: Undefined label `\pagetotal'.
+787: Undefined label `\parallel'. 789: Undefined label `\parfillskip'.
+793: Undefined label `\parshape'. 795: Undefined label `\partial'.
+797: Undefined label `\pausing'. [334] 800: Undefined label `\perp'.
+802: Undefined label `\phantom'. 803: Undefined label `\phi'.
+804: Undefined label `\Phi'. 805: Undefined label `\pi'.
+806: Undefined label `\Pi'. 807: Undefined label `\plainoutput'.
+808: Undefined label `\pm'. 809: Undefined label `\pmatrix'.
+811: Undefined label `\pmod'. 813: Undefined label `\postdisplaypenalty'.
+814: Undefined label `\Pr'. 815: Undefined label `\prec'.
+816: Undefined label `\preceq'. 818: Undefined label `\predisplaypenalty'.
+820: Undefined label `\predisplaysize'. 824: Undefined label `\prevdepth'.
+827: Undefined label `\prevgraf'. 828: Undefined label `\prime'.
+830: Undefined label `\prod'. 831: Undefined label `\propto'.
+832: Undefined label `\psi'. 833: Undefined label `\Psi'.
+834: Undefined label `\qquad'. 835: Undefined label `\quad'.
+836: Undefined label `\radical'. 837: Undefined label `\raggedbottom'.
+839: Undefined label `\raise'. [335] 840: Undefined label `\rangle'.
+841: Undefined label `\rbrace'. 842: Undefined label `\rbrack'.
+843: Undefined label `\rceil'. 844: Undefined label `\Re'.
+846: Undefined label `\relax'. 848: Undefined label `\relpenalty'.
+849: Undefined label `\@repeat'. 850: Undefined label `\rfloor'.
+852: Undefined label `\rgroup'. 853: Undefined label `\rho'.
+855: Undefined label `\right'. 856: Undefined label `\rightarrow'.
+857: Undefined label `\Rightarrow'. 859: Undefined label `\rightarrowfill'.
+860: Undefined label `\rightharpoondown'.
+861: Undefined label `\rightharpoonup'.
+862: Undefined label `\rightleftharpoons'. 864: Undefined label `\rightskip'.
+866: Undefined label `\righthyphenmin'. 868: Undefined label `\rlap'.
+869: Undefined label `\rm'. 870: Undefined label `\rmoustache'.
+872: Undefined label `\romannumeral'. 874: Undefined label `\root'.
+875: Undefined label `\rq'. 876: Undefined label `\S'.
+877: Undefined label `\sb'. 878: Undefined label `\scriptfont'. [336]
+883: Undefined label `\scriptspace'. 884: Undefined label `\scriptstyle'.
+886: Undefined label `\scrollmode'. 887: Undefined label `\searrow'.
+888: Undefined label `\sec'. 889: Undefined label `\setbox'.
+891: Undefined label `\setlanguage'. 892: Undefined label `\setminus'.
+894: Undefined label `\sevenbf'. 895: Undefined label `\seveni'.
+896: Undefined label `\sevenrm'. 897: Undefined label `\sevensy'.
+898: Undefined label `\sfcode'. 899: Undefined label `\sharp'.
+903: Undefined label `\showbox'. 906: Undefined label `\showboxdepth'.
+908: Undefined label `\showhyphens'. 909: Undefined label `\showlists'.
+912: Undefined label `\sigma'. 913: Undefined label `\Sigma'.
+914: Undefined label `\sim'. 915: Undefined label `\simeq'.
+916: Undefined label `\sin'. 917: Undefined label `\sinh'. [337]
+919: Undefined label `\skew'. 920: Undefined label `\skewchar'.
+923: Undefined label `\skipdef'. 924: Undefined label `\sl'.
+926: Undefined label `\slfam'. 928: Undefined label `\smallbreak'.
+929: Undefined label `\smallint'. 932: Undefined label `\smallskipamount'.
+933: Undefined label `\smash'. 934: Undefined label `\smile'.
+935: Undefined label `\sp'. 941: Undefined label `\spadesuit'.
+943: Undefined label `\span'. 946: Undefined label `\splitbotmark'.
+949: Undefined label `\splitmaxdepth'. 951: Undefined label `\splittopskip'.
+952: Undefined label `\sqcap'. 953: Undefined label `\sqcup'.
+954: Undefined label `\sqrt'. 955: Undefined label `\sqsubseteq'.
+956: Undefined label `\sqsupseteq'. 957: Undefined label `\ss'. [338]
+958: Undefined label `\star'. 963: Undefined label `\subset'.
+964: Undefined label `\subseteq'. 965: Undefined label `\succ'.
+966: Undefined label `\succeq'. 967: Undefined label `\sum'.
+968: Undefined label `\sup'. 969: Undefined label `\supereject'.
+970: Undefined label `\supset'. 971: Undefined label `\supseteq'.
+972: Undefined label `\surd'. 973: Undefined label `\swarrow'.
+974: Undefined label `\t'. 975: Undefined label `\tabalign'.
+977: Undefined label `\tan'. 978: Undefined label `\tanh'.
+979: Undefined label `\tau'. 980: Undefined label `\tenbf'.
+981: Undefined label `\tenex'. 982: Undefined label `\teni'.
+983: Undefined label `\tenit'. 984: Undefined label `\tenrm'.
+985: Undefined label `\tensl'. 986: Undefined label `\tensy'.
+987: Undefined label `\tentt'. 988: Undefined label `\TeX'.
+989: Undefined label `\textfont'. 990: Undefined label `\textindent'.
+993: Undefined label `\theta'. 994: Undefined label `\Theta'.
+995: Undefined label `\thickmuskip'. [339] 996: Undefined label `\thinmuskip'.
+997: Undefined label `\thinspace'. 998: Undefined label `\tilde'.
+999: Undefined label `\time'. 1000: Undefined label `\times'.
+1001: Undefined label `\toks'. 1003: Undefined label `\toksdef'.
+1006: Undefined label `\to'. 1007: Undefined label `\top'.
+1010: Undefined label `\topinsert'. 1014: Undefined label `\tracingall'.
+Overfull \hbox (16.8833pt too wide) in paragraph at lines 1015--1015
+[]\tentt \tracingcommands  \oldtenrm dis-play exe-cut-ion of com-m-ands (p.`\te
+ntt \tracingcommands\oldtenrm ')  |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(5.20833+0.0)x0.0, glue set - 5.24995fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(5.20833+0.0)x5.24995
+...\tentt *
+.\tentt \
+.\tentt t
+.\tentt r
+.\tentt a
+.etc.
+
+1017: Undefined label `\tracinglostchars'.
+1018: Undefined label `\tracingmacros'.
+1021: Undefined label `\tracingoutput'.
+Overfull \hbox (21.99129pt too wide) in paragraph at lines 1021--1021
+[]\tentt \tracingoutput  \oldtenrm dis-play cont-ents of shipped-out boxes (p.`
+\tentt \tracingoutput\oldtenrm ')  |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(5.20833+0.0)x0.0, glue set - 5.24995fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(5.20833+0.0)x5.24995
+...\tentt *
+.\tentt \
+.\tentt t
+.\tentt r
+.\tentt a
+.etc.
+
+1023: Undefined label `\tracingparagraphs'.
+Overfull \hbox (33.18864pt too wide) in paragraph at lines 1023--1023
+[]\tentt \tracingparagraphs  \oldtenrm dis-play line break calculat-ions (p.`\t
+entt \tracingparagraphs\oldtenrm ')  |
+
+\hbox(7.5+2.5)x316.99124, glue set - 1.0
+.\hbox(5.20833+0.0)x0.0, glue set - 5.24995fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+..\hbox(5.20833+0.0)x5.24995
+...\tentt *
+.\tentt \
+.\tentt t
+.\tentt r
+.\tentt a
+.etc.
+
+1025: Undefined label `\tracingrestores'.
+1026: Undefined label `\tracingstats'. 1027: Undefined label `\triangle'.
+1028: Undefined label `\triangleleft'. 1029: Undefined label `\triangleright'.
+1030: Undefined label `\tt'. 1031: Undefined label `\ttfam'.
+1033: Undefined label `\ttraggedright'. 1034: Undefined label `\u'.
+1035: Undefined label `\uccode'. [340] 1037: Undefined label `\uchyph'.
+1039: Undefined label `\underbar'. 1041: Undefined label `\underbrace'.
+1043: Undefined label `\underline'. 1047: Undefined label `\unhbox'.
+1048: Undefined label `\unhcopy'. 1049: Undefined label `\unkern'.
+1051: Undefined label `\unpenalty'. 1052: Undefined label `\unskip'.
+1056: Undefined label `\unvbox'. 1057: Undefined label `\unvcopy'.
+1058: Undefined label `\uparrow'. 1061: Undefined label `\upbracefill'.
+1062: Undefined label `\updownarrow'. 1063: Undefined label `\Updownarrow'.
+1064: Undefined label `\uplus'. 1066: Undefined label `\uppercase'.
+1067: Undefined label `\upsilon'. 1068: Undefined label `\Upsilon'.
+1069: Undefined label `\v'. 1072: Undefined label `\varepsilon'.
+1073: Undefined label `\varphi'. 1074: Undefined label `\varpi'.
+1075: Undefined label `\varrho'. 1076: Undefined label `\varsigma'. [341]
+1077: Undefined label `\vartheta'. 1083: Undefined label `\vdash'.
+1084: Undefined label `\vdots'. 1085: Undefined label `\vec'.
+1086: Undefined label `\vee'. 1088: Undefined label `\Vert'.
+1092: Undefined label `\vfilneg'. 1094: Undefined label `\vfootnote'.
+1098: Undefined label `\vglue'. 1102: Undefined label `\vphantom'.
+1109: Undefined label `\vss'. 1111: Undefined label `\wd'.
+1112: Undefined label `\wedge'. 1113: Undefined label `\widehat'.
+1114: Undefined label `\widetilde'. 1116: Undefined label `\widowpenalty'.
+1117: Undefined label `\wlog'. [342] 1118: Undefined label `\wp'.
+1119: Undefined label `\wr'. 1122: Undefined label `\xdef'.
+1123: Undefined label `\xi'. 1124: Undefined label `\Xi'.
+1126: Undefined label `\xleaders'. 1129: Undefined label `\year'.
+1130: Undefined label `\zeta'. [343]) (./fdl.tex [344] [345] [346]
+156: Undefined equation label `copying'. [347] [348] [349] [350] [351] [352]
+[353] [354] Chapter ends on a verso page. [355]) (./index.tex (./macros.tex)
+[356] (./book.sdx [357] [358] [359] [360] [361] [362] [363] [364] [365]
+[366] [367] [368] [369] [370] [371] [372]) [373]) (./backm.tex (./macros.tex)
+[374] [375] Undefined chapter `eplain'. [376] (./book.ccs) [377]) ){/usr/share/
+texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsl8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/hoek
+water/mflogo/logo10.pfb></usr/share/texlive/texmf-dist/fonts/type1/hoekwater/mf
+logo/logo8.pfb></usr/share/texlive/texmf-dist/fonts/type1/hoekwater/mflogo/logo
+sl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on book.pdf (393 pages, 1331175 bytes).
+PDF statistics:
+ 1403 PDF objects out of 1440 (max. 8388607)
+ 961 compressed objects within 10 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

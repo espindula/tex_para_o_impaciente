@@ -1,0 +1,51 @@
+1 - Pour obtenir un beau pdf ou ps :
+
+	a - lancer la compilation de fbook.tex
+	
+	b - pour l'index (index1 et index2 compilé avec icon sous... window$ 2k):
+	
+		- dans le fichier fbook.idx :
+		
+			  remplacer les + en début de ligne par §§§ (par exemple)
+			  remplacer les + par ' ' (un blanc)
+			  remplacer les §§§ par +
+		  
+		- faire dans une fenètre DOS :
+		
+			  index1 < fbook.idx > fbook.ind
+		  
+		- dans le fichier fbook.ind
+		
+			  remplacer les 'E en E (en respectant la casse)
+			  trier en retirant les doublons
+		
+		- faire dans une fenètre DOS :
+		
+			  index2 < fbook.ind > fbook.sdx
+	  
+	c - relancer la compilation de fbook.tex
+	
+	d - si TeX et pas PDFTeX, lancer DVIPS
+
+2 - Relecture à faire :
+
+	a - correction des tournures de phrase alambiquées !!
+	b - correction orthographique 
+	c - correction grammaticale
+
+3 - Trouver un moyen de faire une version 8 bits "réellement" française (avec les césures kivonbien).
+    - en mettant \language=1 %(français) ça marche avec bplain, mais je reste en 7 bits. 
+    - les polices de FONTS.TEX sont les Computer Modern basiques il y a-t-il une correspondance CM <-> EC (ou autre)
+      Comment faire ?
+      j'ai bien essayé mais pb avec les fichiers annexes (index, etc...) et le chapitre ``exemples'' (3)
+      
+    
+4 - Terminer fcapsule.tex
+
+5 - Faut-il traduire la licence ou rajouter sa traduction à la suite ?
+
+6 - Un chapitre sur TeX et le français serait le bienvenu (voir le pb en 3)
+
+7 - Il reste quelques problèmes de ``Underfull \vbox''
+
+8 - intégrer les corrections du fichier errata.future

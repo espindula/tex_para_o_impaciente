@@ -1,0 +1,239 @@
+This is TeX, Version 3.141592 (MiKTeX 2.4) (preloaded format=bplain 2004.6.2)  4 JUN 2004 13:20
+**fbook
+(fbook.tex
+Babel <v3.8a> and hyphenation patterns for english, french, loaded.
+(fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package: ifpdf 2001/06/14 v1.0 Providing \ifpdf (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+) (eplain.tex) (config.tex)
+(fonts.tex) (fbook.aux)) (ffrontm.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [-1] [-2] [-3] (fcopyrgh.tex
+(fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [-4]) [-5] [-6]
+(fpreface.tex (fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [-7]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(573.96269+2.15277)x316.9912, glue set 5.53477
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+1.94444)x316.9912, glue set - 0.82481
+..\hbox(0.0+0.0)x10.00002
+..\oldtenrm D
+..\oldtenrm a
+..\oldtenrm n
+..\oldtenrm s
+..etc.
+.\penalty 10100
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x316.9912, glue set 0.2261
+..\oldtenrm d
+..\oldtenrm i
+..\oldtenrm c
+..\oldtenrm a
+..\oldtenrm t
+..etc.
+.etc.
+
+ [-8]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(573.96269+2.22223)x316.9912, glue set 10.6417
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+2.15277)x316.9912, glue set 0.62029
+..\oldtenrm l
+..\oldtenrm u
+..\oldtenrm i
+..\oldtenrm -
+..\discretionary
+..etc.
+.\glue(\baselineskip) 2.90279
+.\hbox(6.94444+1.94444)x316.9912, glue set - 0.11095
+..\oldtenrm f
+..\oldtenrm o
+..\oldtenrm u
+..\oldtenrm r
+..\discretionary
+...\oldtenrm -
+..etc.
+.\glue(\baselineskip) 3.11111
+.etc.
+
+ [-9]
+[-10]) [-11] (fbook.toc) [-12] (fbook.toc) [-13] [-14] [-15] [-16] [-17]
+[-18] [-19] [-20] (fread1st.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [-21])) (fusebook.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [-22] [1] [2] [3] [4] [5])
+(fusingtex.tex (fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [6]
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(573.96269+1.94444)x316.9912, glue set 48.30176
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+2.15277)x316.9912, glue set - 0.83498
+..\oldtenrm s
+..\oldtenrm u
+..\oldtenrm r
+..\glue 3.33333 plus 1.66666 minus 1.11111
+..\oldtenrm v
+..etc.
+.\glue(\baselineskip) 2.90279
+.\hbox(6.94444+1.94444)x316.9912, glue set 0.40279
+..\oldtenrm i
+..\oldtenrm n
+..\discretionary
+...\oldtenrm -
+..\oldtenrm d
+..\oldtenrm i
+..etc.
+.\glue(\baselineskip) 3.11111
+.etc.
+
+ [8]
+[9] [10] [11] [12] [13] [14] [15] [16]
+Underfull \hbox (badness 7221) in paragraph at lines 665--667
+[] 
+
+\hbox(0.0+0.0)x316.9912, glue set 4.16684
+.\write0{\gdef\newtex_{\folio }}
+.\penalty 10000
+.\glue(\parfillskip) 237.7434 plus 19.01869 minus 237.7434
+.\glue(\rightskip) 0.0
+
+[17] [18] [19] [20] Le chapitre se termine sur une page paire. [21])
+(fexamples.tex (fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [22]
+[23] (x.tex) [24] [25] (x.tex) [26] [27] (x.tex) [28] [29] (x.tex) [30]
+[31] (x.tex) [32] [33] (x.tex) [34] [35] (x.tex) [36] [37] (x.tex) [38]
+[39] (x.tex) [40] [41] (x.tex) [42] [43]) (fconcept.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [44] [45] [46] [47] [48] [49] [50]
+[51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
+[66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
+[81] [82] [83] [84] [85]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(573.96269+2.22223)x316.9912, glue set 11.233
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+1.94444)x316.9912, glue set - 0.1196
+..\oldtenrm p
+..\oldtenrm r
+..\oldtenrm i
+..\oldtenrm n
+..\discretionary
+...\oldtenrm -
+..etc.
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+1.94444)x316.9912, glue set - 0.0476
+..\oldtenrm s
+..\oldtenrm o
+..\oldtenrm n
+..\kern-0.27779
+..\oldtenrm t
+..etc.
+.\glue(\baselineskip) 3.11111
+.etc.
+
+ [86]
+[87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
+Le chapitre se termine sur une page paire. [101]) (fparas.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [102] [103] [104] [105] [106] [107]
+[108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119]
+[120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131]
+[132] [133] [134] [135] [136] [137]) (fpages.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [138] [139] [140] [141] [142] [143]
+[144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155]
+[156] Le chapitre se termine sur une page paire. [157]) (fmodes.tex
+(fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [158] [159] [160]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172]
+[173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184]
+[185] [186] [187] [188] [189] [190] [191] [192]
+Le chapitre se termine sur une page paire. [193]) (fmath.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211]
+[212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223]
+[224] [225] [226] [227]) (fgenops.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [228] [229] [230] [231] [232] [233]
+[234] [235] [236] [237] [238] [239] [240] [241] [242] [243] [244] [245]
+[246] [247] [248] [249] [250] [251] [252] [253] [254] [255] [256] [257]
+[258] [259] [260] [261] [262] [263] [264] [265] [266] [267] [268] [269]
+[270] [271]) (ftips.tex (fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+))
+[272] [273]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(573.96269+1.94444)x316.9912, glue set 88.30135
+.\glue(\topskip) 17.05556
+.\hbox(6.94444+1.94444)x316.9912, glue set - 0.60649
+..\oldtenrm c
+..\oldtenrm o
+..\oldtenrm u
+..\oldtenrm p
+..\oldtenrm u
+..etc.
+.\glue(\baselineskip) 3.11111
+.\hbox(6.94444+2.15277)x316.9912, glue set 0.81064
+..\oldtenrm N
+..\kern -0.27779 (for accent)
+..\oldtenrm 
+..\kern -4.72223 (for accent)
+..\oldtenrm e
+..etc.
+.\glue(\baselineskip) 2.90279
+.etc.
+
+ [274]
+[275] [276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286]
+[287] [288] [289] [290] Le chapitre se termine sur une page paire. [291])
+(ferrors.tex (fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [292]
+[293] [294] [295] [296] [297] [298] Le chapitre se termine sur une page paire.
+[299]) (fusermacs.tex (fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+))
+[300] [301] [302] [303] [304] [305] [306] [307] [308] [309] [310] [311]
+[312] [313] [314] [315] [316] [317] [318] [319] [320] [321]) (fcapsule.tex
+(fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [322] [323] [324]
+[325] [326] [327] [328] [329] [330] [331] [332] [333] [334] [335] [336]
+[337] [338] [339] [340] [341] [342] [343] [344] [345] [346] [347] [348]
+[349] [350] Le chapitre se termine sur une page paire. [351]) (fdl.tex [352]
+[353]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(573.96269+1.94444)x316.9912, glue set 9.47949
+.\glue(\topskip) 24.0
+.\rule(0.0+0.0)x*
+.\penalty 10000
+.\glue 6.0
+.\glue(\baselineskip) 4.05557
+.etc.
+
+ [354]
+[355] [356] [357] [358] [359] [360] [361]) (findex.tex (fmacros.tex
+(D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [362] (fbook.sdx [363] [364] [365]
+[366] [367] [368] [369] [370] [371] [372] [373] [374] [375] [376] [377]
+[378]) [379]) (fbackm.tex (fmacros.tex (D:\texmf\tex\latex\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded.
+)) [380] [381] [382] [383] [384] (fbook.ccs) [385]) )
+Output written on fbook.dvi (407 pages, 1379824 bytes).

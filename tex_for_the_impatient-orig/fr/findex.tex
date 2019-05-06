@@ -1,0 +1,37 @@
+% This is part of the book TeX for the Impatient.
+% Copyright (C) 2003 Paul W. Abrahams, Kathryn A. Hargreaves, Karl Berry.
+% Copyright (C) 2004 Marc Chaudemanche pour la traduction française.
+% See file fdl.tex for copying conditions.
+
+\input fmacros
+\chapter{Index}
+
+\par
+\kern-\baselineskip
+
+\noindent Dans les entr\'ees de cet index, un num\'ero de page en italique indique une entr\'ee principale ou une d\'efinition. 
+
+\par
+% Let's try to collect indexing cross-references here.
+%
+\idxsee{marques diacritiques}{accents}
+\idxsee{tracer des lignes}{filets}
+\idxsee{drivers}{drivers de p\'eriph\'erique}
+\idxsee{yeux}{\anatomy}
+\idxsee{langues \'etrang\`eres}{langues europ\'eennes}
+\idxsee{intestin}{\anatomy}
+\idxsee{bouche}{\anatomy}
+\idxsee{paragraphes//indenter}{indentation}
+%\idxsee{macros r\'ecursives}{macros, r\'ecursive}
+\idxsee{estomac}{\anatomy}
+\idxsee{tables}{alignements}
+\beginindex
+
+\let\+ = 0 % This can't occur in a macro...
+
+\input fbook.sdx
+
+\endindex
+
+\endchapter
+\byebye

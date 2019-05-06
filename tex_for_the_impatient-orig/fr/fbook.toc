@@ -1,0 +1,205 @@
+\tocchapterentry { Utiliser ce livre\Black }{1}{1}
+\tocsectionentry {Conventions syntaxiques}{}{3}
+\tocsectionentry {Descriptions des commandes}{}{3}
+\tocchapterentry { Utiliser \TeX \Black }{2}{7}
+\tocsectionentry {Transformer la source en encre}{}{7}
+\tocsubsectionentry {les programmes et fichiers dont vous avez besoin}{}{7}
+\tocsubsectionentry {ex\'ecuter {\TeX }}{}{9}
+\tocsectionentry {Pr\'eparer un fichier source}{}{10}
+\tocsubsectionentry {Commandes et s\'equences de contr\^ole}{}{10}
+\tocsubsectionentry {Arguments}{}{11}
+\tocsubsectionentry {Param\`etres}{}{12}
+\tocsubsectionentry {Espaces}{}{12}
+\tocsubsectionentry {Commentaires}{}{13}
+\tocsubsectionentry {Ponctuation}{}{13}
+\tocsubsectionentry {Caract\`eres sp\'eciaux}{}{15}
+\tocsubsectionentry {Groupes}{}{15}
+\tocsubsectionentry {formules math\'ematiques}{}{16}
+\tocsectionentry {Comment marche {\TeX }}{}{16}
+\tocsectionentry {Nouveau \TeX \ contre ancien {\TeX }}{}{18}
+\tocsectionentry {Ressources}{}{18}
+\tocsectionentry {Ressources en fran\c cais}{}{19}
+\tocsubsectionentry {\TeX }{}{20}
+\tocsubsectionentry {\LaTeX }{}{20}
+\tocsubsectionentry {\MF }{}{20}
+\tocchapterentry { Exemples\Black }{3}{23}
+\tocsectionentry{Saisir du texte simple}{}{24}
+\tocsectionentry{Indentation}{}{26}
+\tocsectionentry{Polices et caract{\accent 18 e}res sp{\accent 19 e}ciaux}{}{28}
+\tocsectionentry{Espacement interligne}{}{30}
+\tocsectionentry{Espacement, traits et bo{\accent 94 \i }tes}{}{32}
+\tocsectionentry{Odds and ends}{}{34}
+\tocsectionentry{Utiliser des polices venant d'ailleurs}{}{36}
+\tocsectionentry{Un tableau trac{\accent 19 e}}{}{38}
+\tocsectionentry{Composer des math{\accent 19 e}matiques}{}{40}
+\tocsectionentry{Plus de math{\accent 19 e}matiques}{}{42}
+\tocchapterentry { Concepts\Black }{4}{45}
+\tocchapterentry { Commandes \linebreak pour composer \linebreak des paragraphes\Black }{5}{103}
+\tocsectionentry {Caract\`eres et accents}{}{103}
+\tocsubsectionentry {Lettres et ligatures pour alphabets Europ\'eens}{}{103}
+\tocsubsectionentry {Symboles sp\'eciaux}{}{104}
+\tocsubsectionentry {Caract\`eres Arbitraires}{}{105}
+\tocsubsectionentry {Accents}{}{106}
+\tocsubsectionentry {Defeating boundary ligatures}{}{107}
+\tocsectionentry {S\'electionner des polices}{}{108}
+\tocsubsectionentry {Polices particuli\`eres}{}{108}
+\tocsubsectionentry {Styles de caract\`ere}{}{109}
+\tocsectionentry {Majuscule et minuscule}{}{109}
+\tocsectionentry {Espace inter-mot}{}{110}
+\tocsectionentry {Centrer et justifier les lignes}{}{115}
+\tocsectionentry {Formation des paragraphes}{}{116}
+\tocsubsectionentry {d\'ebuter, finir et indenter des paragraphes}{}{116}
+\tocsubsectionentry {Formation de paragraphes entiers}{}{120}
+\tocsectionentry {coupures de lignes}{}{126}
+\tocsubsectionentry {Encourager ou d\'ecourager les coupures de ligne}{}{126}
+\tocsubsectionentry {param\`etres de coupure de lignes}{}{128}
+\tocsubsectionentry {C\'esure}{}{132}
+\tocsectionentry {Ent\^etes de section, listes et th\'eor\`emes}{}{135}
+\tocchapterentry { Commandes pour \linebreak composer des pages\Black }{6}{139}
+\tocsectionentry {Espaces inter-ligne et inter-paragraphe}{}{139}
+\tocsectionentry {Coupures de page}{}{142}
+\tocsubsectionentry {Encourager ou d\'ecourager des coupures de page}{}{142}
+\tocsubsectionentry {Param\`etres de coupure de page}{}{144}
+\tocsectionentry {Gabarit de page}{}{146}
+\tocsubsectionentry {Param\`etres de description de page}{}{146}
+\tocsubsectionentry {Num\'eros de page}{}{148}
+\tocsubsectionentry {Lignes d'ent\^ete et de pied de page}{}{149}
+\tocsubsectionentry {Marques}{}{150}
+\tocsectionentry {Insertions}{}{151}
+\tocsubsectionentry {Pieds de page}{}{151}
+\tocsubsectionentry {Insertions g\'en\'erales}{}{152}
+\tocsectionentry {Modifier la routine de sortie}{}{154}
+\tocsectionentry {S\'eparer des listes verticales}{}{155}
+\tocchapterentry { Commandes pour \linebreak les modes horizontaux \linebreak et verticaux\Black }{7}{159}
+\tocsectionentry {Produire des espaces}{}{159}
+\tocsubsectionentry {Espaces horizontaux de largeur fixe}{}{159}
+\tocsubsectionentry {Espaces verticaux de largeur fixe}{}{160}
+\tocsubsectionentry {Espace de taille variable}{}{161}
+\tocsectionentry {Manipuler des bo\^\i tes}{}{166}
+\tocsubsectionentry {Construire des hbox et des vbox}{}{166}
+\tocsubsectionentry {Remplir et r\'ecuperer le contenu de bo\^\i tes}{}{170}
+\tocsubsectionentry {D\'eplacer des bo\^\i tes}{}{172}
+\tocsubsectionentry {Dimensions des registres de bo\^\i tes}{}{173}
+\tocsubsectionentry {Struts, fantomes et bo\^\i tes vides}{}{173}
+\tocsubsectionentry {Param\`etres faisant partie des bo\^\i tes mal form\'ees}{}{175}
+\tocsectionentry {Retrouver le dernier \'el\'ement d'une liste}{}{177}
+\tocsectionentry {filets et r\`eglures}{}{178}
+\tocsectionentry {Alignements}{}{181}
+\tocsubsectionentry {Alignements tabul\'es}{}{181}
+\tocsubsectionentry {Alignement g\'en\'eraux}{}{184}
+\tocchapterentry { Commandes pour \linebreak composer des \linebreak formules math\'ematiques\Black }{8}{195}
+\tocsectionentry {Parties simples de formules}{}{195}
+\tocsubsectionentry {Lettres grecques}{}{195}
+\tocsubsectionentry {Divers Symboles math\'ematiques ordinaires}{}{196}
+\tocsubsectionentry {Op\'erations binaires}{}{197}
+\tocsubsectionentry {Relations}{}{198}
+\tocsubsectionentry {D\'elimiteurs gauches et droits}{}{199}
+\tocsubsectionentry {Fl\`eches}{}{200}
+\tocsubsectionentry {Fonctions math\'ematiques nomm\'ees}{}{201}
+\tocsubsectionentry {Grands op\'erateurs}{}{202}
+\tocsubsectionentry {Ponctuation}{}{204}
+\tocsectionentry {Puissances et indices}{}{205}
+\tocsubsectionentry {Choisir et utiliser des mod\`eles}{}{206}
+\tocsectionentry {Symboles compos\'es}{}{207}
+\tocsubsectionentry {Accents math\'ematiques}{}{207}
+\tocsubsectionentry {Fractions et autres op\'erations empil\'ees}{}{208}
+\tocsubsectionentry {Points}{}{211}
+\tocsubsectionentry {D\'elimiteurs}{}{212}
+\tocsubsectionentry {Matrices}{}{213}
+\tocsubsectionentry {Racines et radicaux}{}{214}
+\tocsectionentry {Num\'eros d'\'equation}{}{215}
+\tocsectionentry {Affichages multi-ligne}{}{216}
+\tocsectionentry {Polices dans des formules math\'ematiques}{}{217}
+\tocsectionentry {Construire des symboles math\'ematiques}{}{219}
+\tocsubsectionentry {Rendre des d\'elimiteurs plus grand}{}{219}
+\tocsubsectionentry {Parties de grands symboles}{}{220}
+\tocsectionentry {Aligner des parties d'une formule}{}{220}
+\tocsubsectionentry {Aligner des accents}{}{220}
+\tocsubsectionentry {Aligner du mat\'eriel verticalement}{}{221}
+\tocsectionentry {Produire des espaces}{}{222}
+\tocsubsectionentry {Espaces math\'ematiques de largeur fixe}{}{222}
+\tocsubsectionentry {Espaces math\'ematiques de largeur variable}{}{223}
+\tocsubsectionentry {param\`etres d'espacement pour les affichages}{}{224}
+\tocsubsectionentry {autres param\`etres d'espacement pour les math\'ematiques}{}{225}
+\tocsectionentry {Cat\'egoriser des constructions math\'ematiques}{}{226}
+\tocsectionentry {Actions sp\'eciales pour des formules math\'ematiques}{}{226}
+\tocchapterentry { Commandes pour \linebreak des op\'erations g\'en\'erales\Black }{9}{229}
+\tocsectionentry {Nommer et modifier des polices}{}{229}
+\tocsectionentry {Convertir l'information en tokens}{}{232}
+\tocsubsectionentry {Nombres}{}{232}
+\tocsubsectionentry {Information environmentale}{}{233}
+\tocsubsectionentry {Valeurs des variables}{}{234}
+\tocsectionentry {Groupement}{}{235}
+\tocsectionentry {Macros}{}{238}
+\tocsubsectionentry {D\'efinir des macros}{}{238}
+\tocsubsectionentry {Autre d\'efinitions}{}{240}
+\tocsubsectionentry {Contr\^oler le d\'eveloppement}{}{241}
+\tocsubsectionentry {Tests conditionnels}{}{243}
+\tocsubsectionentry {Actions r\'ep\'et\'ees}{}{248}
+\tocsubsectionentry {Ne rien faire}{}{249}
+\tocsectionentry {Registres}{}{250}
+\tocsubsectionentry {Utiliser des registres}{}{250}
+\tocsubsectionentry {Nommer et r\'eserver des registres, etc.}{}{252}
+\tocsubsectionentry {Faire de l'arithm\'etique dans des registres}{}{253}
+\tocsectionentry {Terminer l'ex\'ecution}{}{255}
+\tocsectionentry {Entr\'ee et sortie}{}{255}
+\tocsubsectionentry {Op\'erations sur des fichiers d'entr\'ee}{}{255}
+\tocsubsectionentry {Op\'erations sur des fichiers de sortie}{}{257}
+\tocsubsectionentry {Interpr\'eter des caract\`eres entr\'es}{}{259}
+\tocsectionentry {Contr\^oler l'interaction avec \TeX }{}{260}
+\tocsectionentry {Aide au diagnostique}{}{261}
+\tocsubsectionentry {Afficher des donn\'ees internes}{}{261}
+\tocsubsectionentry {Sp\'ecifier ce qui est trac\'e}{}{264}
+\tocsubsectionentry {Envoyer des messages}{}{269}
+\tocsectionentry {Initialiser \TeX }{}{271}
+\tocchapterentry { Trucs et astuces\Black }{10}{273}
+\tocsectionentry {Corriger de mauvaises coupures de page}{}{273}
+\tocsectionentry {Pr\'eserver la fin d'une page}{}{275}
+\tocsectionentry {Garder de l'espace en haut d'une page}{}{276}
+\tocsectionentry {Corriger de mauvaise coupure de ligne}{}{276}
+\tocsectionentry {Corriger des bo\^\i tes trop ou pas assez pleines}{}{276}
+\tocsectionentry {Retrouver des espaces entre-mots perdus}{}{278}
+\tocsectionentry {\'eviter des espaces entre-mots non d\'esir\'es}{}{278}
+\tocsectionentry {\'eviter un exc\`es d'espace autour d'un affichage}{}{279}
+\tocsectionentry {\'eviter un exc\`es d'espace apr\`es un paragraphe}{}{280}
+\tocsectionentry {Changer la forme du paragraphe}{}{280}
+\tocsectionentry {Mettre des paragraphes dans une bo\^\i te}{}{281}
+\tocsectionentry {dessiner des lignes}{}{281}
+\tocsectionentry {Cr\'eer des ent\^etes ou des pieds de page multi-lignes}{}{282}
+\tocsectionentry {Trouver des accolades orphelines}{}{283}
+\tocsectionentry {Fixer des dimensions}{}{284}
+\tocsectionentry {Cr\'eer des polices composites}{}{284}
+\tocsectionentry {Reproduire du texte verbatim}{}{285}
+\tocsectionentry {Utiliser des macros externes}{}{288}
+\tocsectionentry {Changer des codes de cat\'egorie}{}{288}
+\tocsectionentry {Faire des fichiers de macro plus lisibles}{}{289}
+\tocchapterentry { Comprendre les \linebreak messages d'erreur\Black }{11}{293}
+\tocchapterentry { Un abr\'eg\'e de \linebreak macros utiles\Black }{12}{301}
+\tocsectionentry {Pr\'eliminaires}{}{301}
+\tocsectionentry {Affichages}{}{305}
+\tocsectionentry {heure du jour}{}{307}
+\tocsectionentry {Listes}{}{308}
+\tocsectionentry {Listing verbatim}{}{310}
+\tocsectionentry {Table des mati\`eres}{}{311}
+\tocsectionentry {R\'ef\'erences crois\'ees}{}{312}
+\tocsectionentry {Environnements}{}{314}
+\tocsectionentry {Justification}{}{316}
+\tocsectionentry {Tables}{}{317}
+\tocsectionentry {Notes de pied de page}{}{318}
+\tocsectionentry {Double colonnes}{}{319}
+\tocsectionentry {Terminer}{}{321}
+\tocchapterentry { Sommaire \linebreak des commandes\Black }{13}{323}
+\setback 
+\tocchapterentry { GNU Free Documentation \linebreak License\Black }{14}{353}
+\tocsectionentry {PREAMBLE}{}{353}
+\tocsectionentry {APPLICABILITY AND DEFINITIONS}{}{354}
+\tocsectionentry {VERBATIM COPYING}{}{355}
+\tocsectionentry {COPYING IN QUANTITY}{}{356}
+\tocsectionentry {MODIFICATIONS}{}{356}
+\tocsectionentry {COMBINING DOCUMENTS}{}{358}
+\tocsectionentry {COLLECTIONS OF DOCUMENTS}{}{359}
+\tocsectionentry {AGGREGATION WITH INDEPENDENT WORKS}{}{359}
+\tocsectionentry {TRANSLATION}{}{359}
+\tocsectionentry {TERMINATION}{}{360}
+\tocsectionentry {FUTURE REVISIONS OF THIS LICENSE}{}{360}
+\tocchapterentry { Index\Black }{15}{363}
