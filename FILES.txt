@@ -1,0 +1,13 @@
+
+
+List of the files in this project:
+
+
+CHANGELOG			Log of the project changes (translations);
+fdl-versao_1.3-en_US.texi	GNU Free Documentation Licence (version 1.3);
+fdl-versao_1.3-pt_BR.texi	GNU Free Documentation Licence (version 1.3) translated into Brazilian Portuguese;
+FILES.txt			This file;
+README.md			Information about the project;
+tex_for_the_impatient-orig	Directory containing the book's sources
+tex_para_o_impaciente.tex	Master file
+uselivro.tex			Chapter ``Using this book'' translated into translated into Brazilian Portuguese;
