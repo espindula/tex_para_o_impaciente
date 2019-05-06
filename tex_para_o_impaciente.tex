@@ -1,0 +1,79 @@
+% Esta é parte do livro "TeX for the Impatient".
+% Copyright (C) 2003 Paul W. Abrahams, Kathryn A. Hargreaves, Karl Berry.
+% Veja o arquivo fdl.tex para condições de reprodução.
+
+% Copyright @copyright{} 2016, 2017, 2018, 2019 da ``versão modificada'' 
+% traduzida para a língua portuguesa falada e escrita no Brasil: Jamenson 
+% Ferreira Espindula de Almeida Melo <@email{jafesp@@gmail.com}>.
+
+% @quotation
+% É concedida permissão para copiar, distribuir e/ou modificar este arquivo 
+% traduzida para a língua portuguesa sob os termos da Licença de 
+% Documentação Livre GNU, versão 1.3 ou qualquer versão posterior 
+% publicada pela Free Software Foundation; sem Seções Invariantes, com os 
+% Textos de Capa Frontal sendo ``Um Manual GNU'', e com os Textos de 
+% Quarta Capa como em (a) abaixo.   Uma cópia da licença está incluída na 
+% seção intitulada ``Licença de Documentação Livre GNU''.
+% 
+% (a) O Texto de Quarta Capa da Free Software Foundation, Inc. (FSF) é: 
+% ``Você tem a liberdade de copiar e modificar este manual GNU.   
+% Comprando cópias da FSF você a apoia no desenvolvimento GNU e na 
+% promoção da liberdade de software''.
+% 
+% 
+% Permission is granted to copy, distribute and/or modify this document
+% under the terms of the GNU Free Documentation License, Version 1.3 or
+% any later version published by the Free Software Foundation; with no
+% Invariant Sections, with the Front-Cover Texts being ``A GNU Manual'',
+% and with the Back-Cover Texts as in (a) below.  A copy of the license
+% is included in the section entitled ``GNU Free Documentation
+% License''.
+% 
+% (a) The FSF's Back-Cover Text is: ``You have the freedom to copy and
+% modify this GNU manual.  Buying copies from the FSF supports it in
+% developing GNU and promoting software freedom.''
+% @end quotation
+
+% Controle de nível superior.
+%
+\input macros
+% Aqui nós substituímos parte da configuração
+% dado que estamos fazendo uma execução completa.
+\rewritetocfiletrue % sempre produz um sumário
+\xrefwarningtrue
+\completebooktrue
+\edgetabsfalse
+\input frontm
+% (não para web) \edgetabstrue
+\settabdepth{\bigtab}
+\input uselivro
+\input usingtex
+\input examples
+\nextedgetab
+\input concepts
+\nextedgetab
+\settabdepth{\smalltab}
+\input paras
+\nextedgetab
+\input pages
+\nextedgetab
+\input modes
+\nextedgetab
+\input math
+\nextedgetab
+\input genops
+\nextedgetab
+\settabdepth{\bigtab}
+\input tips
+\input errors
+\input usermacs
+\nextedgetab
+\input capsule
+\nextedgetab
+\backmatter
+\input fdl
+\input index
+\edgetabsfalse
+\input backm
+
+\bye
