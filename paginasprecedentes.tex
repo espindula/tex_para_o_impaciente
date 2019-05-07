@@ -1,0 +1,83 @@
+% This is part of the book TeX for the Impatient.
+% Copyright (C) 2003 Paul W. Abrahams, Kathryn A. Hargreaves, Karl Berry.
+% See file fdl.tex for copying conditions.
+%
+% Páginas precedentes.
+
+\input macros
+
+
+% As páginas precedentes são numeradas i, ii, ...
+\pageno = -1
+
+
+% Título bastardo.
+% 
+% \sinkage
+\leftline{\chapterfonts \TeX\ para o Impaciente}
+
+\noheadlinetrue\pagebreak
+
+
+% Propagação do título.
+% 
+%(página de título, lhs)
+%\noheadlinetrue\pagebreak
+\blankpage
+
+%(página de título, rhs)
+%\noheadlinetrue\pagebreak
+\blankpage
+
+
+{\input direitosautorais.tex }
+\noheadlinetrue
+
+
+% Dedicatória.
+% 
+\sinkage
+{\it \flushright
+   Para Jodi.
+   ---{\sc p.w.a.}
+   
+   Em memória de meu pai,
+   que teve fé em mim.
+   ---{\sc k.a.h.}
+   
+   Para Dan.
+   ---{\sc k.b.}
+}
+\pagebreak
+
+% A partir de agora, a convenção é que cada frente de capítulo faça sua 
+% própria quebra de página final e inclua suas fontes em um grupo, se 
+% necessário.
+
+% O prefácio deveria iniciar em uma página à direita.
+
+\blankpage
+{\input prefacio.tex }
+
+% Contents.
+% 
+% We never want to empty the file after doing the brief contents.
+% 
+\rewritetocfilefalse
+%
+\blankpage
+\frontchapter{Brief\linebreak contents}
+
+\shortcontents
+
+
+\ifcompletebook \global\rewritetocfiletrue \fi
+
+\frontchapter{Contents}
+
+\contents
+
+\blankpage
+{\input read1st }
+
+\byebye
