@@ -12,3 +12,5 @@ tex_for_the_impatient-orig	Directory containing the book's sources
 tex_para_o_impaciente.tex	Master file
 uselivro.tex			Chapter ``Using this book'' translated into translated into Brazilian Portuguese;
 direitosautorais.tex		Copyright declarations;
+paginasprecedentes.tex		Front matter page;
+prefacio.tex			Preface page;
