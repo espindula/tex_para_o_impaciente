@@ -67,7 +67,54 @@ entrada do \TeX\ consiste em texto comum intercalado com comandos que
 d\~ao ao \TeX\ instru\c c\~oes adicionais sobre como tipografar o seu 
 documento.  Coisas como f\'ormulas matem\'aticas cont\'em muitos desses 
 comandos, enquanto o texto expositivo cont\'em relativamente poucos 
-deles.
+deles.  A parte que desperdi\c ca tempo de aprender \TeX\ \'e aprender 
+os comandos e conceitos que fundamentam suas descri\c c\~oes.  Assim, 
+n\'os devotamos a maior parte do livre para definir e explanar os 
+comandos e os conceitos.  N\'os tamb\'em fornecemos exemplos mostrando a 
+sa\'ida da tipografia de \TeX\ e a correspondente entrada, dicas sobre 
+solucionar problemas comuns, informa\c c\~ao acerca de mensagens de erro 
+e assim por diante.  N\'os fornecemos refer\^encias cruzadas extensa por 
+n\'umero de p\'agina e um \'incide completo.
+
+N\'os organizamos as descri\c c\~oes dos comandos de forma que voc\^e 
+pode procurar por eles pela fun\c c\~ao ou alfabeticamente.  A 
+organiza\c c\~ao funcional \'e o que voc\^e precisa quando voc\^e sabe o 
+que deseja fazer, mas n\~ao sabe que comando pode faz\ê-lo para voc\^e.  
+A organiza\c c\~ao alfabetica \'e o que voc\^e precisa quando sabe o 
+nome de um comando, mas n\~ao sabe exatamente o que ele faz.
+
+N\'os devemos adverti-lo de que n\~ao tentamos fornecer uma 
+defini\c c\~ao completa de \TeX.  Para isso voc\^e precisar\'a do 
+^{\texbook}, que \'e a fonte original de informa\c c\~ao sobre \TeX.  
+\texbook\ tamb\'em cont\'em um monte de informa\c c\~ao sobre os pontos 
+finos do uso de \TeX, particularmente sobre o assunto da composi\c c\~ao 
+de f\'ormulas matem\'aticas.  N\'os o recomendamos enfaticamente.
+
+Em 1989, Knuth fez uma grande revis\~ao no \TeX\ com a finalidade de 
+adapt\'a-lo aos conjuntos de caracteres de $8$ bits, necess\'arios para 
+suportar a tipografia para outras linguagens que n\~ao o Ingl\^es.  A 
+descri\c c\~ao do \TeX\ neste livro incorpora essa revis\~ao (veja 
+\xref{newtex}).
+
+{\tighten Voc\^e pode estar usando uma forma especializada de \TeX\, 
+como ^{\LaTeX} ou ^{\AMSTeX} (veja \xref{resources}).  Apesar dessas 
+formas especializadas serem auto-contidas, voc\^e ainda pode desejar 
+usar algumas das facilidades do pr\'oprio \TeX\ de vez em quando, de 
+forma a conseguir um controle mais apurado que somente \TeX\ pode 
+fornecer.  Este livro pode ajud\'a-lo a aprender o que precisa saber 
+acerca dessas facilidades sem ter que aprender sobre um monte de outras 
+coisas nas quais voc\^e n\~ao est\'a interessado.  \par}
+
+Dois de n\'os (K.A.H. e K.B.) fomos generosamente financiados pela 
+Universidade de Massachusetts em Boston durante a prepara\c c\~ao deste 
+livro.  Em particular, Rick Martin manteve as m\'aquinas em 
+execu\c c\~ao, e Robert~A. Morris e Betty O'Neil tornaram as m\'aquinas 
+dispon\'iveis.  Paul English da Interleaf nos ajudou a produzir provas 
+para o desenho de capa.
+
+Desejamos agradecer aos revisores do nosso livro: Richard Furuta da 
+Universidade de Maryland; John Gourlay da Arbortext, Inc.; Jill Carter
+Knuth e Richard Rubinstein da Digital Equipment Corporation.
 
 
 
@@ -75,51 +122,8 @@ deles.
 
 
 
-The time-consuming part of learning \TeX\ is learning the commands and
-the concepts underlying their descriptions.  Thus we've devoted most of
-the book to defining and explaining the commands and the concepts.
-We've also provided examples showing \TeX\ typeset output and the
-corresponding input, hints on solving common problems, information about
-error messages, and so forth.  We've supplied extensive cross-references
-by page number and a complete index.
 
-We've arranged the descriptions of the commands so that you can look
-them up either by function or alphabetically.  The functional
-arrangement is what you need when you know what you want to do but you
-don't know what command might do it for you.  The alphabetical arrangement
-is what you need when you know the name of a command but you don't know exactly
-what it does.
-
-We must caution you that we haven't tried to provide a complete
-definition of \TeX.  For that you'll need ^{\texbook}, which is the
-original source of information on \TeX.  \texbook\ also contains a lot
-of information about the fine points of using \TeX, particularly on the
-subject of composing math formulas.  We recommend it highly.
-
-In 1989 Knuth made a major revision to \TeX\ in order to adapt it to
-$8$-bit character sets, needed to support typesetting for languages
-other than English.  The description of \TeX\ in this book incorporates
-that revision (see \xref{newtex}).
-
-{\tighten You may be using a specialized form of \TeX\ such as ^{\LaTeX}
-or ^{\AMSTeX} (see \xref{resources}).  Although these specialized forms
-are self-contained, you may still want to use some of the facilities of
-\TeX\ itself now and then in order to gain the finer control that only
-\TeX\ can provide.  This book can help you to learn what you need to
-know about those facilities without having to learn about a lot of other
-things that you aren't interested~in.  \par}
-
-Two of us (K.A.H. and K.B.) were generously supported by the
-University of Massachusetts at Boston during the preparation of this
-book.  In particular, Rick Martin kept the machines running, and
-Robert~A. Morris and Betty O'Neil made the machines available.  Paul
-English of Interleaf helped us produce proofs for a cover design.
-
-We wish to thank the reviewers of our book: Richard Furuta of the
-University of Maryland, John Gourlay of Arbortext, Inc., Jill Carter
-Knuth, and Richard Rubinstein of the Digital Equipment Corporation. We
-took to heart their perceptive and unsparing criticisms of the original
-manuscript, and the book has benefitted greatly from their insights.
+We took to heart their perceptive and unsparing criticisms of the original manuscript, and the book has benefitted greatly from their insights.
 
 We are particularly grateful to our editor, Peter Gordon of
 Addison-Wesley.  This book was really his idea, and throughout its
