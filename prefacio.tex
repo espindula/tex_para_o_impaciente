@@ -1,0 +1,168 @@
+% This is part of the book TeX for the Impatient.
+% Copyright (C) 2003 Paul W. Abrahams, Kathryn A. Hargreaves, Karl Berry.
+% See file fdl.tex for copying conditions.
+
+\input macros
+\frontchapter{Pref\'acio}
+
+{\tighten
+O \TeX\ de Donald Knuth, um sistema computadorizado de tipografia, 
+fornece quase tudo o que \'e necess\'ario para tipografia de alta 
+qualidade de nota\c c\~oes matem\'aticas, bem como de texto comum.  \'E 
+particularmente not\'avel por sua flexibilidade, sua excelente 
+hifeniza\c c\~ao e sua capacidade de escolher quebras de linha 
+esteticamente satisfat\'orias.  Devido \`as suas extraordin\'arias 
+capacidades, o \TeX\ tornou-se o principal sistema tipogr\'afico para 
+matem\'atica, ci\^encia e engenharia e foi adotado como padr\~ao pela 
+American Mathematical Society.  Um programa companheiro, ^{\Metafont}, 
+pode construir formas de letras arbitr\'arias incluindo, em particular, 
+quaisquer s\'imbolos que possam ser necess\'arios em matem\'atica.  
+Ambos \TeX\ e \Metafont\ est\~ao amplamente acess\'iveis dentro da 
+comunidade cient\'ifica e de engenharia e foram implementados em uma 
+variedade de computadores.  \TeX\ n\~ao \'e perfeito---falta suporte 
+integrado a gr\'aficos, e alguns efeitos, como ^{revision bars}, s\~ao 
+muito dif\'iceis de produzir---mas esses inconvenientes s\~ao muito 
+compensados por suas vantagens.
+\par}
+
+\thisbook\/ destina-se a servir cientistas, matem\'aticos e tip\'ografos 
+t\'ecnicos para quem \TeX\ \'e uma ferramenta \'util e n\~ao um 
+interesse primordial, bem como pessoas de computa\c c\~ao que tem um 
+forte interesse em \TeX\ por sua pr\'opria causa.  N\'os tamb\'em 
+pretendemos que ele sirva tanto aos novatos em \TeX\ e \`aqueles que 
+j\'a est\~ao familiarizados com \TeX.  Assumimos que nossos leitores 
+est\~ao confort\'aveis em trabalhar com computadores e querem obter as 
+informa\c c\~oes de que precisam o mais r\'apido poss\'ivel.  Nosso 
+objetivo \'e fornecer essas informa\c c\~oes de forma clara, concisa e 
+acess\'ivel.
+{\tighten Este livro, portanto, fornece um holofote luminoso, uma 
+bengala robusta e mapas detalhados para explorar e usar o \TeX.  Ele 
+permitir\'a que voc\^e domine \TeX\ em um ritmo r\'apido via consulta e 
+experi\^encia, mas n\~ao o conduzir\'a pela m\~ao ao longo de todo o 
+sistema \TeX.  Nossa abordagem \'e fornecer a voc\^e um manual para 
+\TeX\ que facilita a recupera\c c\~ao de qualquer informa\c c\~ao que 
+voc\^e precise.  N\'os explicamos o repert\'orio completo de comandos do 
+\TeX\ e os conceitos que os fundamentam.  Voc\^e n\~ao ter\'a que 
+desperdi\c car seu tempo arando com materiais que voc\^e nem precisa nem 
+quer.  \par}
+
+Nas se\c c\~oes iniciais n\'os tamb\'em fornecemos orienta\c c\~ao 
+suficiente para que voc\^e possa come\c car se voc\^e n\~ao tiver usado 
+\TeX\ antes.  Presumimos que voc\^e tenha acesso a uma 
+implementa\c c\~ao de \TeX\ e que voc\^e saiba como usar um editor de 
+texto, mas n\~ao presumimos muito sobre seu hist\'orico.  Como este 
+livro est\'a organizado para pronta refer\^encia, voc\^e continuar\'a a 
+ach\'a-lo \'util a medida que se tornar mais familiarizado com o \TeX.  
+Se voc\^e preferir come\c car com um tour cuidadosamente guiado, 
+recomendamos que voc\^e primeiro leia o ^{\texbook} de Knuth (veja 
+\xrefpg{resources} para uma cita\c c\~ao), passando por cima das 
+se\c c\~oes de curva perigosa (``dangerous bend''), e ent\~ao retorne 
+para este livro para informa\c c\~oes adicionais e para refer\^encia 
+quando voc\^e come\c car a usar \TeX.  (As se\c c\~oes de curva perigosa 
+do \texbook\ cobrem t\'opicos avan\c cados).
+
+
+A estrutura de \TeX\ \'e realmente muito simples: um documento de 
+entrada do \TeX\ consiste em texto comum intercalado com comandos que 
+d\~ao ao \TeX\ instru\c c\~oes adicionais sobre como tipografar o seu 
+documento.  Coisas como f\'ormulas matem\'aticas cont\'em muitos desses 
+comandos, enquanto o texto expositivo cont\'em relativamente poucos 
+deles.
+
+
+
+
+
+
+
+The time-consuming part of learning \TeX\ is learning the commands and
+the concepts underlying their descriptions.  Thus we've devoted most of
+the book to defining and explaining the commands and the concepts.
+We've also provided examples showing \TeX\ typeset output and the
+corresponding input, hints on solving common problems, information about
+error messages, and so forth.  We've supplied extensive cross-references
+by page number and a complete index.
+
+We've arranged the descriptions of the commands so that you can look
+them up either by function or alphabetically.  The functional
+arrangement is what you need when you know what you want to do but you
+don't know what command might do it for you.  The alphabetical arrangement
+is what you need when you know the name of a command but you don't know exactly
+what it does.
+
+We must caution you that we haven't tried to provide a complete
+definition of \TeX.  For that you'll need ^{\texbook}, which is the
+original source of information on \TeX.  \texbook\ also contains a lot
+of information about the fine points of using \TeX, particularly on the
+subject of composing math formulas.  We recommend it highly.
+
+In 1989 Knuth made a major revision to \TeX\ in order to adapt it to
+$8$-bit character sets, needed to support typesetting for languages
+other than English.  The description of \TeX\ in this book incorporates
+that revision (see \xref{newtex}).
+
+{\tighten You may be using a specialized form of \TeX\ such as ^{\LaTeX}
+or ^{\AMSTeX} (see \xref{resources}).  Although these specialized forms
+are self-contained, you may still want to use some of the facilities of
+\TeX\ itself now and then in order to gain the finer control that only
+\TeX\ can provide.  This book can help you to learn what you need to
+know about those facilities without having to learn about a lot of other
+things that you aren't interested~in.  \par}
+
+Two of us (K.A.H. and K.B.) were generously supported by the
+University of Massachusetts at Boston during the preparation of this
+book.  In particular, Rick Martin kept the machines running, and
+Robert~A. Morris and Betty O'Neil made the machines available.  Paul
+English of Interleaf helped us produce proofs for a cover design.
+
+We wish to thank the reviewers of our book: Richard Furuta of the
+University of Maryland, John Gourlay of Arbortext, Inc., Jill Carter
+Knuth, and Richard Rubinstein of the Digital Equipment Corporation. We
+took to heart their perceptive and unsparing criticisms of the original
+manuscript, and the book has benefitted greatly from their insights.
+
+We are particularly grateful to our editor, Peter Gordon of
+Addison-Wesley.  This book was really his idea, and throughout its
+development he has been a source of encouragement and valuable
+advice.  We thank his assistant at Addison-Wesley, Helen Goldstein, for
+her help in so many ways, and Loren Stevens of Addison-Wesley for her
+skill and energy in shepherding this book through the production
+process.  Were it not for our copyeditor, Janice Byer, a number of small
+but irritating errors would have remained in this book.  We appreciate
+her sensitivity and taste in correcting what needed to be corrected
+while leaving what did not need to be corrected alone.  Finally, we wish
+to thank Jim Byrnes of Prometheus Inc. for making this collaboration
+possible by introducing us to each other.
+\vskip1.5\baselineskip
+
+\line{\it Deerfield, Massachusetts\hfil\rm P.\thinspace W.\thinspace A.}
+\line{\it Manomet, Massachusetts\hfil\rm K.\thinspace A.\thinspace H.,
+       K.\thinspace B.}
+
+\vskip2\baselineskip
+
+\noindent {\bf Preface to the free edition:} This book was originally
+published in 1990 by Addison-Wesley.  In 2003, it was declared out of
+print and Addison-Wesley generously reverted all rights to us, the
+authors.  We decided to make the book available in source form, under
+the GNU Free Documentation License, as our way of supporting the
+community which supported the book in the first place.  See the
+copyright page for more information on the licensing.
+
+The illustrations which were part of the original book are not included
+here.  Some of the fonts have also been changed; now, only
+freely-available fonts are used.  We left the cropmarks and galley
+information on the pages, to serve as identification.  An old version of
+Eplain was used to produce it; see the {\tt eplain.tex} file for
+details.
+
+We don't plan to make any further changes or additions to the book
+ourselves, except for correction of any outright errors reported to us,
+and perhaps inclusion of the illustrations.
+
+Our distribution of the book is at {\tt
+ftp://tug.org/tex/impatient}.  You can reach us by email at {\tt
+impatient@tug.org}.
+
+\pagebreak
+\byebye
