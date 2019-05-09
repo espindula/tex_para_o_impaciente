@@ -4,7 +4,7 @@
 %
 % Páginas precedentes.
 
-\input macros
+\input macros.tex
 
 
 % As páginas precedentes são numeradas i, ii, ...
@@ -59,25 +59,25 @@
 \blankpage
 {\input prefacio.tex }
 
-% Contents.
+% Índice.
 % 
-% We never want to empty the file after doing the brief contents.
+% Nós nunca queremos esvaziar o arquivo depois de fazer o índice breve
 % 
 \rewritetocfilefalse
 %
 \blankpage
-\frontchapter{Brief\linebreak contents}
+\frontchapter{\'Indice\linebreak breve}
 
 \shortcontents
 
 
 \ifcompletebook \global\rewritetocfiletrue \fi
 
-\frontchapter{Contents}
+\frontchapter{\'Indice}
 
 \contents
 
 \blankpage
-{\input read1st }
+{\input leiaprimeiro.tex }
 
 \byebye
