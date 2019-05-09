@@ -1,0 +1,16 @@
+Ordem de inclusão de arquivos no livro TeX para o Impaciente
+
+A estrutura do livro TeX para o Impaciente foi concebida na forma de um 
+documento mestre (que é o arquivo "tex_para_o_impaciente.tex") e vários 
+arquivos auxiliares (sub-documentos).  Esta é a lista dos arquivos em 
+ordem de inclusão a partir do documento mestre:
+
+macros.tex
+paginasprecedentes.tex
+ macros.tex
+ direitosautorais.tex
+ prefacio.tex
+ leiaprimeiro.tex
+  macros.tex
+uselivro.tex
+ macros.tex
