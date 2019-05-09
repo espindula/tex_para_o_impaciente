@@ -14,3 +14,5 @@ paginasprecedentes.tex
   macros.tex
 uselivro.tex
  macros.tex
+usandotex.tex
+ macros.tex
