@@ -1,109 +1,105 @@
-% This is part of the book TeX for the Impatient.
+% Isto é parte do livro TeX for the Impatient.
 % Copyright (C) 2003 Paul W. Abrahams, Kathryn A. Hargreaves, Karl Berry.
-% See file fdl.tex for copying conditions.
+% Veja o arquivo fdl.tex para condições de reprodução.
 
 \input macros.tex
-\chapter{Using \TeX}
+\chapter{Usando \TeX}
 
-\chapterdef{usingtex}
+\chapterdef{usandotex}
 
-% Avoid underfull box complaint about the empty paragraph
-% that precedes the first section heading.
+% Evite reclamações de caixa insuficiente acerca do parágrafo vazio que 
+% precede o cabeçalho da primeira seção.
 % 
 \def\par{{\parfillskip = 0pt plus 1fil\endgraf}\let\par=\endgraf}
-\vglue-\abovesectionskip % we've skipped enough already
-\vskip0pt % Make \combineskips work.
+\vglue-\abovesectionskip % nós já pulamos o suficiente
+\vskip0pt % Faz \combineskips funcionar.
 
-\section Turning input into ink
+\section Transformando entrada em tinta
 
-\subsection Programs and files you need
+\subsection Programas e arquivos de que voc\^e precisa
 
-In order to produce a \TeX\ document, you'll need to run the \TeX\
-program and several related programs as well.  You'll also need
-supporting files for \TeX\ and possibly for these other programs.  In
-this book we can tell you about \TeX, but we can't tell you about the
-other programs and the supporting files except in very general terms
-because they depend on your local \TeX\ environment.  The people who
-provide you with \TeX\ should be able to supply you with what we call
-\emph{local information}.
-\pix^^{local information}
-The local information tells you how to
-start up \TeX, how to use the related programs, and how to gain access
-to the supporting files.
+Para produzir um documento \TeX, voc\^e precisar\'a executar o programa 
+\TeX\ e v\'arios programas relacionados.  Voc\^e tamb\'em precisar\'a de 
+arquivos de suporte para \TeX\ e possivelmente para esses outros 
+programas.  Neste livro, podemos falar sobre o \TeX, mas n\~ao podemos 
+falar sobre os outros programas e os arquivos de suporte, exceto em 
+termos muito gerais, porque eles dependem do seu ambiente \TeX\ local.  
+As pessoas que lhe fornecem \TeX\ devem poder fornecer a voc\^e o que 
+chamamos de \emph{informa\c c\~oes locais}. \pix^^{informa\c c\~ao local}
+As informa\c c\~oes locais informam como iniciar \TeX, como usar os 
+programas relacionados e como obter acesso aos arquivos de suporte.
 
-Input to \TeX\ consists of a file of ordinary text that you can prepare
-with a ^{text editor}.  A \TeX\ input file, unlike an input file for a
-typical word processor, doesn't ordinarily contain any invisible
-^{control characters}.
-Everything that \TeX\ sees is visible to you too if you
-look at a listing of the file.
+A entrada para \TeX\ consiste em um arquivo de texto comum que voc\^e 
+pode preparar com um ^{editor de texto}.  Um arquivo de entrada do \TeX, 
+ao contr\'ario de um arquivo de entrada para um processador de texto 
+t\'ipico, normalmente n\~ao cont\'em quaisquer ^{caracteres de controle} 
+invis\'iveis.  Tudo o que o \TeX\ v\^e \'e vis\'ivel para voc\^e 
+tamb\'em se voc\^e olhar para uma listagem do arquivo.
 
-Your input file may turn out to be little more than a skeleton that
-calls for other input files.  \TeX\ users often organize large documents
-such as books this way.  You can use the ^|\input| command (\xref\input)
-to embed one input file within another.  In particular, you can use
-|\input| to incorporate files containing \emph{macro definitions}---%
-^^{macros//in auxiliary files}
-auxiliary definitions that enhance \TeX's capabilities.
-If any macro files are available at your \TeX\ installation, the local
-information about \TeX\ should tell you how to get at the macro files
-and what they can do for you.  The standard form of \TeX,
-the one described in this book, incorporates a
-collection of macros and other definitions known as ^{\plainTeX}
-(\xref{\plainTeX}).
+Seu arquivo de entrada pode acabar sendo pouco mais que um esqueleto que 
+chama outros arquivos de entrada.  Os usu\'arios do \TeX\ costumam 
+organizar grandes documentos, como livros, dessa maneira.  Voc\^e pode 
+usar o comando ^|\input| (\xref\input) para incorporar um arquivo de 
+entrada em outro.  Em particular, voc\^e pode usar |\input| para 
+incorporar arquivos contendo \emph{defini\c c\~oes de macro}---%
+^^{macros//em arquivos auxiliares}
+defini\c c\~oes auxiliares que melhoram as capacidades do \TeX.  Se 
+alguns arquivos de macro estiverem dispon\'iveis em sua instala\c c\~ao 
+do \TeX\, a informa\c c\~ao local acerca do \TeX\ dever\'a lhe dizer 
+como acessar os arquivos de macro e o que eles podem fazer por voc\^e.  
+A forma padr\~ao de \TeX, a descrita neste livro, incorpora uma 
+cole\c c\~ao de macros e outras defini\c c\~oes conhecidas como 
+^{\plainTeX} (\xref{\plainTeX}).
 
-When \TeX\ processes your document, it produces a file called the
-^{\dvifile}.  The abbreviation ``|dvi|'' stands for ``device
-independent''.  The abbreviation was chosen because the information in
-the \dvifile\ is independent of the device that you use to print or
-display your document.
+Quando \TeX\ processa seu documento, ele produz um arquivo chamado 
+^{\dvifile}.  A abreviatura ``|dvi|'' significa ``device independent'' 
+(independente de dispositivo).  A abrevia\c c\~ao foi escolhida porque 
+as informa\c c\~oes no \dvifile\ s\~ao independentes do dispositivo 
+usado para imprimir ou exibir o documento.
 
-To print your document or view it with a \emph{previewer},
-^^{previewer}
-you need to process the ^{\dvifile} with
-a \emph{device driver\/} program.
-^^{device drivers}
-(A previewer is a program  that
-enables you to see on a screen some approximation of what the typeset
-output will look like.)
-Different output devices usually
-require different device drivers.
-After running the device driver,
-you may also need to transfer the output of the device driver to the
-printer or other output device.
-^^{printers} ^^{output devices}  
-The local information about \TeX\ should tell
-you how to get the correct device driver and use it.
+Para imprimir seu documento ou visualiz\'a-lo com um 
+\emph{visualizador}, ^^{visualizador}, voc\^e precisa processar o 
+^{\dvifile} com um programa \emph{controlador de dispositivo\/} 
+^^{controladores de dispositivo}(Um visualizador \'e um programa que 
+permite que voc\^e veja em uma tela alguma aproxima\c c\~ao de como 
+ser\'a a sa\'ida da tipografia).  Diferentes dispositivos de sa\'ida 
+geralmente exigem controladores de dispositivos diferentes.  Depois de 
+executar o controlador de dispositivo, voc\^e tamb\'em pode precisar 
+transferir a sa\'ida do controlador de dispositivo para a impressora ou 
+outro dispositivo de sa\'ida.
+^^{impressoras} ^^{dispositivos de sa\'ida}  A informa\c c\~ao local 
+acerca do \TeX\ devem informar como obter o controlador correto de 
+dispositivo e us\'a-lo.
 
-Since \TeX\ has no built-in knowledge of particular fonts, it uses
-\emph{font files}
-^^{font files}
-to obtain information about the fonts used in your
-document.  The font files should also be part of your local \TeX\
-environment.  Each font normally requires two files: one containing the
-dimensions of the characters in the font (the \emph{metrics file})
-^^{metrics file}
-and one containing the shapes of the characters (the \emph{shape file}).
-^^{shape file}
-Magnified versions of a font share the metrics file but have
-different shape files. ^^{magnification} Metrics files are sometimes
-referred to as ^{\tfmfile}s, and the different varieties of shape files
-are sometimes referred to as ^{\pkfile}s, ^{\pxlfile}s, and ^{\gffile}s.
-These names correspond to the names of the files that \TeX\ and its
-companion programs use.  For example, |cmr10.tfm| is the metrics file
-for the |cmr10| font (10-point Computer Modern Roman).
+Como o \TeX\ n\~ao possui conhecimento embutido de fontes espec\'ificas, 
+ele usa \emph{arquivos de fonte} ^^{arquivos de fonte} para obter 
+informa\c c\~ao acerca das fontes usadas em seu documento.  Os arquivos 
+de fonte tamb\'em devem fazer parte do seu ambiente local do \TeX.  Cada 
+fonte normalmente requer dois arquivos: um contendo as dimens\~oes dos 
+caracteres na fonte (o \emph{arquivo de métricas}) 
+^^{arquivo de métricas}e um contendo as formas dos caracteres 
+(o \emph{arquivo de forma}).^^{arquivo de forma}  Vers\~oes ampliadas de 
+uma fonte compartilham o arquivo de m\'etricas, mas possuem arquivos de 
+formas diferentes. ^^{magnifica\c c\~ao} Os arquivos de m\'etricas as 
+vezes s\~ao chamados de ^{\tfmfile}s, e as diferentes variedades de 
+arquivos de formas as vezes s\~ao chamadas de ^{\pkfile}s, ^{\pxlfile}s, 
+e ^{\gffile}s.  Esses nomes correspondem aos nomes dos arquivos que o 
+\TeX\ e seus programas associados usam.  Por exemplo, |cmr10.tfm| \'e o 
+arquivo de m\'etricas para a fonte |cmr10| (Computer Modern Roman de 10 
+pontos).
 
-\TeX\ itself uses only the metrics file, since it doesn't care what the
-characters look like but only how much space they occupy.  The device
-driver ordinarily uses the shape file, since it's responsible for
-creating the printed image of each typeset character.  Some device
-drivers need to use the metrics file as well.  Some device drivers can
-utilize fonts that are resident in a printer and don't need shape files
-for those fonts.
+O pr\'oprio \TeX\ usa apenas o arquivo de m\'etricas, j\'a que ele n\~ao 
+se importa com a apar\^encia dos caracteres, mas apenas com quanto 
+espa\c co eles ocupam.  O controlador de dispositivo normalmente usa o 
+arquivo de forma, j\'a que \'e respons\'avel por criar a imagem impressa 
+de cada caractere de tipografia.  Alguns controladores de dispositivo 
+tamb\'em precisam usar o arquivo de m\'etricas.  Alguns controladores de 
+dispositivo podem utilizar fontes residentes em uma impressora e n\~ao 
+precisam de arquivos de formas para essas fontes.
 \secondprinting{\vfill\eject}
 
 
-\subsection Running {\TeX}
+\subsection Executando {\TeX}
 
 \bix^^{running \TeX}
 You can run \TeX\ on an input file |screed.tex| by typing 
