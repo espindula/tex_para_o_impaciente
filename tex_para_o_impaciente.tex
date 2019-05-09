@@ -38,18 +38,18 @@
 
 % Controle de nível superior.
 %
-\input macros
+\input macros.tex
 % Aqui nós substituímos parte da configuração
 % dado que estamos fazendo uma execução completa.
 \rewritetocfiletrue % sempre produz um sumário
 \xrefwarningtrue
 \completebooktrue
 \edgetabsfalse
-\input frontm
+\input paginasprecedentes.tex
 % (não para web) \edgetabstrue
 \settabdepth{\bigtab}
-\input uselivro
-\input usingtex
+\input uselivro.tex
+\input usandotex.tex
 \input examples
 \nextedgetab
 \input concepts
