@@ -5,8 +5,8 @@ Translation project of the ''TeX for the Impatient'' into Brazilian Portuguese.
 git clone https://github.com/espindula/tex_para_o_impaciente.git
 
 
-Direitos autorais (Copyright) da versão modificada traduzida para a língua 
-portuguesa escrita e falada no Brasil: (c) 2016, 2017, 2018, 2019 
+Direitos autorais (Copyright) (c) da versão modificada traduzida para a 
+língua portuguesa escrita e falada no Brasil: 2019 
 Jamenson Ferreira Espindula de Almeida Melo (<jafesp@gmail.com>).
 
   Este trabalho de tradução do livro ''TeX for the Impatient'' é classificado pela 
