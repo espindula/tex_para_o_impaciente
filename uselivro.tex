@@ -1,8 +1,8 @@
-% This is part of the book TeX for the Impatient.
+% Isto é parte do livro TeX para o Impaciente.
 % Copyright (C) 2003 Paul W. Abrahams, Kathryn A. Hargreaves, Karl Berry.
-% See file fdl.tex for copying conditions.
+% Veja o arquivo fdl.tex para condições de reprodução.
 
-\input macros
+\input macros.tex
 \chapter{Usando este livro}
 
 \chapterdef{uselivro}
@@ -92,130 +92,127 @@ para uma p\'agina ou duas.
 
 \section Syntactic conventions
 
-In any book about preparing input for a computer,
-it's necessary to indicate clearly the literal characters that should be typed
-and to distinguish those characters from the explanatory text.
-We use the Computer Modern typewriter font for {\tt literal input
-like this}, and also for the names of \TeX{} commands.
-When there's any possibility of confusion, we enclose \TeX\
-input in single quotation marks, `{\tt like this}'.
-However, we occasionally use parentheses when we're indicating single
-characters such as (|`|) (you can see why).
+Em qualquer livro sobre como preparar entrada para um computador, \'e 
+necess\'ario indicar claramente os caracteres literais que devem ser 
+digitados e distinguir esses caracteres do texto explicativo.  N\'os 
+usamos a fonte ``Computer Modern typewriter'' para 
+{\tt entrada literal como esta}, e tamb\'em para os nomes de comandos do 
+\TeX{}.  Quando existir qualquer possibilidade de confus\~ao, colocamos 
+a entrada do \TeX\ entre aspas simples `{\tt como isto}'.  No entanto, 
+ocasionalmente usamos par\^enteses quando estamos indicando caracteres 
+\'unicos, como (|`|) (voc\^e pode ver o porqu\^e).
 
-For the sake of your eyes we usually just put spaces 
-where you should put spaces. In some places where
-we need to emphasize the space, however,
-we use a `\visiblespace' character
-{\catcode `\ =\other\pix^^| |}%
-to indicate it.
-Naturally enough, this character is called a \emph{visible space}.
-\pix^^{spaces//visible}
+Para o bem dos seus olhos, normalmente colocamos espa\c cos onde voc\^e 
+deve colocar espaços.  Em alguns lugares onde precisamos enfatizar o 
+espa\c co, entretanto, usamos um carácter `\visiblespace' 
+{\catcode `\ =\other\pix^^| |} para indic\'a-lo.  Naturalmente, esse 
+carácter \'e chamado de \emph{espa\c co vis\'ivel}.  \pix^^{spaces//visible}
 
 
-\section Descriptions of the commands
+\section Descri\c c\~oes dos comandos
 
 \xrdef{cmddesc}
-Sections~\chapternum{paras}--\chapternum{general} contain
-a description of what nearly every \TeX\ command does.  ^^{commands}
-Both the primitive commands ^^{primitive//command}
-and those of ^{\plainTeX} are covered.
-The primitive commands are those built into the \TeX\ computer program, while
-the \plainTeX{} commands are defined in a standard file of 
-auxiliary definitions (see \xref\plainTeX). 
-The only commands we've omitted are those that are used purely locally
-in the definition of \plainTeX\ (\knuth{Appendix~B}).
-The commands are organized as follows:
+As se\c c\~oes ~\chapternum{paras}--\chapternum{general} cont\'em uma 
+descri\c c\~ao do qu\^e aproximadamente cada comando do \TeX\ faz.  
+^^{commands}Ambos, os comandos primitivos ^^{primitive//command} e 
+aqueles do ^{\plainTeX} s\~ao abordados.  Os comandos primitivos s\~ao 
+aqueles constru\'idos dentro do programa de computador \TeX, enquanto 
+que os comandos do \plainTeX{} est\~ao definidos em um arquivo padr\~ao 
+de defini\c c\~oes auxiliares (veja \xref\plainTeX).  Os \'unicos 
+comandos que n\'os omitimos foram aqueles que s\~ao usados puramente 
+localmente na defini\c c\~ao do \plainTeX\ (Sequ\^encias B\'asicas de 
+Controle, \knuth{Appendix~B}).  Os comandos est\~ao organizados conforme 
+a seguir:
 \ulist\compact
-\li ``Commands for composing paragraphs'', \chapterref{paras},
-deal with characters, words, lines, and entire paragraphs.
-\li ``Commands for composing pages'', \chapterref{pages},
-deal with pages, their components, and the output routine.
-\li ``Commands for horizontal and vertical modes'', \chapterref{hvmodes},
-have corresponding or identical
-forms for both horizontal modes (paragraphs and hboxes) and vertical
-modes (pages and vboxes).
-These commands provide boxes, spaces, rules, leaders,
-and alignments.
-\li ``Commands for composing math formulas'', \chapterref{math},
-provide capabilities for constructing math formulas.
-\li ``Commands for general operations'', \chapterref{general},
-provide 
-\TeX's programming features and
-everything else that doesn't fit into any of the other sections.
+\li ``Comandos para a composi\c c\~ao de par\'agrafos'', 
+\chapterref{paras}, lida com caracteres, palavras, linhas e par\'agrafos 
+inteiros;
+\li ``Comandos para a composi\c c\~ao de p\'aginas'', \chapterref{pages}, 
+lida com p\'aginas, seus componentes, e a rotina de sa\'ida;
+\li ``Comandos para os modos horizontal e vertical'', 
+\chapterref{hvmodes}, tem formas correspondentes ou id\^enticas para 
+ambos os modos horizontais (par\'agrafos e hboxes) e modos verticais 
+(p\'aginas e vboxes).  Esses comandos fornecem caixas, espa\c cos, 
+regras, l\'ideres e alinhamentos;
+\li ``Comandos para a composi\c c\~ao de f\'ormulas matem\'aticas'', 
+\chapterref{math}, fornecem recursos para a constru\c c\~ao de 
+f\'ormulas matem\'aticas;
+\li ``Comandos para opera\c c\~oes gerais'', \chapterref{general}, 
+fornecem recursos de programa\c c\~ao do \TeX e tudo o mais que n\~ao se 
+encaixa em nenhuma das outras se\c c\~oes.
 \endulist
-You should think of these categories as being suggestive rather than
-rigorous, because the commands don't really fit neatly into these
-(or any other) categories.
- 
-Within each section, the descriptions of the commands are organized
-by function.  When several commands are closely related, they are described as
-a group; otherwise, each command has its own explanation.
-The description of each command
-includes one or more examples and the output
-produced by each example when examples are appropriate (for
-some commands they aren't).
-When you are looking at a subsection containing functionally related
-commands, be sure to check the end of a subsection for a ``see also'' 
-item that refers you to related commands that are described elsewhere.
- 
-Some commands are closely related to certain concepts.
-For instance, the |\halign| and |\valign| commands are related to
-``alignment'', the |\def|
-command is related to ``macro'',
-and the |\hbox| and |\vbox| commands are related to ``box''.
-In these cases we've usually given a bare-bones des\-crip\-tion of the
-commands themselves and explained  the underlying ideas
-in the concept. 
+Voc\^e deve pensar nessas categorias como sendo mais sugestivas do que 
+rigorosas, porque os comandos n\~ao se encaixam perfeitamente nessas (ou 
+em quaisquer outras) categorias.
 
-The examples associated with the commands have been typeset with
-^|\parindent|, the paragraph indentation, set to zero so that
-paragraphs are normally unindented.
-This convention makes the examples easier to read.
-In those examples where the paragraph indentation is essential,
-we've set it explicitly to a nonzero value.
+Dentro de cada se\c c\~ao, as descri\c c\~oes dos comandos est\~ao 
+organizadas por fun\c c\~ao.  Quando v\'arios comandos est\~ao 
+intimamente relacionados, eles est\~ao descritos como um grupo; caso 
+contr\'ario, cada comando tem sua pr\'opria explica\c c\~ao.  A 
+descri\c c\~ao de cada comando inclui um ou mais exemplos e a sa\'ida 
+produzida por cada exemplo, quando os exemplos s\~ao apropriados (para 
+alguns comandos eles n\ão s\~ao).  Quando voc\^e estiver olhando para 
+uma se\c c\~ao contendo comandos funcionalmente relacionados, 
+certifique-se de verificar o final de uma subse\c c\~ao para um item 
+``ver tamb\'em'' que o direciona para comandos relacionados que est\~ao 
+descritos em outro lugar.
 
-The pointing hand in front of a command or a group of commands indicates
-that we judged this command or group of commands to be particularly useful
-and easy to understand.
+Alguns comandos est\~ao intimamente relacionados a certos conceitos.  
+Por exemplo, os comandos |\halign| e |\valign| est\~ao relacionados a 
+``alinhamento''; o comando |\def| est\'a relacionado a ``macro''; e os 
+comandos |\hbox| e |\vbox| est\~ao relacionados a ``caixa''.  Nesses 
+casos, n\'os geralmente demos uma descri\c c\~ao b\'asica dos pr\'oprios 
+comandos e explicamos as id\'eias subjacentes.
 
-Many commands expect ^{arguments} of one kind or another
-(\xref{arg1}).  The arguments of
-a command give \TeX\ additional information that it needs in order to
-carry out the command.  Each argument is indicated by an italicized
-term in angle brackets that indicates what kind of argument it~is:
- 
+Os exemplos associados aos comandos foram tipografados com 
+^|\parindent|, o recuo de par\'agrafo definido como zero, de modo que 
+os par\'agrafos normalmente não são recuados.  Essa conven\c c\~ao faz 
+com que os exemplos sejam mais f\'aceis de ler.  Naqueles exemplos onde 
+o recuo de par\'agrafo \'e essencial, n\'os configuramos explicitamente 
+para um valor diferentes de zero.
+
+A mão apontada na frente de um comando ou de um grupo de comandos indica 
+que julgamos que esse comando ou grupo de comandos \'e particularmente 
+\'util e f\'acil de entender.
+
+Muitos comandos experam ^{argumentos} de um tipo ou de outro 
+(\xref{arg1}).  Os argumentos de um comando fornecem ao \TeX\ 
+informa\c c\~oes adicionais necess\'arias para executar o comando.  Cada 
+argumento \'e indicado por um termo em it\'alico, entre colchetes 
+angulares, que indica que tipo de argumento \'e:
+
 \display{%
 \halign{\<#>\quad&#\hfil\cr
-argument&a single token or some text enclosed in braces\cr
-charcode&a character code, i.e., an integer between $0$ and $255$\cr
-dimen&a dimension, i.e., a length\cr
-glue&glue (with optional stretch and shrink)\cr
-number&an optionally signed integer (whole number)\cr
-register&a register number between $0$ and $255$\cr
+argument&token \'unico ou algum texto entre chaves\cr
+charcode&um c\'odigo de caractere, ou seja, um inteiro entre $0$ e 
+$255$\cr
+dimen&uma dimens\~ao, isto \'e, um comprimento\cr
+glue&cola (com estiramento e encolhimento opcionais)\cr
+number&um inteiro opcionalmente assinado (n\'umero inteiro)\cr
+register&um n\'umero de registro entre $0$ e $255$\cr
 }}
-^^{\<dimen>}
 ^^{\<argument>}
 ^^{\<charcode>}
+^^{\<dimen>}
 ^^{\<glue>}
 ^^{\<number>}
 ^^{\<register>}
 
 \noindent
-All of these terms are explained in more detail in \chapterref{concepts}.
-In addition, we sometimes use terms such as \<token list> that are either
-self-explanatory or explained in the description of the command.
-Some commands have special formats that require either braces or 
-particular words.
-These are set in the same bold font that we use
-for the command headings.
+Todos esses termos est\~ao explicados com mais detalhes em 
+\chapterref{concepts}.  Al\'em disso, as vezes usamos termos como 
+\<lista de tokens> que s\~ao auto explicativos ou explicados na 
+descri\c c\~ao do comando.  Alguns comandos tem formatos especiais que 
+exigem chaves ou palavras espec\'ificas.  Esses est\~ao definidos na 
+mesma fonte em negrito que usamos para os cabe\c calhos de comando.
 
-Some commands are parameters (\xref{introparms}) or table entries. 
-^^{parameters//as commands}
-This is indicated in the command's listing.
-You can either use a parameter as an argument or assign a value to it.
-The same holds for table entries.
-We use the term ``parameter'' to refer to entities such as |\pageno|
-that are actually registers but behave just like parameters.
+Alguns comandos s\~ao par\^ametros (\xref{introparms}) ou entradas de 
+tabela.  ^^{parameters//as commands}
+Isso \'e indicado na listagem do comando.  Voc\^e pode usar um 
+par\^ametro como argumento ou atribuir um valor ao comando.  O mesmo 
+vale para entradas de tabela.  N\'os usamos o termo ``par\^ametro'' para 
+nos referirmos a entidades como |\pageno| que, na verdade, s\~ao 
+registros, mas se comportam exatamente como par\^ametros.
 ^^{registers//parameters as}
 
 
