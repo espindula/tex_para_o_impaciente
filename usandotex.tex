@@ -99,142 +99,151 @@ precisam de arquivos de formas para essas fontes.
 \secondprinting{\vfill\eject}
 
 
-\subsection Executando {\TeX}
+\subsection Executando o {\TeX}
 
-\bix^^{running \TeX}
-You can run \TeX\ on an input file |screed.tex| by typing 
-^^{input files}
-something like `|run tex|' or just `|tex|' (check your local information).
-\TeX\ will respond with something like:
-% 4/23/90 is Shakespeare's 426th birthday, and Karl's 26th.
+\bix^^{executando \TeX}
+Voc\^e pode executar o \TeX\ em um arquivo de entrada |screed.tex| 
+^^{arquivos de entrada}
+digitando algo como `|run tex|' ou apenas `|tex|' (verifique sua 
+informa\c c\~ao local).  \TeX\ responder\'a algo como:
+% 23/04/1990 é o 426° aniversário de Shakespeare, e o 26° de Karl.
 \csdisplay
 This is TeX, Version 3.0 (preloaded format=plain 90.4.23)
 **
 |
-The ``preloaded format'' here refers to a predigested form of the
-^{\plainTeX} macros that come with \TeX.
-You can now type `|screed|' to get \TeX\ to process your file.
-When it's done, you'll see something like:
+O ``formato pr\'e carregado'' aqui se refere a uma forma pr\'e 
+compilada das macros do ^{\plainTeX} que vem com o \TeX.  Voc\^e pode 
+agora digitar `|screed|' para que o \TeX\ processe seu arquivo.  Quando 
+estiver pronto, voc\^e ver\'a algo como:
 \csdisplay
 (screed.tex [1] [2] [3] )
 Output written on screed.dvi (3 pages, 400 bytes).
 Transcript written on screed.log.
 |
-displayed on your terminal, or printed in the record of your
-run if you're not working at a terminal.  Most of this output is
-self-explanatory.
-The numbers in brackets are page numbers that \TeX\ displays when it
-ships out each page of your document to the \dvifile.
-\TeX\ will usually assume an
-extension `|.tex|' to an input file name
-if the input file name you gave doesn't
-have an extension.  For some forms of \TeX\ you may be able to
-invoke \TeX\ directly for an input file by typing:
+exibido no seu terminal ou impresso no registro da sua execu\c c\~a se 
+n\~ao estiver trabalhando em um terminal.  A maior parte dessa sa\'ida 
+\'e auto explicativa.  Os n\'umeros entre par\ênteses s\~ao n\'umeros de 
+p\'aginas que o \TeX\ mostra quando envia cada p\'agina do seu documento 
+ao \dvifile.  \TeX\ normalmente assumir\'a uma extens\~ao `|.tex|' para 
+um nome de arquivo de entrada se o nome do arquivo de entrada que voc\^e 
+deu n\~ao tiver uma extens\~ao.  Para algumas formas do \TeX\ voc\^e 
+pode ser capaz de invocar \TeX\ diretamente para um arquivo de entrada 
+digitando:
 \csdisplay
 tex screed
 |
-or something like this.
+ou algo como isso.
 
-Instead of providing your \TeX\ input from a file, you can type it directly at
-your terminal.  To do so, type `^|\relax|' instead of `|screed|' at the 
-`|**|' prompt.
-\TeX\ will now prompt you with a `|*|' for each line of input and interpret
-each line of input as it sees it.
-To terminate the input, type a command such as `|\bye|' that tells \TeX\
-you're done.
-Direct input is sometimes a handy way of experimenting with \TeX.
+Em vez de fornecer sua entrada \TeX\ a partir de um arquivo, voc\^e pode 
+digit\'a-la diretamente no seu terminal.  Para fazer isso, digite 
+`^|\relax|' em vez de `|screed|' no aviso `|**|'.  \TeX\ ir\'a agora 
+avisar-lhe com um `|*|' para cada linha de entrada e interpretar cada 
+linha de entrada conforme a vir.  Para finalizar a entrada, digite um 
+comando como `|\bye|' que diz ao \TeX\ que voc\^e est\'a pronto.  A 
+entrada direta as vezes \'e uma maneira pr\'atica de experimentar o 
+\TeX.
 
-When your input file contains other embedded input files, the displayed
-information indicates when \TeX\ begins and ends processing each 
-embedded file.
-^^{input files//embedded}
-\xrdef{infiles}
-\TeX\ displays a left parenthesis and the file name
-when it starts working on a file and displays the corresponding right
-parenthesis when it's done with the file. 
-If you get any ^{error messages} in the displayed output, you can match
-them with a file by looking for the most recent unclosed left parenthesis.
+Quando seu arquivo de entrada cont\'em outros arquivos de entrada 
+incorporados, as informa\c c\~oes exibidas indicam quando o \TeX\ inicia 
+e termina o processamento de cada arquivo incorporado.
+^^{arquivos de entrada//incorporado}
+\xrdef{arquivosentrada}
+O \TeX\ exibe um par\^entese esquerdo e o nome do arquivo quando ele 
+come\c ca a trabalhar em um arquivo, e exibe o par\^entese direito 
+correspondente quando o trabalho est\'a feito com o arquivo.  Se voc\^e 
+receber quaisquer ^{mensagens de erro} na sa\'ida exibida, voc\^e 
+poder\'a combin\'a-las com um arquivo procurando pelo par\^entese 
+esquerdo n\~ao fechado mais recente.
 
-For a more complete explanation of how to run \TeX,
-see \knuth{Chapter~6} and your ^{local information}.
-\eix^^{running \TeX}
+Para uma explica\c c\~ao mais completa de como executar o \TeX, veja 
+\knuth{Chapter~6} e sua ^{informa\c c\~ao local}.
+\eix^^{executando o \TeX}
 
 
-\section Preparing an input file
+\section Preparando um arquivo de entrada
 
-In this section we explain some of the conventions that you must follow in
-preparing input for \TeX\null.  Some of the information given here also
-appears in the examples in \chapterref{examples} of this book.
-^^{input, preparing}
+Nesta se\c c\~ao explicamos algumas das conven\c c\~oes que voc\^e deve 
+seguir ao preparar a entrada para \TeX\null.  Algumas das 
+informa\c c\~oes dadas aqui tamb\'em aparecem nos exemplos em 
+\chapterref{exemplos} deste livro.
+^^{entrada, preparando}
 
-\subsection Commands and control sequences
+\subsection Comandos e sequ\^encias de controle
 
-\bix^^{commands}
-\bix^^{control sequences}
-Input to \TeX\ consists of a sequence of commands that tell \TeX\ how to
-typeset your document.  Most characters act as commands of a particularly
-simple kind: ``typeset me''.  The letter `|a|', for instance, is a
-command to typeset an `a'.  But there's another kind of command---a
-\emph{control sequence}---that gives \TeX\ a more elaborate
-instruction.  A control sequence ordinarily starts with a backslash
-(|\|), though you can change that convention if you need to.
+\bix^^{comandos}
+\bix^^{sequ\^encias de controle}
+A entrada para \TeX\ consiste de uma sequ\^encia de comandos que 
+informam ao \TeX\ como tipografar seu documento.  A maioria dos 
+caracteres age como comandos de um tipo particularmente simples: 
+``tipografe-me''.  A letra `|a|', por exemplo, \'e um comando para 
+tipografar um 'a'.  Mas h\'a outro tipo de comando---uma 
+\emph{sequ\^encia de controle}---que d\'a ao \TeX\ uma instru\c c\~ao 
+mais elaborada.  Uma sequ\^encia de controle normalmente come\c ca com 
+uma barra invertida (|\|), embora voc\^e possa alterar essa 
+conven\c c\~ao se precisar.
 \xrdef{@backslash}
-For instance, the input:
+Por exemplo, a entrada:
 
 \csdisplay
-She plunged a dagger (\dag) into the villain's heart.
+Ela cravou um punhal (\dag) no cora\c c\~ao do vil\~ao.
 |
-contains the control sequence |\dag|; it produces the typeset output:
+cont\'em a sequ\^encia de controle |\dag|; essa sequ\~encia produz a 
+sa\'ida de tipografia:
 \display{%
-She plunged a dagger (\dag) into the villain's heart.
+Ela cravou um punhal (\dag) no cora\c c\~ao do vil\~ao.
 }
-\noindent Everything in this example except for the |\dag| and the spaces
-acts like a ``typeset me'' command.  We'll explain more about spaces
-on \xrefpg{spaces}.
+\noindent Tudo neste exemplo, exceto o |\dag| e os espa\c cos funcionam 
+como um comando ``tipografe-me''.  Vamos explicar mais sobre espa\c cos 
+em \xrefpg{spaces}.
 
-There are two kinds of control sequences: \emph{control words}
-^^{control words}
-and \emph{control symbols}:
-^^{control symbols}
+Existem dois tipos de sequ\^encias de controle: 
+\emph{palavras de controle} 
+^^{palavras de controle}
+e \emph{s\'imbolos de controle}:
+^^{s\'imbolos de controle}
 \ulist\compact
-\li A control word consists of a
-backslash followed by one or more letters, e.g., `|\dag|'.
-The first character that isn't a letter marks the end
-of the control word.
-\li A control symbol consists of a backslash followed by a single character
-that isn't a letter, e.g., `|\$|'.
-The character can be a space or even the end of a line (which is a perfectly
-legitimate character).
+\li Uma palavra de controle consiste de uma barra invertida seguida por 
+uma ou mais letras, por exemplo, `|\dag|'.  O primeiro caractere que não 
+for uma letra marca o fim da palavra de controle.
+\li Um s\'imbolo de controle consiste em uma barra invertida seguida por 
+um caractere que n\~ao \'e uma letra, por exemplo, `|\$|'.  O caractere 
+pode ser um espa\c co ou at\'e mesmo o fim de uma linha (que \'e um 
+caractere perfeitamente leg\'itimo).
 \endulist
 \noindent
-A control word (but not a control symbol)
-absorbs any spaces or ends of line that follow it.
-^^{control sequences//absorbing spaces}
-If you don't want to lose a space after a control word,
-follow the control sequence with a ^{control space}
-(|\!visiblespace|) or with `|{}|'.  Thus either:
+Uma palavra de controle (mas n\~ao um s\'imbolo de controle) absorve 
+qualquer espa\c co ou fim de linha que o segue.  
+^^{sequ\^encias de controle//absorvendo espa\c cos}
+Se voc\^e n\~ao quiser perder um espa\c co ap\'os uma palavra de 
+controle, siga a sequ\^encia de controle com um ^{espa\c co de controle} 
+(|\!visiblespace|) ou com `|{}|'.  Assim ou:
 \csdisplay
-The wonders of \TeX\!visiblespace!.shall never cease!!
+As maravilhas do \TeX\!visiblespace!.nunca cessar\~ao!!
 |
-or:\hfil\ 
+ou:\hfil\ 
 \csdisplay
-The wonders of \TeX{} shall never cease!!
+As maravilhas do \TeX{} nunca cessar\~ao!!
 |
-produces:
+produz:
 \display{%
-The wonders of \TeX{} shall never cease!
+As maravilhas do \TeX{} nunca cessar\~ao!
 }
-\noindent rather than:
+\noindent em vez de:
 \display{%
-The wonders of \TeX shall never cease!
+As maravilhas do \TeX nunca cessar\~ao!
 }
 \noindent
-which is what you'd get if you left out the `|\|\visiblespace'
-or the `|{}|'.
+que \'e o que voc\^e ganharia se deixasse de fora o `|\|\visiblespace' 
+ou o `|{}|'.
 
-Don't run a control word together with the text that follows it---\TeX\
-won't know where the control word ends.  For instance, the |\c| control
-sequence places a cedilla accent on the character that follows it.  The
+N\~ao execute uma palavra de controle junto com o texto que a segue---o 
+\TeX\ n\~ao vai saber onde a palavra de controle termina.  Por exemplo, 
+a sequ\^encia de controle |\c| coloca um acento cedilha no caractere que 
+o seguir.  A palavra francesa 
+
+
+
+  The
 French word {\it gar\c con\/} must be typed as
 `|gar\c!visiblespace!.con|', not `|gar\ccon|'; if you write the latter,
 \TeX\ will complain about an undefined control sequence |\ccon|.
