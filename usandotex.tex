@@ -239,93 +239,84 @@ ou o `|{}|'.
 N\~ao execute uma palavra de controle junto com o texto que a segue---o 
 \TeX\ n\~ao vai saber onde a palavra de controle termina.  Por exemplo, 
 a sequ\^encia de controle |\c| coloca um acento cedilha no caractere que 
-o seguir.  A palavra francesa 
+o seguir.  A palavra francesa {\it gar\c con\/} deve ser escrita como 
+`|gar\c!visiblespace!.con|', e n\~ao `|gar\ccon|'; se voc\^e escrever a 
+\'ultima, o \TeX\ reclamar\'a acerca de uma sequ\^encia de controle 
+indefinida |\ccon|.
 
-
-
-  The
-French word {\it gar\c con\/} must be typed as
-`|gar\c!visiblespace!.con|', not `|gar\ccon|'; if you write the latter,
-\TeX\ will complain about an undefined control sequence |\ccon|.
-
-A control symbol, on the other hand, doesn't absorb anything that
-follows it.  Thus you must type `\$13.56' as `|\$13.56|', not
-`|\$!vs13.56|'; the latter form would produce `\hbox{\$ 13.56}'.
-However, those accenting commands that are named by control symbols are
-defined in such a way that they produce the effect of absorbing a
-following space.  Thus, for example, you can type the French word {\it
-d\'eshabiller\/} either as `|d\'eshabiller|' or as
+Um s\'imbolo de controle, por outro lado, n\~ao absorve nada que o siga.  
+Assim, voc\^e deve digitar `\$13.56' como `|\$13.56|', n\~ao 
+`|\$!vs13.56|'; a \'ultima forma produzir\'a `\hbox{\$ 13.56}'.  No 
+entanto, esses comandos de acentua\c c\~ao que s\~ao nomeados pelos 
+s\'imbolos de controle s\~ao definidos de tal forma que produzem o 
+efeito de absorver um espa\c co seguinte.  Assim, voc\^e pode digitar a 
+palavra francesa {\it d\'eshabiller\/} ou como `|d\'eshabiller|' ou como 
 `|d\'!visiblespace!.eshabiller|'.
 
-Every control sequence is also a command, 
-but not the other way around.
-^^{commands//versus control sequences}
-^^{control sequences//versus commands}
-For instance, the letter `|N|'
-is a command, but it isn't a control sequence.
-In this book we ordinarily use ``command'' rather than
-``control sequence'' when either term would do.
-We use ``control sequence'' when we want to emphasize aspects of \TeX\
-syntax that don't apply to commands in general.
+Cada sequ\^encia de controle tamb\'em \'e um comando, mas n\~ao o 
+contr\'ario.  
+^^{comandos//versus sequ\^encias de controle}
+^^{sequ\^encias de controle//versus comandos}
+Por exemplo, a letra `|N|' \'e um comando, mas n\~ao \'e uma sequ\^encia 
+de controle.  Neste livro, usualmente usamos ``comando'' em vez de 
+``sequ\^encia de controle'' quando qualquer termo serviria.  N\'os 
+usamos a ``sequ\^encia de controle'' quando queremos enfatizar aspectos 
+da sintaxe do \TeX\ que n\~ao se aplicam a comandos em geral.
 
-\eix^^{control sequences}
-\eix^^{commands}
+\eix^^{sequ\^encias de controle}
+\eix^^{comandos}
 
 
-\subsection Arguments
+\subsection Argumentos
 
 \xrdef{arg1}
-Some commands need to be followed by one or more
-\emph{arguments} ^^{arguments}
-that help to determine what the command does.
-For instance, the |\vskip| command, which 
-tells \TeX\ to skip down (or up) the page,
-expects an argument specifying how much space to skip.  To skip
-down two inches, you would type `|\vskip 2in|', where |2in|
-is the argument of |\vskip|. 
+Alguns comandos precisam ser seguidos por um ou mais \emph{argumentos} 
+^^{arguments} que ajudem a determinar o que o comando faz.  Por exemplo, 
+o comando |\vskip|, que diz ao \TeX\ para pular para baixo (ou para 
+cima) a p\'agina, espera um argumento especificando quanto espa\c co 
+pular.  Para pular para baixo duas polegadas, voc\^e deve digitar 
+`|\vskip 2in|', onde |2in| \'e o argumento de |\vskip|.
 
-Different commands expect different kinds of arguments.  Many commands
-expect dimensions, such as the |2in| in the example above.
-Some commands, particularly those defined by macros,
-expect arguments that are either a single character or some
-text enclosed in braces.
-Yet others require that their arguments be enclosed in braces, i.e.,
-they don't accept single-character arguments.
-The description of each command in this book tells you what kinds of arguments,
-if any, the command expects.
-In some cases, required braces define a group (see \xref{bracegroup}).
+Comandos diferentes esperam diferentes tipos de argumentos.  Muitos 
+comandos esperam dimens\~oes, tal como o |2in| no exemplo acima.  Alguns 
+comandos, particularmente aqueles definidos por macros, esperam 
+argumentos que sejam um caractere ou algum texto entre chaves.  No 
+entanto, outros exigem que seus argumentos sejam colocados entre chaves, 
+isto \'e, eles n\~ao aceitam argumentos de caracteres \'unicos.  A 
+descri\c c\~ao de cada comando neste livro informa quais tipos de 
+argumentos, se houver algum, o comando espera.  Em alguns casos, as 
+chaves obrigat\'orias definem um grupo (consulte \xref{grupo de chave}).
 
 \secondprinting{\vfill\eject}
 
 
-\subsection Parameters
+\subsection Par\^ametros
 
 \xrdef{introparms}
-Some commands are parameters (\xref{parameter}).
-^^{parameters//as commands}
-You can use a parameter in either of two ways:
+Alguns comandos s\~ao par\^ametros (\xref{par\^ametro}).
+^^{par\^ametros//como comandos}
+Voc\^e pode usar um par\^ametro de duas maneiras:
 \olist
-\li You can use the value of a parameter 
-as an argument to another command.  For example, the command
-\hbox{|\vskip\parskip|}
-causes a vertical skip by the value of the |\parskip| (paragraph skip)
-glue parameter.
-\li You can change the value of the parameter by assigning
-something to it.  For example, the assignment \hbox{|\hbadness=200|}
-causes the value of the |\hbadness| number parameter to be $200$.
+\li Voc\^e pode usar o valor de um par\^ametro como um argumento para 
+outro comando.  Por exemplo, o comando \hbox{|\vskip\parskip|} provoca 
+um salto vertical segundo o valor do par\^ametro de cola |\parskip| 
+(pular par\'agrafo).
+\li Voc\^e pode alterar o valor do par\^ametro atribuindo algo a ele.  
+Por exemplo, a atribui\c c\~ao \hbox{|\hbadness=200|} faz com que o 
+valor do par\^ametro num\'erico de |\hbadness| seja $200$.
 \endolist
 \noindent
-We also use the term ``parameter'' to refer to entities such as |\pageno|
-that are actually registers but behave just like parameters.
-^^{registers//parameters as}
+N\'os tamb\'em usamos o termo ``par\^ametro'' para nos referirmos a 
+entidades como |\pageno| que, na verdade, s\~ao registros, mas se 
+comportam como par\^ametros.
+^^{registros//como par\^ametros}
 
-Some commands are names of tables.  These commands are used like
-parameters, except that they require an additional argument that
-specifies a particular entry in the table. For example, |\catcode| names
-a table of category codes (\xref{category code}). Thus
-the command
-\hbox{|\catcode`~=13|} sets the category code of the `|~|'
-character to $13$.
+Alguns comandos s\~ao nomes de tabelas.  Esses comandos s\~ao usados 
+como par\^ametros, exceto pelo fato de exigirem um argumento adicional 
+que define uma entrada espec\'ifica na tabela.  Por exemplo, |\catcode| 
+nomeia uma tabela de c\'odigos de categoria 
+(\xref{c\'odigo de categoria}).  Assim, o comando \hbox{|\catcode`~=13|} 
+define o c\'odigo de categoria do caractere `|~|' para $13$.
 
 
 \subsection Spaces
