@@ -1,0 +1,791 @@
+% Isto é parte do livro TeX for the Impatient.
+% Copyright (C) 2003 Paul W. Abrahams, Kathryn A. Hargreaves, Karl Berry.
+% Veja o arquivo fdl.tex para condições de reprodução.
+
+\input macros.tex
+\chapter{Usando \TeX}
+
+\chapterdef{usandotex}
+
+% Evite reclamações de caixa insuficiente acerca do parágrafo vazio que 
+% precede o cabeçalho da primeira seção.
+% 
+\def\par{{\parfillskip = 0pt plus 1fil\endgraf}\let\par=\endgraf}
+\vglue-\abovesectionskip % nós já pulamos o suficiente
+\vskip0pt % Faz \combineskips funcionar.
+
+\section Transformando entrada em tinta
+
+\subsection Programas e arquivos de que voc\^e precisa
+
+Para produzir um documento \TeX, voc\^e precisar\'a executar o programa 
+\TeX\ e v\'arios programas relacionados.  Voc\^e tamb\'em precisar\'a de 
+arquivos de suporte para \TeX\ e possivelmente para esses outros 
+programas.  Neste livro, podemos falar sobre o \TeX, mas n\~ao podemos 
+falar sobre os outros programas e os arquivos de suporte, exceto em 
+termos muito gerais, porque eles dependem do seu ambiente \TeX\ local.  
+As pessoas que lhe fornecem \TeX\ devem poder fornecer a voc\^e o que 
+chamamos de \emph{informa\c c\~oes locais}. \pix^^{informa\c c\~ao local}
+As informa\c c\~oes locais informam como iniciar \TeX, como usar os 
+programas relacionados e como obter acesso aos arquivos de suporte.
+
+A entrada para \TeX\ consiste em um arquivo de texto comum que voc\^e 
+pode preparar com um ^{editor de texto}.  Um arquivo de entrada do \TeX, 
+ao contr\'ario de um arquivo de entrada para um processador de texto 
+t\'ipico, normalmente n\~ao cont\'em quaisquer ^{caracteres de controle} 
+invis\'iveis.  Tudo o que o \TeX\ v\^e \'e vis\'ivel para voc\^e 
+tamb\'em se voc\^e olhar para uma listagem do arquivo.
+
+Seu arquivo de entrada pode acabar sendo pouco mais que um esqueleto que 
+chama outros arquivos de entrada.  Os usu\'arios do \TeX\ costumam 
+organizar grandes documentos, como livros, dessa maneira.  Voc\^e pode 
+usar o comando ^|\input| (\xref\input) para incorporar um arquivo de 
+entrada em outro.  Em particular, voc\^e pode usar |\input| para 
+incorporar arquivos contendo \emph{defini\c c\~oes de macro}---%
+^^{macros//em arquivos auxiliares}
+defini\c c\~oes auxiliares que melhoram as capacidades do \TeX.  Se 
+alguns arquivos de macro estiverem dispon\'iveis em sua instala\c c\~ao 
+do \TeX\, a informa\c c\~ao local acerca do \TeX\ dever\'a lhe dizer 
+como acessar os arquivos de macro e o que eles podem fazer por voc\^e.  
+A forma padr\~ao de \TeX, a descrita neste livro, incorpora uma 
+cole\c c\~ao de macros e outras defini\c c\~oes conhecidas como 
+^{\plainTeX} (\xref{\plainTeX}).
+
+Quando \TeX\ processa seu documento, ele produz um arquivo chamado 
+^{\dvifile}.  A abreviatura ``|dvi|'' significa ``device independent'' 
+(independente de dispositivo).  A abrevia\c c\~ao foi escolhida porque 
+as informa\c c\~oes no \dvifile\ s\~ao independentes do dispositivo 
+usado para imprimir ou exibir o documento.
+
+Para imprimir seu documento ou visualiz\'a-lo com um 
+\emph{visualizador}, ^^{visualizador}, voc\^e precisa processar o 
+^{\dvifile} com um programa \emph{controlador de dispositivo\/} 
+^^{controladores de dispositivo}(Um visualizador \'e um programa que 
+permite que voc\^e veja em uma tela alguma aproxima\c c\~ao de como 
+ser\'a a sa\'ida da tipografia).  Diferentes dispositivos de sa\'ida 
+geralmente exigem controladores de dispositivos diferentes.  Depois de 
+executar o controlador de dispositivo, voc\^e tamb\'em pode precisar 
+transferir a sa\'ida do controlador de dispositivo para a impressora ou 
+outro dispositivo de sa\'ida.
+^^{impressoras} ^^{dispositivos de sa\'ida}  A informa\c c\~ao local 
+acerca do \TeX\ devem informar como obter o controlador correto de 
+dispositivo e us\'a-lo.
+
+Como o \TeX\ n\~ao possui conhecimento embutido de fontes espec\'ificas, 
+ele usa \emph{arquivos de fonte} ^^{arquivos de fonte} para obter 
+informa\c c\~ao acerca das fontes usadas em seu documento.  Os arquivos 
+de fonte tamb\'em devem fazer parte do seu ambiente local do \TeX.  Cada 
+fonte normalmente requer dois arquivos: um contendo as dimens\~oes dos 
+caracteres na fonte (o \emph{arquivo de métricas}) 
+^^{arquivo de métricas}e um contendo as formas dos caracteres 
+(o \emph{arquivo de forma}).^^{arquivo de forma}  Vers\~oes ampliadas de 
+uma fonte compartilham o arquivo de m\'etricas, mas possuem arquivos de 
+formas diferentes. ^^{magnifica\c c\~ao} Os arquivos de m\'etricas as 
+vezes s\~ao chamados de ^{\tfmfile}s, e as diferentes variedades de 
+arquivos de formas as vezes s\~ao chamadas de ^{\pkfile}s, ^{\pxlfile}s, 
+e ^{\gffile}s.  Esses nomes correspondem aos nomes dos arquivos que o 
+\TeX\ e seus programas associados usam.  Por exemplo, |cmr10.tfm| \'e o 
+arquivo de m\'etricas para a fonte |cmr10| (Computer Modern Roman de 10 
+pontos).
+
+O pr\'oprio \TeX\ usa apenas o arquivo de m\'etricas, j\'a que ele n\~ao 
+se importa com a apar\^encia dos caracteres, mas apenas com quanto 
+espa\c co eles ocupam.  O controlador de dispositivo normalmente usa o 
+arquivo de forma, j\'a que \'e respons\'avel por criar a imagem impressa 
+de cada caractere de tipografia.  Alguns controladores de dispositivo 
+tamb\'em precisam usar o arquivo de m\'etricas.  Alguns controladores de 
+dispositivo podem utilizar fontes residentes em uma impressora e n\~ao 
+precisam de arquivos de formas para essas fontes.
+\secondprinting{\vfill\eject}
+
+
+\subsection Executando o {\TeX}
+
+\bix^^{executando \TeX}
+Voc\^e pode executar o \TeX\ em um arquivo de entrada |screed.tex| 
+^^{arquivos de entrada}
+digitando algo como `|run tex|' ou apenas `|tex|' (verifique sua 
+informa\c c\~ao local).  \TeX\ responder\'a algo como:
+% 23/04/1990 é o 426° aniversário de Shakespeare, e o 26° de Karl.
+\csdisplay
+This is TeX, Version 3.0 (preloaded format=plain 90.4.23)
+**
+|
+O ``formato pr\'e carregado'' aqui se refere a uma forma pr\'e 
+compilada das macros do ^{\plainTeX} que vem com o \TeX.  Voc\^e pode 
+agora digitar `|screed|' para que o \TeX\ processe seu arquivo.  Quando 
+estiver pronto, voc\^e ver\'a algo como:
+\csdisplay
+(screed.tex [1] [2] [3] )
+Output written on screed.dvi (3 pages, 400 bytes).
+Transcript written on screed.log.
+|
+exibido no seu terminal ou impresso no registro da sua execu\c c\~a se 
+n\~ao estiver trabalhando em um terminal.  A maior parte dessa sa\'ida 
+\'e auto explicativa.  Os n\'umeros entre par\ênteses s\~ao n\'umeros de 
+p\'aginas que o \TeX\ mostra quando envia cada p\'agina do seu documento 
+ao \dvifile.  \TeX\ normalmente assumir\'a uma extens\~ao `|.tex|' para 
+um nome de arquivo de entrada se o nome do arquivo de entrada que voc\^e 
+deu n\~ao tiver uma extens\~ao.  Para algumas formas do \TeX\ voc\^e 
+pode ser capaz de invocar \TeX\ diretamente para um arquivo de entrada 
+digitando:
+\csdisplay
+tex screed
+|
+ou algo como isso.
+
+Em vez de fornecer sua entrada \TeX\ a partir de um arquivo, voc\^e pode 
+digit\'a-la diretamente no seu terminal.  Para fazer isso, digite 
+`^|\relax|' em vez de `|screed|' no aviso `|**|'.  \TeX\ ir\'a agora 
+avisar-lhe com um `|*|' para cada linha de entrada e interpretar cada 
+linha de entrada conforme a vir.  Para finalizar a entrada, digite um 
+comando como `|\bye|' que diz ao \TeX\ que voc\^e est\'a pronto.  A 
+entrada direta as vezes \'e uma maneira pr\'atica de experimentar o 
+\TeX.
+
+Quando seu arquivo de entrada cont\'em outros arquivos de entrada 
+incorporados, as informa\c c\~oes exibidas indicam quando o \TeX\ inicia 
+e termina o processamento de cada arquivo incorporado.
+^^{arquivos de entrada//incorporado}
+\xrdef{arquivosentrada}
+O \TeX\ exibe um par\^entese esquerdo e o nome do arquivo quando ele 
+come\c ca a trabalhar em um arquivo, e exibe o par\^entese direito 
+correspondente quando o trabalho est\'a feito com o arquivo.  Se voc\^e 
+receber quaisquer ^{mensagens de erro} na sa\'ida exibida, voc\^e 
+poder\'a combin\'a-las com um arquivo procurando pelo par\^entese 
+esquerdo n\~ao fechado mais recente.
+
+Para uma explica\c c\~ao mais completa de como executar o \TeX, veja 
+\knuth{Chapter~6} e sua ^{informa\c c\~ao local}.
+\eix^^{executando o \TeX}
+
+
+\section Preparando um arquivo de entrada
+
+Nesta se\c c\~ao explicamos algumas das conven\c c\~oes que voc\^e deve 
+seguir ao preparar a entrada para \TeX\null.  Algumas das 
+informa\c c\~oes dadas aqui tamb\'em aparecem nos exemplos em 
+\chapterref{exemplos} deste livro.
+^^{entrada, preparando}
+
+\subsection Comandos e sequ\^encias de controle
+
+\bix^^{comandos}
+\bix^^{sequ\^encias de controle}
+A entrada para \TeX\ consiste de uma sequ\^encia de comandos que 
+informam ao \TeX\ como tipografar seu documento.  A maioria dos 
+caracteres age como comandos de um tipo particularmente simples: 
+``tipografe-me''.  A letra `|a|', por exemplo, \'e um comando para 
+tipografar um 'a'.  Mas h\'a outro tipo de comando---uma 
+\emph{sequ\^encia de controle}---que d\'a ao \TeX\ uma instru\c c\~ao 
+mais elaborada.  Uma sequ\^encia de controle normalmente come\c ca com 
+uma barra invertida (|\|), embora voc\^e possa alterar essa 
+conven\c c\~ao se precisar.
+\xrdef{@backslash}
+Por exemplo, a entrada:
+
+\csdisplay
+Ela cravou um punhal (\dag) no cora\c c\~ao do vil\~ao.
+|
+cont\'em a sequ\^encia de controle |\dag|; essa sequ\~encia produz a 
+sa\'ida de tipografia:
+\display{%
+Ela cravou um punhal (\dag) no cora\c c\~ao do vil\~ao.
+}
+\noindent Tudo neste exemplo, exceto o |\dag| e os espa\c cos funcionam 
+como um comando ``tipografe-me''.  Vamos explicar mais sobre espa\c cos 
+em \xrefpg{spaces}.
+
+Existem dois tipos de sequ\^encias de controle: 
+\emph{palavras de controle} 
+^^{palavras de controle}
+e \emph{s\'imbolos de controle}:
+^^{s\'imbolos de controle}
+\ulist\compact
+\li Uma palavra de controle consiste de uma barra invertida seguida por 
+uma ou mais letras, por exemplo, `|\dag|'.  O primeiro caractere que não 
+for uma letra marca o fim da palavra de controle.
+\li Um s\'imbolo de controle consiste em uma barra invertida seguida por 
+um caractere que n\~ao \'e uma letra, por exemplo, `|\$|'.  O caractere 
+pode ser um espa\c co ou at\'e mesmo o fim de uma linha (que \'e um 
+caractere perfeitamente leg\'itimo).
+\endulist
+\noindent
+Uma palavra de controle (mas n\~ao um s\'imbolo de controle) absorve 
+qualquer espa\c co ou fim de linha que o segue.  
+^^{sequ\^encias de controle//absorvendo espa\c cos}
+Se voc\^e n\~ao quiser perder um espa\c co ap\'os uma palavra de 
+controle, siga a sequ\^encia de controle com um ^{espa\c co de controle} 
+(|\!visiblespace|) ou com `|{}|'.  Assim ou:
+\csdisplay
+As maravilhas do \TeX\!visiblespace!.nunca cessar\~ao!!
+|
+ou:\hfil\ 
+\csdisplay
+As maravilhas do \TeX{} nunca cessar\~ao!!
+|
+produz:
+\display{%
+As maravilhas do \TeX{} nunca cessar\~ao!
+}
+\noindent em vez de:
+\display{%
+As maravilhas do \TeX nunca cessar\~ao!
+}
+\noindent
+que \'e o que voc\^e ganharia se deixasse de fora o `|\|\visiblespace' 
+ou o `|{}|'.
+
+N\~ao execute uma palavra de controle junto com o texto que a segue---o 
+\TeX\ n\~ao vai saber onde a palavra de controle termina.  Por exemplo, 
+a sequ\^encia de controle |\c| coloca um acento cedilha no caractere que 
+o seguir.  A palavra francesa {\it gar\c con\/} deve ser escrita como 
+`|gar\c!visiblespace!.con|', e n\~ao `|gar\ccon|'; se voc\^e escrever a 
+\'ultima, o \TeX\ reclamar\'a acerca de uma sequ\^encia de controle 
+indefinida |\ccon|.
+
+Um s\'imbolo de controle, por outro lado, n\~ao absorve nada que o siga.  
+Assim, voc\^e deve digitar `\$13.56' como `|\$13.56|', n\~ao 
+`|\$!vs13.56|'; a \'ultima forma produzir\'a `\hbox{\$ 13.56}'.  No 
+entanto, esses comandos de acentua\c c\~ao que s\~ao nomeados pelos 
+s\'imbolos de controle s\~ao definidos de tal forma que produzem o 
+efeito de absorver um espa\c co seguinte.  Assim, voc\^e pode digitar a 
+palavra francesa {\it d\'eshabiller\/} ou como `|d\'eshabiller|' ou como 
+`|d\'!visiblespace!.eshabiller|'.
+
+Cada sequ\^encia de controle tamb\'em \'e um comando, mas n\~ao o 
+contr\'ario.  
+^^{comandos//versus sequ\^encias de controle}
+^^{sequ\^encias de controle//versus comandos}
+Por exemplo, a letra `|N|' \'e um comando, mas n\~ao \'e uma sequ\^encia 
+de controle.  Neste livro, usualmente usamos ``comando'' em vez de 
+``sequ\^encia de controle'' quando qualquer termo serviria.  N\'os 
+usamos a ``sequ\^encia de controle'' quando queremos enfatizar aspectos 
+da sintaxe do \TeX\ que n\~ao se aplicam a comandos em geral.
+
+\eix^^{sequ\^encias de controle}
+\eix^^{comandos}
+
+
+\subsection Argumentos
+
+\xrdef{arg1}
+Alguns comandos precisam ser seguidos por um ou mais \emph{argumentos} 
+^^{arguments} que ajudem a determinar o que o comando faz.  Por exemplo, 
+o comando |\vskip|, que diz ao \TeX\ para pular para baixo (ou para 
+cima) a p\'agina, espera um argumento especificando quanto espa\c co 
+pular.  Para pular para baixo duas polegadas, voc\^e deve digitar 
+`|\vskip 2in|', onde |2in| \'e o argumento de |\vskip|.
+
+Comandos diferentes esperam diferentes tipos de argumentos.  Muitos 
+comandos esperam dimens\~oes, tal como o |2in| no exemplo acima.  Alguns 
+comandos, particularmente aqueles definidos por macros, esperam 
+argumentos que sejam um caractere ou algum texto entre chaves.  No 
+entanto, outros exigem que seus argumentos sejam colocados entre chaves, 
+isto \'e, eles n\~ao aceitam argumentos de caracteres \'unicos.  A 
+descri\c c\~ao de cada comando neste livro informa quais tipos de 
+argumentos, se houver algum, o comando espera.  Em alguns casos, as 
+chaves obrigat\'orias definem um grupo (consulte \xref{grupo de chave}).
+
+\secondprinting{\vfill\eject}
+
+
+\subsection Par\^ametros
+
+\xrdef{introparms}
+Alguns comandos s\~ao par\^ametros (\xref{par\^ametro}).
+^^{par\^ametros//como comandos}
+Voc\^e pode usar um par\^ametro de duas maneiras:
+\olist
+\li Voc\^e pode usar o valor de um par\^ametro como um argumento para 
+outro comando.  Por exemplo, o comando \hbox{|\vskip\parskip|} provoca 
+um salto vertical segundo o valor do par\^ametro de cola |\parskip| 
+(pular par\'agrafo).
+\li Voc\^e pode alterar o valor do par\^ametro atribuindo algo a ele.  
+Por exemplo, a atribui\c c\~ao \hbox{|\hbadness=200|} faz com que o 
+valor do par\^ametro num\'erico de |\hbadness| seja $200$.
+\endolist
+\noindent
+N\'os tamb\'em usamos o termo ``par\^ametro'' para nos referirmos a 
+entidades como |\pageno| que, na verdade, s\~ao registros, mas se 
+comportam como par\^ametros.
+^^{registros//como par\^ametros}
+
+Alguns comandos s\~ao nomes de tabelas.  Esses comandos s\~ao usados 
+como par\^ametros, exceto pelo fato de exigirem um argumento adicional 
+que define uma entrada espec\'ifica na tabela.  Por exemplo, |\catcode| 
+nomeia uma tabela de c\'odigos de categoria 
+(\xref{c\'odigo de categoria}).  Assim, o comando \hbox{|\catcode`~=13|} 
+define o c\'odigo de categoria do caractere `|~|' para $13$.
+
+
+\subsection Espa\c cos
+
+\xrdef{espacos}
+\bix^^{espacos}
+Voc\^e pode usar livremente espa\c cos extras em sua entrada.  Sob quase 
+todas as circunst\^ancias \TeX\ trata v\'arios espa\c cos seguidos como 
+sendo equivalentes a um \'unico espa\c co.   Por exemplo, n\~ao importa 
+se voc\^e coloca um espa\c co ou dois espa\c cos ap\'os um ^{ponto} na 
+sua entrada.  Seja l\'a o que voc\^e fa\c ca, o \TeX\ realiza suas 
+manobras de final de frase e deixa a quantidade de espa\c co apropriada 
+(na maioria dos casos) ap\'os o ponto.  O \TeX\ tamb\'em trata o final 
+de uma linha de entrada como o equivalente a espa\c co.  Assim, voc\^e 
+pode finalizar suas linhas de entrada conforme for conveniente---\TeX\ 
+transforma linhas de entrada em par\'agrafos da mesma maneira, n\~ao 
+importa onde as quebras de linha est\~ao em sua entrada.
+
+Uma linha de branco em sua entrada marca do final de um par\'agrafo.  
+^^{paragrafos//finalizando}
+V\'arias linhas em branco s\~ao equivalentes a uma \'unica.
+
+\TeX\ ignora espa\c cos de entrada dentro de f\'ormulas matem\'aticas 
+(veja abaixo).  Assim, voc\^e pode incluir ou omitir espa\c cos em 
+qualquer lugar dentro de uma f\'ormula matem\'atica---\TeX\ n\~ao se 
+importa.  Mesmo dentro de uma f\'ormula matem\'atica, no entanto, voc\^e 
+n\~ao deve executar uma palavra de controle junto com a seguinte letra.
+
+Se voc\^e est\'a definindo suas pr\'oprias macros, voc\^e precisa ser 
+particularmente cuidadoso sobre onde voc\^e coloca fins de linha em suas 
+defini\c c\~oes.  \'E muito f\'acil definir uma macro que produz um 
+^{espa\c co indesejado} al\'em do que mais deveria produzir.  N\'os 
+discutimos esse problema em outro lugar, j\'a que \'e um pouco 
+t\'ecnico; veja \xrefpg{espacoindesejado}.
+
+Um espa\c co ou seu equivalente entre duas palavras na sua entrada n\~ao 
+se transforma simplesmente em um caractere de espa\c co na sua sa\'ida.  
+Alguns desses espa\c cos de entrada se transformam em extremidades de 
+linhas na sa\'ida, uma vez que as linhas de entrada geralmente n\~ao 
+correspondem \`as linhas de sa\'ida.  Os outros se transformam em 
+espa\c cos de largura vari\'avel chamados ``cola'' (\xref{cola}), os 
+quais tem um tamanho natural (o tamanho que ``quer ter''), mas pode 
+esticar ou encolher.  Quando \TeX\ est\'a tipografando um par\'agrafo 
+que deve ter uma margem direita (o caso usual), ele ajusta as larguras 
+da cola em cada linha para fazer com que as linhas terminem na margem.  
+(A \'ultima linha de um par\'agrafo \'e uma exce\c c\~ao, pois 
+normalmente n\~ao \'e necess\'ario terminar na margem direita).
+
+Voc\^e pode evitar que um espa\c co de entrada se transforme em um fim 
+de linha usando um ^{til} (^|~|).  Por exemplo, voc\^e n\~ao desejaria 
+que \TeX\ colocasse uma quebra de linha entre o `Fig.' e `8' de 
+`Fig.~8'.  Digitando `|Fig.~8|' voc\^e pode evitar tal quebra de linha.
+\eix^^{espacos}
+\needspace{2in}
+
+
+\subsection Coment\'arios
+
+\xrdef{comentarios}
+\pix\bix^^{comentarios}
+Voc\^e pode incluir coment\'arios em sua entrada do \TeX\.  Quando o 
+\TeX\ v\^e um coment\'ario, apenas passa por cima dele, de forma que o 
+que est\'a em um coment\'ario n\~ao afeta o seu documento tipografado de 
+forma alguma.  Os coment\'arios s\~ao \'uteis para fornecer 
+informa\c c\~oes extras sobre o que est\'a no seu arquivo de entrada.  
+Por exemplo:
+\csdisplay
+% ========= Início da Seção `Ouriço' =========
+|
+
+{\indexchar % }%
+Um coment\'ario come\c ca com um sinal de porcentagem (|%|) e se estende 
+at\'e o final da linha de entrada.  \TeX\ ignora n\~ao apenas o 
+coment\'ario, mas tamb\'em o fim de linha, de forma que os coment\'arios 
+tem outro uso muito importante: conectar duas linhas para que o fim de 
+linha ^^{quebra de linha//deletando} entre elas seja invis\'ivel para 
+\TeX\ e n\~ao gere um espa\c co de sa\'ida ou um fim de linha.  Por 
+exemplo, se voc\^e digitar:
+\csdisplay
+Um tolo com uma planilha%
+ainda é um idiota.
+|
+voc\^e obter\'a:
+\display{
+Um tolo com uma planilha%
+ainda é um idiota.
+}
+\eix^^{comentarios}
+
+
+\subsection Pontua\c c\~ao
+
+\null
+\xrdef{espacamentodeponto}
+\TeX\ normalmente adiciona algum espa\c co extra depois do que acha que 
+\'e uma marca de ^{pontua\c c\~ao} no final de uma frase, a saber, 
+`^|.|', `^|?|', ou `|!!|' 
+\indexchar !
+^^{ponto} ^^{ponto de interroga\c c\~ao} ^^{ponto de exclama\c c\~ao}
+seguido por um espa\c co de entrada.  Entretanto, \TeX\ n\~ao adiciona o 
+espa\c co extra se a marca de pontua\c c\~ao seguir uma letra 
+mai\'uscula, porque assume que a letra mai\'uscula \'e uma inicial no 
+nome de algu\'em.  Voc\^e pode for\c car o espa\c co extra onde n\~ao 
+ocorreria digitando algo como:
+\csdisplay
+Um computador da IBM\null?
+|
+O |\null| n\~ao produz sa\'ida alguma, mas impede que \TeX\ associe a 
+mai\'uscula `M' ao ponto de interroga\c c\~ao.  Por outro lado, voc\^e 
+pode cancelar o espa\c co extra onde ele n\~ao deve estar digitando um 
+espa\c co de controle ap\'os a marca de pontua\c c\~ao, por exemplo:
+\csdisplay
+Proc.\!visiblespace!.Royal Acad.\!visiblespace!.of Twits
+|
+de forma que voc\^e obter\'a:
+\display{Proc.\ Royal Acad.\ of Twits}
+\noindent
+em vez de:
+\display{Proc. Royal Acad. of Twits}
+
+Algumas pessoas preferem n\~ao deixar mais espa\c co ap\'os a 
+pontua\c c\~ao no final de uma frase.  Voc\~e pode obter esse efeito com 
+o comando ^|\frenchspacing| (\xref\frenchspacing).  |\frenchspacing| \'e 
+frequentemente recomendado para ^{bibliografias}.
+
+Para ^{aspas} simples, voc\^e deve usar as aspas simples esquerda e 
+direita (|`| e |'|) no seu teclado.  Para aspas duplas \`a esquerda e 
+\`a direita, use duas aspas simples \`a esquerda ou duas aspas simples 
+\`a direita (|``| ou |''|) em vez das aspas duplas (|"|) no teclado.  A 
+aspa dupla do teclado de fato dar\'a a voc\^e as corretas aspas duplas 
+em muitas fontes, mas as duas aspas simples \`a direita s\~ao o estilo 
+\TeX\ preferido.  Por exemplo:
+
+\vbox{%
+\csdisplay
+Não há `q' nesta frase.
+``Fale, criança,'', disse o Unicórnio.
+Ela disse, ``\thinspace`Chega!!', ele disse.''
+|
+}%
+Essas tr\^es linhas produzem:
+\display{\par\restoreplainTeX
+N\~ao h\'a `q' nesta frase.
+\par ``Fale, crian\c ca,'' disse o Unic\'ornio.
+\par Ela disse, ``\thinspace`Chega!', ele disse.''
+}
+\noindent
+O |\thinspace| na terceira linha de entrada impede que as aspas simples 
+cheguem muito perto das aspas duplas.  Sem ele, voc\^e veria tr\^es 
+aspas quase igualmente espa\c cadas em uma linha.
+
+\TeX\ tem tr\^es tipos de ^{tra\c cos}:
+\ulist\compact
+\li Curtos (hifens) como este ( - ).  Voc\^e os obt\'em digitando~`^|-|'.
+\li M\'edios (tra\c cos-n) como este ( -- ).  Voc\^e os obt\'em digitando~`^|--|'.
+\li Longos (tra\c cos-m) como este ( --- ).  Voc\^e os obt\'em digitando~`^|---|'.
+\endulist
+\noindent
+Normalmente voc\^e usaria hifens para indicar palavras compostas como 
+``will-o'-the-wisp''; tra\c cos-n para indicar intervalos de p\'aginas 
+como ``p\'aginas~81--87''; e tra\c cos-m para indicar uma quebra na 
+continuidade---como essa.
+
+
+\subsection Caracteres especiais
+
+Certos caracteres tem um significado especial para \TeX, ent\~ao voc\^e 
+n\~ao deve us\'a-los em texto comum.  Eles s\~ao:
+
+\csdisplay
+    $  #  &  %  _  ^  ~  {  }  \
+|
+^^|$//em texto comum|
+^^|#//em texto comum|
+^^|&//em texto comum|
+^^|_//em texto comum|
+^^|^//em texto comum|
+^^|~//em texto comum|
+^^|%//em texto comum|
+^^|{//em texto comum|
+^^|}//em texto comum|
+{\recat!ttidxref[\//em texto comum]]
+\noindent
+Para produzi-los em seu documento tipografado, voc\^e precisa usar 
+circunlocu\c c\~oes.  Para os cinco primeiros, voc\^e deve digitar:
+^^|\$|
+^^|\#|
+^^|\&|
+^^|\%|
+^^|\_|
+\csdisplay
+    \$  \#  \&  \%  \_
+|
+
+\noindent
+Para os outros, voc\^e precisa de algo mais elaborado:
+
+\csdisplay
+   \^{!visiblespace}   \~{!visiblespace}   $\{$   $\}$   $\backslash$
+|
+
+
+\subsection Grupos
+
+\bix^^{grupos}
+Um \emph{group} consiste de material contido nas chaves esquerda e 
+direita correspondentes (|{| e |}|).  
+^^|{//iniciando um grupo|
+^^|}//finalizando um grupo|
+Colocando um comando dentro de um grupo, voc\^e pode limitar seus 
+efeitos ao material dentro do grupo.  Por exemplo, o comando |\bf| diz 
+ao \TeX\ para definir algo no tipo {\bf negrito}.  Se voc\^e fosse 
+colocar |\bf| em sua entrada e n\~ao fazer nada para neutralizar isso, 
+tudo em seu documento seguindo o |\bf| seria colocado em negrito.  
+Incluindo |\bf| em um grupo, voc\^e limita seu efeito ao grupo.  Por 
+exemplo, se voc\^e digitar:
+\csdisplay
+N\'os temos {\bf poucas palavras em negrito} nesta frase.
+|
+\noindent
+voc\^e obter\'a:
+\display{N\'os temos {\bf poucas palavras em negrito} nesta frase.}
+
+\noindent
+Voc\^e tamb\'em pode usar um grupo para limitar o efeito de uma 
+atribui\c c\~ao a um dos par\^ametros do \TeX.  Esses par\^ametros 
+cont\'em valores que afetam como o \TeX\ tipografa seu documento.  Por 
+exemplo, o valor do par\^ametro |\parindent| especifica o recuo no 
+in\'icio de um par\'agrafo.  A atribui\c c\~ao |\parindent = 15pt| 
+define o recuo para $15$ pontos da impressora.  Ao colocar essa 
+atribui\c c\~ao no in\'icio de um grupo contendo alguns par\'agrafos, 
+voc\^e pode alterar o recuo apenas desses par\'agrafos.  Se voc\^e n\~ao 
+colocar a atribui\c c\~ao em um grupo, o recuo alterado ser\'a aplicado 
+ao restante do documento (ou at\'e a pr\'oxima atribui\c c\~ao a 
+|\parindent|, se houver uma posterior).
+
+\xrdef{grupodechave}
+Nem todos os pares de chaves indicam um grupo.  Em particular, as chaves 
+associadas a um argumento para o qual as chaves \emph{n\~ao} s\~ao 
+necess\'arias n\~ao indicam um grupo---elas apenas servem para delimitar 
+o argumento.  Desses comandos que requerem chaves para seus argumentos, 
+alguns tratam as chaves como definindo um grupo e os outros interpretam 
+o argumento de alguma maneira especial que depende do comando.
+\footnote {Mais precisamente, para comandos primitivos, as chaves ou 
+definem um grupo ou eles envolvem tokens que n\~ao s\~ao processados no 
+``est\^omago'' do \TeX.  Para |\halign| e |\valign| o grupo tem um 
+efeito trivial, porque tudo dentro das chaves ou n\~ao chega ao 
+``est\^omago'' (porque est\'a no modelo) ou \'e envolvido em outro grupo 
+interno.
+^^|\halign//agrupamento para|
+^^|\valign//agrupamento para|
+}
+\eix^^{grupos}
+
+
+\subsection F\'ormulas matem\'aticas
+
+\bix^^{matem\'atica}
+\xrdef{f\órmulamatem\'atica}
+Uma f\'ormula matem\'atica pode aparecer no texto 
+(\emph{texto matem\'atico}) ^^{texto matem\'atico} ou definir uma linha 
+pr\'opria com espa\c co vertical extra ao redor dela 
+(\emph{exibir matem\'atica}).  
+^^{exibir matem\'atica}
+Você envolve uma f\'ormula de texto entre sinais de cifr\~ao único (|$|) 
+e uma f\'ormula exibida entre dois cifr\~oes (|$$|).
+\ttidxref{$}\ttidxref{$$}
+Por exemplo:
+
+\csdisplay
+Se $a<b$, ent\~ao a rela\c c\~ao $$e^a < e^b$$ \'e v\'alida.
+|
+\noindent
+Essa entrada produz:
+\display{\centereddisplays Se $a<b$, ent\~ao a rela\c c\~ao 
+$$e^a < e^b$$ \'e v\'alida.}
+\smallskip
+\noindent
+\chapterref{matem\'atica} descreve os comandos que s\~ao \'uteis em 
+f\'ormulas matem\'aticas.
+\eix^^{matem\'atica}
+
+
+\section Como \TeX\ funciona
+
+Para usar \TeX\ efetivamente, ajuda ter uma id\'eia de como o \TeX\ 
+opera sua atividade de transmuta\c c\~ao de entrada em sa\'ida.  Voc\^e 
+pode imaginar o \TeX\ como uma esp\'ecie de organismo com ``olhos'', 
+``boca'', ``garganta'', ``est\^omago'' e ``intestinos''.  Cada parte do 
+organismo transforma sua entrada de alguma maneira e passa a entrada 
+transformada para o pr\'oximo est\'agio.
+
+Os ^{olhos} transformam um arquivo de entrada em uma sequ\^encia de 
+caracteres.  A ^{boca} transforma a sequ\^encia de caracteres em uma 
+sequ\^encia de \emph{tokens}, ^^{tokens} onde cada token ou \'e um 
+\'unico caractere ou uma sequ\^encia de controle.  
+^^{sequ\^encias de controle//como tokens}
+A garganta expande os tokens em uma sequ\^encia de 
+\emph{comandos primitivos}, os quais tamb\'em s\~ao tokens.  
+^^{expandindo tokens}
+O ^{est\^omago} realiza as opera\c c\~oes especificadas pelos comandos 
+primitivos, produzindo uma sequ\^encia de p\'aginas.  Finalmente, os 
+^{intestinos} transformam cada p\'agina na forma requerida pelo 
+\dvifile\ e a envia.  ^^{\dvifile//criado pelos intestinos do \TeX}
+Essas a\c c\~oes est\~ao descritas com mais detalhes em 
+\chapterref{conceitos} sob \conceptcit{\anatomy}.
+^^{\anatomy}
+
+A tipografia real ocorre no ``est\^omago''.  Os comandos instruem \TeX\ 
+para tipografar tal e tal caractere em tal e tal fonte; para inserir um 
+espa\c co entre palavras; para finalizar um par\'agrafo; e assim por 
+diante.  Come\c cando com caracteres de tipografia individuais e outros 
+elementos tipogr\'aficos simples, \TeX\ constr\'oi uma p\'agina 
+^^{p\'aginas} como um ninho de ^{caixas} dentro de caixas dentro de 
+caixas \seeconcept{caixa}.  Cada caractere de tipografia ocupa uma 
+caixa, assim como uma p\'agina inteira.  Uma caixa pode conter n\~ao 
+apenas caixas menores, mas tamb\'em \emph{cola} ^^{cola} (\xref{cola}) e 
+algumas outras coisas.  A cola produz espa\c co entre as caixas menores.  
+Uma propriedade importante da cola \'e que ela pode esticar e encolher; 
+assim \TeX\ pode fazer uma caixa maior ou menor esticando ou encolhendo 
+a cola dentro dela.
+
+Grosso modo, uma linha \'e uma caixa contendo uma sequ\^encia de caixas 
+de caracteres e uma p\'agina \'e uma caixa contendo uma sequ\^encia de 
+caixas de linha.  H\'a cola entre as palavras de uma linha e entre as 
+linhas de uma p\'agina.  \TeX\ estica ou encolhe a cola em cada linha, 
+de modo a fazer com que a margem direita da p\'agina fique uniforme e a 
+cola em cada p\'agina, de modo a tornar iguais as margens inferiores de 
+p\'aginas diferentes.  Outros tipos de elementos tipogr\'aficos tamb\'em 
+podem aparecer em uma linha ou em uma p\'agina, mas n\~ao vamos entrar 
+neles aqui.
+
+Como parte do processo de montagem de p\'aginas, o \TeX\ precisa quebrar 
+os par\'agrafos em linhas e linhas em p\'aginas.  O ``est\^omago'' v\^e 
+primeiro um par\'agrafo como uma longa linha, de fato.  Ele insere 
+\emph{quebras de linha} ^^{quebra de linha} para transformar o 
+par\'agrafo em uma sequ\^encia de linhas do comprimento certo, 
+realizando uma an\'alise bastante elaborada para escolher o conjunto de 
+quebras que faz o par\'agrafo aparentar melhor 
+\seeconcept{quebra de linha}.  O ``est\^omago'' realiza um processo 
+semelhante, por\'em mais simples, para transformar uma sequ\^encia de 
+linhas em uma p\'agina.  Essencialmente, o ``est\^omago'' acumula linhas 
+at\'e que nenhuma linha mais possa ser encaixada na p\'agina.  Em 
+seguida, ele escolhe um \'unico local para quebrar a p\'agina, colocando 
+as linhas antes da quebra na p\'agina atual e salvando as linhas ap\'os 
+o intervalo para a pr\'oxima p\'agina \seeconcept{quebra de p\'agina}. 
+^^{quebras de p\'agina//inseridas pelo ``est\^omago'' do \TeX}
+
+Quando \TeX\ est\'a montando uma entidade a partir de uma lista de itens 
+(caixas, cola, etc.), ele est\'a em um dos seis \emph{modos} ^^{modos} 
+(\xref{modo}).  O tipo de entidade que est\'a sendo montado define o 
+modo em que ele se encontra.  Existem dois modos comuns: modo horizontal 
+comum para montar par\'agrafos (antes de serem divididos em linhas) e 
+o modo vertical comum para montar p\'aginas.  Existem dois modos 
+restritos: modo horizontal restrito para anexar itens horizontalmente 
+para formar uma caixa horizontal e o modo vertical interno para anexar 
+itens verticalmente para formar uma caixa vertical (diferente de uma 
+p\'agina).  Finalmente, h\'a dois modos matem\'aticos: o modo 
+matem\'atico de texto para montar f\'ormulas matem\'aticas dentro de um 
+par\'agrafo e o modo matem\'atico de exibi\c c\~ao para montar 
+f\'ormulas matem\'aticas que s\~ao exibidas em linhas pr\'oprias 
+(consulte ``F\'ormulas matem\'aticas'', \xref{formulasmatematicas}).
+
+
+\section Novo \TeX\ versus antigo {\TeX}
+
+\xrdef{novotex}
+Em 1989, Knuth fez uma grande revis\~ao em \TeX\ para adapt\'a-lo aos 
+conjuntos de caracteres necess\'arios para suportar a tipografia para 
+outros idiomas al\'em do ingl\^es. \space ^^{idiomas estrangeiros} A 
+revis\~ao incluiu alguns recursos extras que poderiam ser adicionados 
+sem perturbar mais nada.  Este livro descreve ``^{\newTeX}''.  Se voc\^e 
+ainda estiver usando uma vers\~ao mais antiga do \TeX\ (vers\~ao $2.991$ 
+ou anterior), voc\^e vai querer saber quais recursos do {\newTeX} voc\^e 
+n\~ao pode usar.  Os seguintes recursos n\~ao est\~ao dispon\'iveis nas 
+vers\~oes mais antigas:
+\ulist\compact
+\li ^|\badness| (\xref\badness)
+\li ^|\emergencystretch| (\xref\emergencystretch)
+\li ^|\errorcontextlines| (\xref\errorcontextlines)
+\li ^|\holdinginserts| (\xref\holdinginserts)
+\li ^|\language|, ^|\setlanguage|, e |\new!-lan!-guage|
+(\pp\xrefn\language, \xrefn{\@newlanguage}) ^^|\newlanguage|
+\li ^|\lefthyphenmin| e ^|\righthyphenmin| (\xref\lefthyphenmin)
+\li ^|\noboundary| (\xref\noboundary)
+\li ^|\topglue| (\xref\topglue)
+\li A nota\c c\~ao |^^|$xy$ para d\'igitos hexadecimais (\xref{hexchars})
+\endulist
+\noindent
+Recomendamos que voc\^e obtenha um novo \TeX\ se puder.
+
+
+\section Recursos
+
+\xrdef{recursos}
+V\'arios recursos est\~ao dispon\'iveis para ajud\'a-lo a usar o \TeX.
+\texbook\ \'e a fonte definitiva de informa\c c\~ao sobre \TeX:
+
+\smallskip
+{\narrower\noindent
+^{Knuth, Donald E.}, \texbook.  Reading, Mass.: Addison-Wesley, 1984.\par}
+\smallskip
+\noindent
+Certifique-se de obter a d\'ecima s\'etima impress\~ao (janeiro de 1990) 
+ou posterior; as impress\~oes anteriores n\~ao cobrem os recursos do 
+novo \TeX.
+
+^{\LaTeX} \'e uma cole\c c\~ao muito popular de comandos projetados para 
+simplificar o uso de \TeX.  Ela est\'a descrita em:
+\smallskip
+{\narrower\noindent\frenchspacing\spaceskip = 3.33pt plus 2pt minus 1.2pt
+^{Lamport, Leslie}, {\sl The \LaTeX\ Document Preparation System}.
+Reading, Mass.: Addison-Wesley, 1986.\par}
+\smallskip
+\noindent
+^{\AMSTeX} \'e a cole\c c\~ao de comandos adotada pela American 
+Mathematical Society como um padr\~ao para submeter manuscritos 
+matem\'aticos eletronicamente.  Ela est\'a descrita em:
+\smallskip
+{\narrower\noindent
+^{Spivak, Michael~D.}, {\sl The Joy of \TeX}. Providence, R.I.:
+American Mathematical Society, 1986.
+\par}
+\smallskip
+\noindent
+Voc\^e pode se afiliar ao ^{\TUG} (TUG), que publica um boletim chamado 
+{\it ^{TUGBoat}}.  O TUG \'e uma excelente fonte n\~ao apenas para 
+informa\c c\~oes sobre \TeX, mas tamb\'em para cole\c c\~oes de macros, 
+incluindo \AMSTeX.  Seu endere\c co \'e:
+\smallskip
+{\obeylines
+^{\TUG}
+c/o American Mathematical Society
+P.O. Box 9506
+Providence,  RI  02940
+U.S.A.
+}
+\smallskip
+\noindent
+Finalmente, voc\^e pode obter c\'opias das macros ^|eplain.tex| 
+descritas em \chapterref{eplain}, bem como as macros usadas na 
+tipografia deste livro.  Elas est\~ao dispon\'iveis via Internet, por 
+\ftp\ an\^onimo, a partir dos seguintes hosts:
+{\obeylines\display{\tt
+labrea.stanford.edu [36.8.0.47]
+ics.uci.edu [128.195.1.1]
+june.cs.washington.edu [128.95.1.4]}}
+
+A vers\~ao eletr\^onica inclui macros adicionais que formatam a entrada 
+para o programa de computador ^{\BibTeX}, escrito por Oren Patashnik na 
+Universidade de Stanford, ^^{Patashnik, Oren} e imprime a sa\'ida a 
+partir desse programa.  Se voc\^e encontrar bugs nas macros, ou pensar 
+em melhorias, voc\^e pode enviar um e-mail para Karl em 
+{\tt karl@cs.umb.edu}.
+
+As macros tamb\'em est\~ao dispon\'iveis por US \$10.00 em disquetes de 
+$5\frac1/4$\inches\ ou $3\frac1/2$\inches\ formato PC a partir de:
+\smallskip
+{\obeylines
+Paul Abrahams
+214 River Road
+Deerfield,  MA  01342
+\vskip\tinyskipamount
+Email: {\tt Abrahams\%Wayne-MTS@um.cc.umich.edu}
+}
+\smallskip
+\noindent
+Esses endere\c cos est\~ao corretos em junho de 1990; por favor, esteja 
+ciente de que eles podem mudar depois disso, particularmente os 
+endere\c cos eletr\^onicos.
+
+\endchapter\byebye
