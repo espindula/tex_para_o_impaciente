@@ -12,7 +12,9 @@ paginasprecedentes.tex
  prefacio.tex
  leiaprimeiro.tex
   macros.tex
-uselivro.tex
+secao_001-uselivro.tex
  macros.tex
-usandotex.tex
+secao_002-usandotex.tex
+ macros.tex
+secao_003-exemplos.tex
  macros.tex
