@@ -16,5 +16,6 @@ paginasprecedentes.tex				Front matter page;
 direitosautorais.tex				Copyright declarations;
 prefacio.tex					Preface page;
 leiaprimeiro.tex				Read first page;
-uselivro.tex					Chapter 1 ``Using this book'' translated into Brazilian Portuguese;
-usandotex.tex					Chapter 2 ``Using TeX'' translated into Brazilian Portuguese;
+secao_001-uselivro.tex				Section 1 ``Using this book'' translated into Brazilian Portuguese;
+secao_002-usandotex.tex				Section 2 ``Using TeX'' translated into Brazilian Portuguese;
+secao_003-exemplos.tex				Section 3 ``Examples'' translated into Brazilian Portuguese;
