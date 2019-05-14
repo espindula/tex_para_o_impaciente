@@ -481,28 +481,27 @@ como ``p\'aginas~81--87''; e tra\c cos-m para indicar uma quebra na
 continuidade---como essa.
 
 
-\subsection Special characters
+\subsection Caracteres especiais
 
-Certain characters have special meaning to \TeX, so you shouldn't use them
-in ordinary text.  They are:
+Certos caracteres tem um significado especial para \TeX, ent\~ao voc\^e 
+n\~ao deve us\'a-los em texto comum.  Eles s\~ao:
 
 \csdisplay
     $  #  &  %  _  ^  ~  {  }  \
 |
-^^|$//in ordinary text|
-^^|#//in ordinary text|
-^^|&//in ordinary text|
-^^|_//in ordinary text|
-^^|^//in ordinary text|
-^^|~//in ordinary text|
-^^|%//in ordinary text|
-^^|{//in ordinary text|
-^^|}//in ordinary text|
-{\recat!ttidxref[\//in ordinary text]]
+^^|$//em texto comum|
+^^|#//em texto comum|
+^^|&//em texto comum|
+^^|_//em texto comum|
+^^|^//em texto comum|
+^^|~//em texto comum|
+^^|%//em texto comum|
+^^|{//em texto comum|
+^^|}//em texto comum|
+{\recat!ttidxref[\//em texto comum]]
 \noindent
-In order to produce them in your typeset document,
-you need to use circumlocutions.  For the first five,
-you should instead type:
+Para produzi-los em seu documento tipografado, voc\^e precisa usar 
+circunlocu\c c\~oes.  Para os cinco primeiros, voc\^e deve digitar:
 ^^|\$|
 ^^|\#|
 ^^|\&|
@@ -513,241 +512,229 @@ you should instead type:
 |
 
 \noindent
-For the others, you need something more elaborate:
+Para os outros, voc\^e precisa de algo mais elaborado:
 
 \csdisplay
    \^{!visiblespace}   \~{!visiblespace}   $\{$   $\}$   $\backslash$
 |
 
 
-\subsection Groups
+\subsection Grupos
 
-\bix^^{groups}
-A \emph{group} 
-consists of material enclosed in matching left and right braces (|{| and 
-|}|).
-^^|{//starting a group|
-^^|}//ending a group|
-By placing a command within a group, you can limit its effects to
-the material within the group.  
-For instance, the |\bf| command tells \TeX\ to set
-something in {\bf boldface} type.  If you were to put |\bf| into your input
-and do nothing else to counteract it, everything in your document following the
-|\bf| would be set in boldface.
-By enclosing |\bf| in a group,
-you limit its effect to the group.  For example, if you type:
+\bix^^{grupos}
+Um \emph{group} consiste de material contido nas chaves esquerda e 
+direita correspondentes (|{| e |}|).  
+^^|{//iniciando um grupo|
+^^|}//finalizando um grupo|
+Colocando um comando dentro de um grupo, voc\^e pode limitar seus 
+efeitos ao material dentro do grupo.  Por exemplo, o comando |\bf| diz 
+ao \TeX\ para definir algo no tipo {\bf negrito}.  Se voc\^e fosse 
+colocar |\bf| em sua entrada e n\~ao fazer nada para neutralizar isso, 
+tudo em seu documento seguindo o |\bf| seria colocado em negrito.  
+Incluindo |\bf| em um grupo, voc\^e limita seu efeito ao grupo.  Por 
+exemplo, se voc\^e digitar:
 \csdisplay
-We have {\bf a few boldface words} in this sentence.
+N\'os temos {\bf poucas palavras em negrito} nesta frase.
 |
-\noindent you'll get:
-\display{We have {\bf a few boldface words} in this sentence.}
+\noindent
+voc\^e obter\'a:
+\display{N\'os temos {\bf poucas palavras em negrito} nesta frase.}
 
-\noindent You can also use a group to limit the effect of
-an assignment to one of \TeX's parameters.
-These parameters contain values that affect how \TeX\ typesets your document.
-For example, the value of the |\parindent|
-parameter specifies the indentation at the beginning of a paragraph.
-The assignment |\parindent = 15pt|
-sets the indentation to $15$ printer's points.
-By placing this assignment at the beginning
-of a group containing a few paragraphs, you can change
-the indentation of just those paragraphs.  If you don't enclose
-the assignment in a group,
-the changed indentation will apply to the rest of the document (or up to the
-next assignment to |\parindent|, if there's a later one).
+\noindent
+Voc\^e tamb\'em pode usar um grupo para limitar o efeito de uma 
+atribui\c c\~ao a um dos par\^ametros do \TeX.  Esses par\^ametros 
+cont\'em valores que afetam como o \TeX\ tipografa seu documento.  Por 
+exemplo, o valor do par\^ametro |\parindent| especifica o recuo no 
+in\'icio de um par\'agrafo.  A atribui\c c\~ao |\parindent = 15pt| 
+define o recuo para $15$ pontos da impressora.  Ao colocar essa 
+atribui\c c\~ao no in\'icio de um grupo contendo alguns par\'agrafos, 
+voc\^e pode alterar o recuo apenas desses par\'agrafos.  Se voc\^e n\~ao 
+colocar a atribui\c c\~ao em um grupo, o recuo alterado ser\'a aplicado 
+ao restante do documento (ou at\'e a pr\'oxima atribui\c c\~ao a 
+|\parindent|, se houver uma posterior).
 
-\xrdef{bracegroup}
-Not all pairs of braces indicate a group.
-In particular, the braces associated with an argument for which the
-braces are \emph{not} required don't indicate a group---they just
-serve to delimit the argument.
-Of those commands that do require braces for their arguments,
-some treat the braces as defining a group
-and the others interpret the argument in some special way that depends on
-the command.\footnote
-{More precisely, for primitive commands either
-the braces define a group or they enclose tokens that aren't processed in
-\TeX's stomach.
-For |\halign| and |\valign| the group has a trivial
-effect because everything within the braces either doesn't reach the stomach
-(because it's in the template) or is enclosed in a further inner group.
-^^|\halign//grouping for|
-^^|\valign//grouping for|
+\xrdef{grupodechave}
+Nem todos os pares de chaves indicam um grupo.  Em particular, as chaves 
+associadas a um argumento para o qual as chaves \emph{n\~ao} s\~ao 
+necess\'arias n\~ao indicam um grupo---elas apenas servem para delimitar 
+o argumento.  Desses comandos que requerem chaves para seus argumentos, 
+alguns tratam as chaves como definindo um grupo e os outros interpretam 
+o argumento de alguma maneira especial que depende do comando.
+\footnote {Mais precisamente, para comandos primitivos, as chaves ou 
+definem um grupo ou eles envolvem tokens que n\~ao s\~ao processados no 
+``est\^omago'' do \TeX.  Para |\halign| e |\valign| o grupo tem um 
+efeito trivial, porque tudo dentro das chaves ou n\~ao chega ao 
+``est\^omago'' (porque est\'a no modelo) ou \'e envolvido em outro grupo 
+interno.
+^^|\halign//agrupamento para|
+^^|\valign//agrupamento para|
 }
-\eix^^{groups}
+\eix^^{grupos}
 
 
-\subsection Math formulas
+\subsection F\'ormulas matem\'aticas
 
-\bix^^{math}
-\xrdef{mathform}
-A math formula can appear in text (\emph{text math})
-^^{text math}
-or set off on a line by itself
-with extra vertical space around it (\emph{display math}).
-^^{display math}
-You enclose a text formula in single dollar signs (|$|)
-and a displayed formula in double dollar signs (|$$|).
+\bix^^{matem\'atica}
+\xrdef{f\órmulamatem\'atica}
+Uma f\'ormula matem\'atica pode aparecer no texto 
+(\emph{texto matem\'atico}) ^^{texto matem\'atico} ou definir uma linha 
+pr\'opria com espa\c co vertical extra ao redor dela 
+(\emph{exibir matem\'atica}).  
+^^{exibir matem\'atica}
+Você envolve uma f\'ormula de texto entre sinais de cifr\~ao único (|$|) 
+e uma f\'ormula exibida entre dois cifr\~oes (|$$|).
 \ttidxref{$}\ttidxref{$$}
-For example:
+Por exemplo:
 
 \csdisplay
-If $a<b$, then the relation $$e^a < e^b$$ holds.
+Se $a<b$, ent\~ao a rela\c c\~ao $$e^a < e^b$$ \'e v\'alida.
 |
-\noindent This input produces:
-\display{\centereddisplays
-If $a<b$, then the relation $$e^a < e^b$$ holds.}
+\noindent
+Essa entrada produz:
+\display{\centereddisplays Se $a<b$, ent\~ao a rela\c c\~ao 
+$$e^a < e^b$$ \'e v\'alida.}
 \smallskip
-\noindent \chapterref{math} describes the commands that are useful
-in math formulas.
-\eix^^{math}
+\noindent
+\chapterref{matem\'atica} descreve os comandos que s\~ao \'uteis em 
+f\'ormulas matem\'aticas.
+\eix^^{matem\'atica}
 
 
-\section How \TeX\ works
+\section Como \TeX\ funciona
 
-In order to use \TeX\ effectively, it helps to 
-have some idea of how \TeX\ goes about
-its activity of transmuting input into output.
-You can imagine \TeX\ as a kind of organism with ``eyes'', 
-``mouth'', ``gullet'',
-``stomach'', and ``intestines''.
-Each part of the organism transforms its input in some way and passes
-the transformed input to the next stage.
+Para usar \TeX\ efetivamente, ajuda ter uma id\'eia de como o \TeX\ 
+opera sua atividade de transmuta\c c\~ao de entrada em sa\'ida.  Voc\^e 
+pode imaginar o \TeX\ como uma esp\'ecie de organismo com ``olhos'', 
+``boca'', ``garganta'', ``est\^omago'' e ``intestinos''.  Cada parte do 
+organismo transforma sua entrada de alguma maneira e passa a entrada 
+transformada para o pr\'oximo est\'agio.
 
-The ^{eyes} transform an input file into a sequence of characters.
-The ^{mouth} transforms the sequence of characters into a sequence of
-\emph{tokens},
-^^{tokens}
-where each token is either a single character or a control sequence.
-^^{control sequences//as tokens}
-The gullet expands the tokens into a sequence of 
-\emph{primitive commands}, which are also tokens.
-^^{expanding tokens}
-The ^{stomach} carries out the operations specified by the primitive commands,
-producing a sequence of pages.
-Finally, the ^{intestines} transform each page into the form required
-for the \dvifile\ and send it there.
-^^{\dvifile//created by \TeX's intestines}
-These actions are described in more detail 
-in \chapterref{concepts} under \conceptcit{\anatomy}.
+Os ^{olhos} transformam um arquivo de entrada em uma sequ\^encia de 
+caracteres.  A ^{boca} transforma a sequ\^encia de caracteres em uma 
+sequ\^encia de \emph{tokens}, ^^{tokens} onde cada token ou \'e um 
+\'unico caractere ou uma sequ\^encia de controle.  
+^^{sequ\^encias de controle//como tokens}
+A garganta expande os tokens em uma sequ\^encia de 
+\emph{comandos primitivos}, os quais tamb\'em s\~ao tokens.  
+^^{expandindo tokens}
+O ^{est\^omago} realiza as opera\c c\~oes especificadas pelos comandos 
+primitivos, produzindo uma sequ\^encia de p\'aginas.  Finalmente, os 
+^{intestinos} transformam cada p\'agina na forma requerida pelo 
+\dvifile\ e a envia.  ^^{\dvifile//criado pelos intestinos do \TeX}
+Essas a\c c\~oes est\~ao descritas com mais detalhes em 
+\chapterref{conceitos} sob \conceptcit{\anatomy}.
 ^^{\anatomy}
 
-The real typesetting goes on in the stomach.
-The commands instruct \TeX\ to typeset such-and-such a character in
-such-and-such a font, to insert an interword space, to end a paragraph, and
-so on.
-Starting with individual typeset characters and other simple typographic
-elements, \TeX\ builds up a page ^^{pages} as a nest of
-^{boxes} within boxes within boxes \seeconcept{box}.
-Each typeset character occupies a box, and so does an entire page.
-A box can contain not just smaller boxes but also \emph{glue} ^^{glue}
-(\xref{glue}) and a few other things.
-The glue produces
-space between the smaller boxes.  
-An important property of glue is that it can stretch and shrink;
-thus \TeX\ can make a box
-larger or smaller by stretching or shrinking
-the glue within~it.
+A tipografia real ocorre no ``est\^omago''.  Os comandos instruem \TeX\ 
+para tipografar tal e tal caractere em tal e tal fonte; para inserir um 
+espa\c co entre palavras; para finalizar um par\'agrafo; e assim por 
+diante.  Come\c cando com caracteres de tipografia individuais e outros 
+elementos tipogr\'aficos simples, \TeX\ constr\'oi uma p\'agina 
+^^{p\'aginas} como um ninho de ^{caixas} dentro de caixas dentro de 
+caixas \seeconcept{caixa}.  Cada caractere de tipografia ocupa uma 
+caixa, assim como uma p\'agina inteira.  Uma caixa pode conter n\~ao 
+apenas caixas menores, mas tamb\'em \emph{cola} ^^{cola} (\xref{cola}) e 
+algumas outras coisas.  A cola produz espa\c co entre as caixas menores.  
+Uma propriedade importante da cola \'e que ela pode esticar e encolher; 
+assim \TeX\ pode fazer uma caixa maior ou menor esticando ou encolhendo 
+a cola dentro dela.
 
-Roughly speaking, a line is a box containing a sequence of character boxes,
-and a page is a box containing a sequence of line boxes.
-There's glue between the words of a line and between the lines of a page.
-\TeX\ stretches or shrinks
-the glue on each line so as to make the right margin
-of the page come out even and the glue on each page
-so as to make the bottom margins of different pages be equal.
-Other kinds of typographical elements can also appear in a line or in a page,
-but we won't go into them here.
+Grosso modo, uma linha \'e uma caixa contendo uma sequ\^encia de caixas 
+de caracteres e uma p\'agina \'e uma caixa contendo uma sequ\^encia de 
+caixas de linha.  H\'a cola entre as palavras de uma linha e entre as 
+linhas de uma p\'agina.  \TeX\ estica ou encolhe a cola em cada linha, 
+de modo a fazer com que a margem direita da p\'agina fique uniforme e a 
+cola em cada p\'agina, de modo a tornar iguais as margens inferiores de 
+p\'aginas diferentes.  Outros tipos de elementos tipogr\'aficos tamb\'em 
+podem aparecer em uma linha ou em uma p\'agina, mas n\~ao vamos entrar 
+neles aqui.
 
-As part of the process of assembling pages, \TeX\ needs to break paragraphs
-into lines and lines into pages.  The stomach first sees a paragraph as one
-long line, in effect.  It inserts \emph{line breaks}
-^^{line breaking}
-in order to transform
-the paragraph into a sequence of lines of the right length, performing a
-rather elaborate analysis in order to choose the set of breaks
-that makes the paragraph look best
-\seeconcept{line break}.
-The stomach carries out a similar
-but simpler process in order to transform a sequence of lines into a page.
-Essentially the stomach accumulates lines until no more lines can fit on the
-page.  It then chooses a single place to break the page, putting the lines
-before the break on the current page
-and saving the lines after the break for the
-next page \seeconcept{page break}. ^^{page breaks//inserted by \TeX's stomach}
+Como parte do processo de montagem de p\'aginas, o \TeX\ precisa quebrar 
+os par\'agrafos em linhas e linhas em p\'aginas.  O ``est\^omago'' v\^e 
+primeiro um par\'agrafo como uma longa linha, de fato.  Ele insere 
+\emph{quebras de linha} ^^{quebra de linha} para transformar o 
+par\'agrafo em uma sequ\^encia de linhas do comprimento certo, 
+realizando uma an\'alise bastante elaborada para escolher o conjunto de 
+quebras que faz o par\'agrafo aparentar melhor 
+\seeconcept{quebra de linha}.  O ``est\^omago'' realiza um processo 
+semelhante, por\'em mais simples, para transformar uma sequ\^encia de 
+linhas em uma p\'agina.  Essencialmente, o ``est\^omago'' acumula linhas 
+at\'e que nenhuma linha mais possa ser encaixada na p\'agina.  Em 
+seguida, ele escolhe um \'unico local para quebrar a p\'agina, colocando 
+as linhas antes da quebra na p\'agina atual e salvando as linhas ap\'os 
+o intervalo para a pr\'oxima p\'agina \seeconcept{quebra de p\'agina}. 
+^^{quebras de p\'agina//inseridas pelo ``est\^omago'' do \TeX}
 
-When \TeX\ is assembling an entity from a list of items (boxes, glue, etc.),
-it is in one of six
-\emph{modes} ^^{modes} (\xref{mode}).
-The kind of entity it is assembling defines the mode that it is in.  
-There are two ordinary modes: ordinary horizontal mode for assembling
-paragraphs (before they are broken into lines) 
-and ordinary vertical mode for assembling pages.
-There are two restricted modes:
-restricted horizontal mode for appending items horizontally to form
-a horizontal box
-and internal vertical mode for appending items vertically to form
-a vertical box (other than a page).
-Finally, there are two math modes: text math mode for assembling math formulas
-within a paragraph and display math mode for assembling math formulas that are
-displayed on lines by themselves (see ``Math formulas'', \xref{mathform}).
+Quando \TeX\ est\'a montando uma entidade a partir de uma lista de itens 
+(caixas, cola, etc.), ele est\'a em um dos seis \emph{modos} ^^{modos} 
+(\xref{modo}).  O tipo de entidade que est\'a sendo montado define o 
+modo em que ele se encontra.  Existem dois modos comuns: modo horizontal 
+comum para montar par\'agrafos (antes de serem divididos em linhas) e 
+o modo vertical comum para montar p\'aginas.  Existem dois modos 
+restritos: modo horizontal restrito para anexar itens horizontalmente 
+para formar uma caixa horizontal e o modo vertical interno para anexar 
+itens verticalmente para formar uma caixa vertical (diferente de uma 
+p\'agina).  Finalmente, h\'a dois modos matem\'aticos: o modo 
+matem\'atico de texto para montar f\'ormulas matem\'aticas dentro de um 
+par\'agrafo e o modo matem\'atico de exibi\c c\~ao para montar 
+f\'ormulas matem\'aticas que s\~ao exibidas em linhas pr\'oprias 
+(consulte ``F\'ormulas matem\'aticas'', \xref{formulasmatematicas}).
 
 
-\section New \TeX\ versus old {\TeX}
+\section Novo \TeX\ versus antigo {\TeX}
 
-\xrdef{newtex}
-In 1989 Knuth made a major revision to \TeX\ in order to 
-adapt it to the
-character sets needed to support typesetting for languages other than
-English.\space ^^{foreign languages}
-The revision included a few minor extra features that could be added
-without disturbing anything else.
-This book describes ``^{\newTeX}''.
-If you're still using an older version
-of \TeX\ (version $2.991$ or earlier),
-you'll want to know what features of {\newTeX} you can't use.
-The following features aren't available in the older versions:
+\xrdef{novotex}
+Em 1989, Knuth fez uma grande revis\~ao em \TeX\ para adapt\'a-lo aos 
+conjuntos de caracteres necess\'arios para suportar a tipografia para 
+outros idiomas al\'em do ingl\^es. \space ^^{idiomas estrangeiros} A 
+revis\~ao incluiu alguns recursos extras que poderiam ser adicionados 
+sem perturbar mais nada.  Este livro descreve ``^{\newTeX}''.  Se voc\^e 
+ainda estiver usando uma vers\~ao mais antiga do \TeX\ (vers\~ao $2.991$ 
+ou anterior), voc\^e vai querer saber quais recursos do {\newTeX} voc\^e 
+n\~ao pode usar.  Os seguintes recursos n\~ao est\~ao dispon\'iveis nas 
+vers\~oes mais antigas:
 \ulist\compact
 \li ^|\badness| (\xref\badness)
 \li ^|\emergencystretch| (\xref\emergencystretch)
 \li ^|\errorcontextlines| (\xref\errorcontextlines)
 \li ^|\holdinginserts| (\xref\holdinginserts)
-\li ^|\language|, ^|\setlanguage|, and |\new!-lan!-guage|
+\li ^|\language|, ^|\setlanguage|, e |\new!-lan!-guage|
 (\pp\xrefn\language, \xrefn{\@newlanguage}) ^^|\newlanguage|
-\li ^|\lefthyphenmin| and ^|\righthyphenmin| (\xref\lefthyphenmin)
+\li ^|\lefthyphenmin| e ^|\righthyphenmin| (\xref\lefthyphenmin)
 \li ^|\noboundary| (\xref\noboundary)
 \li ^|\topglue| (\xref\topglue)
-\li The |^^|$xy$ notation for hexadecimal digits (\xref{hexchars})
+\li A nota\c c\~ao |^^|$xy$ para d\'igitos hexadecimais (\xref{hexchars})
 \endulist
 \noindent
-We recommend that you obtain new \TeX\ if you can.
+Recomendamos que voc\^e obtenha um novo \TeX\ se puder.
 
-\section Resources
 
-\xrdef{resources}
-A number of resources are available to help you in using \TeX.
-\texbook\ is the definitive source of information on \TeX:
+\section Recursos
+
+\xrdef{recursos}
+V\'arios recursos est\~ao dispon\'iveis para ajud\'a-lo a usar o \TeX.
+\texbook\ \'e a fonte definitiva de informa\c c\~ao sobre \TeX:
 
 \smallskip
 {\narrower\noindent
 ^{Knuth, Donald E.}, \texbook.  Reading, Mass.: Addison-Wesley, 1984.\par}
 \smallskip
 \noindent
-Be sure to get the seventeenth printing (January 1990) or later;
-the earlier printings don't cover the features of new \TeX.
+Certifique-se de obter a d\'ecima s\'etima impress\~ao (janeiro de 1990) 
+ou posterior; as impress\~oes anteriores n\~ao cobrem os recursos do 
+novo \TeX.
 
-^{\LaTeX} is a very popular collection of commands designed to simplify the use
-of \TeX.  It is described in:
+^{\LaTeX} \'e uma cole\c c\~ao muito popular de comandos projetados para 
+simplificar o uso de \TeX.  Ela est\'a descrita em:
 \smallskip
 {\narrower\noindent\frenchspacing\spaceskip = 3.33pt plus 2pt minus 1.2pt
 ^{Lamport, Leslie}, {\sl The \LaTeX\ Document Preparation System}.
 Reading, Mass.: Addison-Wesley, 1986.\par}
 \smallskip
 \noindent
-^{\AMSTeX} is the collection of commands adopted by the American Mathematical
-Society as a standard for submitting mathematical man\-u\-scripts
-electronically.
-It is described in:
+^{\AMSTeX} \'e a cole\c c\~ao de comandos adotada pela American 
+Mathematical Society como um padr\~ao para submeter manuscritos 
+matem\'aticos eletronicamente.  Ela est\'a descrita em:
 \smallskip
 {\narrower\noindent
 ^{Spivak, Michael~D.}, {\sl The Joy of \TeX}. Providence, R.I.:
@@ -755,11 +742,10 @@ American Mathematical Society, 1986.
 \par}
 \smallskip
 \noindent
-You can join the ^{\TUG} (TUG), which publishes a newsletter
-called {\it ^{TUGBoat}}.
-TUG is an excellent source not only for information about \TeX\ but also
-for collections of macros, including \AMSTeX.
-Its address is:
+Voc\^e pode se afiliar ao ^{\TUG} (TUG), que publica um boletim chamado 
+{\it ^{TUGBoat}}.  O TUG \'e uma excelente fonte n\~ao apenas para 
+informa\c c\~oes sobre \TeX, mas tamb\'em para cole\c c\~oes de macros, 
+incluindo \AMSTeX.  Seu endere\c co \'e:
 \smallskip
 {\obeylines
 ^{\TUG}
@@ -770,26 +756,24 @@ U.S.A.
 }
 \smallskip
 \noindent
-Finally, you can obtain copies of the ^|eplain.tex| macros
-described in \chapterref{eplain} as well as the macros used in typesetting
-this book.
-They are available through the Internet network by anonymous \ftp\ from the
-following hosts:
+Finalmente, voc\^e pode obter c\'opias das macros ^|eplain.tex| 
+descritas em \chapterref{eplain}, bem como as macros usadas na 
+tipografia deste livro.  Elas est\~ao dispon\'iveis via Internet, por 
+\ftp\ an\^onimo, a partir dos seguintes hosts:
 {\obeylines\display{\tt
 labrea.stanford.edu [36.8.0.47]
 ics.uci.edu [128.195.1.1]
 june.cs.washington.edu [128.95.1.4]}}
 
-The electronic version includes additional macros 
-that format input for the
-^{\BibTeX}\ computer program, written by Oren Patashnik at Stanford
-University, ^^{Patashnik, Oren}
-and print the output from that program.
-If you find bugs in the macros, or think of improvements, you can send
-electronic mail to Karl at {\tt karl@cs.umb.edu}.
+A vers\~ao eletr\^onica inclui macros adicionais que formatam a entrada 
+para o programa de computador ^{\BibTeX}, escrito por Oren Patashnik na 
+Universidade de Stanford, ^^{Patashnik, Oren} e imprime a sa\'ida a 
+partir desse programa.  Se voc\^e encontrar bugs nas macros, ou pensar 
+em melhorias, voc\^e pode enviar um e-mail para Karl em 
+{\tt karl@cs.umb.edu}.
 
-The macros are also available for US \$10.00 on $5\frac1/4$\inches\
-or $3\frac1/2$\inches\ PC-format diskettes from:
+As macros tamb\'em est\~ao dispon\'iveis por US \$10.00 em disquetes de 
+$5\frac1/4$\inches\ ou $3\frac1/2$\inches\ formato PC a partir de:
 \smallskip
 {\obeylines
 Paul Abrahams
@@ -800,7 +784,8 @@ Email: {\tt Abrahams\%Wayne-MTS@um.cc.umich.edu}
 }
 \smallskip
 \noindent
-These addresses are correct as of June 1990; please be aware that they may
-change after that, particularly the electronic addresses.
+Esses endere\c cos est\~ao corretos em junho de 1990; por favor, esteja 
+ciente de que eles podem mudar depois disso, particularmente os 
+endere\c cos eletr\^onicos.
 
 \endchapter\byebye
